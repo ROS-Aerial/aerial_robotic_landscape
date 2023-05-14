@@ -14,5 +14,6 @@ This following list has been compiled during the startup meeting of this workgro
 * Legality and airspace access
 * Hardware, Components, and Dev Kits
 * Aerial Vehicle Types
+* Planning in 3D
 
 
