@@ -4,6 +4,42 @@ Based on [this discussion in Discourse]( https://discourse.ros.org/t/more-aerial
 
 > An aerial autonomy robotics stack is a collection of building blocks that enable the development of autonomous aerial vehicles, by providing a modular and scalable architecture for sensing, perception, planning, and control tasks. It allows unmanned aerial vehicles to perform complex missions without human intervention, while accommodating different hardware configurations and simulation environments.
 
+## Comparison
+
+From the paper 
+
+> Fernandez-Cortizas, Miguel, et al. "Aerostack2: A Software Framework for Developing Multi-robot Aerial Systems." arXiv preprint arXiv:2303.18237 (2023).
+  
+the following autonomy stack table was extracted and adapted. 
+
+| Flight stack  | OS/OC  | Modular | Tested in | Middleware | last  update | MF | RO | MA | MP | PO |
+|---------------|--------|---------|-----------|------------|--------------|----|----|----|----|----|
+| Aerostack     | ✓      | ✓      | S,RL,RO   | ROS        | 10/2021      | ✗  | ✓  | ✓ | ✓  | ✗ |
+| Aerostack2    | ✓      | ✓      | S,RL,RO   | ROS 2      | 03/2023      | ✓  | ✓  | ✓ | ✓  | ✓ |
+| AerialCore    | ✓      | ✓      | S,RL,RO   | ROS        | 03/2023      | ✓  | ✓  | ✓ | ✗  | ✓ |
+| Agilicious    | ✓      | ✓      | S,RL      | ROS        | 03/2023      | ✗  | ✓  | ✗ | ✗  | ✗ |
+| KumarRobotics | ✓      | ✗      | S,RL,RO   | ROS        | 12/2022      | ✗  | ✓  | ✗ | ✓  | ✗ |
+| CrazyChoir    | ✓      | ✗      | S,RL      | ROS 2      | 02/2023      | ✗  | ✓  | ✓ | ✗  | ✗ |
+| UAL           | ✓      | ✗      | S,RL,RO   | ROS        | 12/2022      | ✓  | ✗  | ✗ | ✓  | ✗ |
+| XTDrone       | ✓      | ✓      | S         | ROS        | 03/2023      | ✗  | ✓  | ✗ | ✗  | ✗ |
+| RotorS        | ✓      | ✓      | S         | ROS        | 07/2021      | ✗  | ✓  | ✗ | ✗  | ✗ |
+| GAAS          | ✓      | ✓      | S         | ROS        | 10/2021      | ✗  | ✗  | ✗ | ✗  | ✗ |
+
+**Abbrivations**
+* OS/OC: Open source or Open code
+* MF: Multi-frame 
+* RO: Rate output
+* MA: Multi agent
+* MP: Multi platform
+* PO: Plugin oriented 
+* S: Experiments in simulation
+* RL: Experiments in the lab
+* RO: Experiments outside the lab
+
+## Working list autonomy stacks
+
+This is just a list of autonomy stacks with links, such that later we can add them to the overview.
+
 Working list:
 * [Aerostack2](https://aerostack2.github.io/)
 * [Aerostack(1)](https://github.com/cvar-upm/aerostack/wiki)
