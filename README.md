@@ -9,7 +9,7 @@ This following list has been compiled during the startup meeting of this workgro
 * Aerial robotics simulation
 * Message standards for UAV
 * Communication for swarms of UAVs
-* Safety and management systems
+* [Safety and management systems](safety_management.md)
 * Tutorials and education
 * Legality and airspace access
 * Hardware, Components, and Dev Kits
