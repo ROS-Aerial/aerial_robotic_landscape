@@ -4,6 +4,12 @@ Quadcopter and other Aerial vehicles come in all forms and sizes.
 Safety systems are important for all, but the bigger an aerial vehicle becomes, the more important it becomes that the right fail-safes and emergency systems are in place!
 This pages gives an overview of those safety systems that have been implemented so far.
 
+## Safety in ROS
+
+Currently specifically for aerial vehicles, the safety implementation is depended on the [ROS autonomy stack]((aerial_autonomy_stacks.md) used. 
+
+The [ROS-0147](https://ros.org/reps/rep-0147.html) has a suggestion for flightmodes for a statemachine that can simplify the understanding of it. It is also expecting that ROS will be run offboard on an external computer, and that it should be in control of the safety state machine. This should probably be discussed if it would be a good idea for ROS to be in control of this or the autopilot suites themselves.
+
 ## Safety in Autopilot suites
 Adapted from the following blogpost: https://www.bitcraze.io/2023/04/safety-and-the-brushless/
 
