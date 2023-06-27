@@ -49,7 +49,7 @@ As these are capable of running some form of Linux, these can handle for instanc
 - [Intel Nuc Boards](https://www.intel.com/content/www/us/en/products/details/nuc/boards/products.html)
 - [Raspberry PI 3 (A+)](https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/) or [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 - [Khadas Vim3](https://www.khadas.com/vim3)
-- [Odroid (various boards]([https://www.hardkernel.com/](https://www.hardkernel.com/product-category/odroid-board/)https://www.hardkernel.com/product-category/odroid-board/)
+- [Odroid (various boards](https://www.hardkernel.com/product-category/odroid-board/)
   
 ### ESCs Motors batteries
 Still to be added!
