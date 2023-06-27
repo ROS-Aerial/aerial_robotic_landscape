@@ -12,7 +12,7 @@ This following list has been compiled during the startup meeting of this workgro
 * [Safety and management systems](safety_management.md)
 * Tutorials and education
 * Legality and airspace access
-* Hardware, Components, and Dev Kits
+* [Hardware, Components, and Dev Kits](hardware.md)
 * Aerial Vehicle Types
 * Planning in 3D
 
