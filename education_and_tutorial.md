@@ -4,7 +4,7 @@ This page will contain a list of education courses or tutorials for aerial robot
 This is a partly compilation of [this ROS discourse thread](https://discourse.ros.org/t/how-did-you-get-started-in-aerial-robotics/31512) and the May meeting about [tutorials and education](https://discourse.ros.org/t/may-2023-meetings-aerial-robotics/31231/5) and some googling :)
 
 
-This also includes input from [a Linkedin post](https://www.linkedin.com/feed/update/urn:li:activity:7079385991144185856/) to ask for suggestions.
+This also includes input from [a Linkedin post](https://www.linkedin.com/feed/update/urn:li:activity:7079385991144185856/) for a call of suggestions.
 
 ## Working list
 
