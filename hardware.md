@@ -51,6 +51,8 @@ As these are capable of running some form of Linux, these can handle for instanc
 - [Raspberry PI 3 (A+)](https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/) or [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 - [Khadas Vim3](https://www.khadas.com/vim3)
 - [Odroid (various boards](https://www.hardkernel.com/product-category/odroid-board/)
+- [NXP NAVQPlus](https://www.nxp.com/design/designs/navqplus-ai-ml-companion-computer-evk-for-mobile-robotics-ros-ground-stations-and-camera-heads:8MPNAVQ)
+- [Qualcomm RB5](https://developer.qualcomm.com/qualcomm-robotics-rb5-kit)
   
 ### ESCs Motors batteries
 Still to be added!
