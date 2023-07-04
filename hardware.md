@@ -1,3 +1,6 @@
+# Work In Progress
+We are still hard at work at mapping the hardware landscape, if you see anything missing please send a PR, we want to encourage manufacturers to help us make this a complete list
+
 # Aerial robotics Hardware
 
 This is information compiled from the latest [ICRA 2023 conference](https://www.icra2023.org/) held in London. 
