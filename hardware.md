@@ -8,7 +8,7 @@ This is a starting list that can be updated and extended by anyone.
 ## Standard Commercial Platforms
 These are platforms that are currently commercially available for anybody to buy for their research.
 
-- [Holybro X500 UAV](https://holybro.com/product/x500-v2-kit)
+- [Holybro X500 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
 - [Crazyflie 2.1 - Bitcraze](https://www.bitcraze.io/products/crazyflie-2-1/)
 - [Uvify IFO-S](https://www.uvify.com/ifo-s/)providedn included as well.
 - [Tricopter voliro AG](https://voliro.com/)
