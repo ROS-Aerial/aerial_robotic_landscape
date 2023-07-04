@@ -15,6 +15,7 @@ These are platforms that are currently commercially available for anybody to buy
 - [DJI M100](https://www.dji.com/se/matrice100) Discontinued, look at:
     - [DJI M300](https://enterprise.dji.com/matrice-300)
 - [DJI tello](https://store.dji.com/se/shop/tello-series)
+- [NXP HoverGames Kit](https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) official hardware for the yearly [HoverGames Challenge](https://www.hovergames.com)
 
 ## Inhouse-developed platforms
 
