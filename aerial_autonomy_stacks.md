@@ -12,18 +12,19 @@ From the paper
   
 the following autonomy stack table was extracted and adapted. 
 
-| Flight stack  | OS/OC  | Modular | Tested in | Middleware | last  update | MF | RO | MA | MP | PO |
-|---------------|--------|---------|-----------|------------|--------------|----|----|----|----|----|
-| Aerostack     | ✓      | ✓      | S,RL,RO   | ROS        | 10/2021      | ✗  | ✓  | ✓ | ✓  | ✗ |
-| Aerostack2    | ✓      | ✓      | S,RL,RO   | ROS 2      | 03/2023      | ✓  | ✓  | ✓ | ✓  | ✓ |
-| AerialCore    | ✓      | ✓      | S,RL,RO   | ROS        | 03/2023      | ✓  | ✓  | ✓ | ✗  | ✓ |
-| Agilicious    | ✓      | ✓      | S,RL      | ROS        | 03/2023      | ✗  | ✓  | ✗ | ✗  | ✗ |
-| KumarRobotics | ✓      | ✗      | S,RL,RO   | ROS        | 12/2022      | ✗  | ✓  | ✗ | ✓  | ✗ |
-| CrazyChoir    | ✓      | ✗      | S,RL      | ROS 2      | 02/2023      | ✗  | ✓  | ✓ | ✗  | ✗ |
-| UAL           | ✓      | ✗      | S,RL,RO   | ROS        | 12/2022      | ✓  | ✗  | ✗ | ✓  | ✗ |
-| XTDrone       | ✓      | ✓      | S         | ROS        | 03/2023      | ✗  | ✓  | ✗ | ✗  | ✗ |
-| RotorS        | ✓      | ✓      | S         | ROS        | 07/2021      | ✗  | ✓  | ✗ | ✗  | ✗ |
-| GAAS          | ✓      | ✓      | S         | ROS        | 10/2021      | ✗  | ✗  | ✗ | ✗  | ✗ |
+| Flight stack   | OS/OC | Modular | Tested in | Middleware | last  update | MF  | RO  | MA  | MP  | PO  |
+| -------------- | ----- | ------- | --------- | ---------- | ------------ | --- | --- | --- | --- | --- |
+| Aerostack      | ✓    | ✓      | S,RL,RO   | ROS        | 10/2021      | ✗  | ✓  | ✓  | ✓  | ✗  |
+| Aerostack2     | ✓    | ✓      | S,RL,RO   | ROS 2      | 03/2023      | ✓  | ✓  | ✓  | ✓  | ✓  |
+| AerialCore     | ✓    | ✓      | S,RL,RO   | ROS        | 03/2023      | ✓  | ✓  | ✓  | ✗  | ✓  |
+| Agilicious     | ✓    | ✓      | S,RL      | ROS        | 03/2023      | ✗  | ✓  | ✗  | ✗  | ✗  |
+| KumarRobotics  | ✓    | ✗      | S,RL,RO   | ROS        | 12/2022      | ✗  | ✓  | ✗  | ✓  | ✗  |
+| CrazyChoir     | ✓    | ✗      | S,RL      | ROS 2      | 02/2023      | ✗  | ✓  | ✓  | ✗  | ✗  |
+| UAL            | ✓    | ✗      | S,RL,RO   | ROS        | 12/2022      | ✓  | ✗  | ✗  | ✓  | ✗  |
+| XTDrone        | ✓    | ✓      | S         | ROS        | 03/2023      | ✗  | ✓  | ✗  | ✗  | ✗  |
+| RotorS         | ✓    | ✓      | S         | ROS        | 07/2021      | ✗  | ✓  | ✗  | ✗  | ✗  |
+| GAAS           | ✓    | ✓      | S         | ROS        | 10/2021      | ✗  | ✗  | ✗  | ✗  | ✗  |
+| MRS AUV System | ✓    | ✓      | S,RL,RO   | ROS        | 09/2023      | ✓  | ✓  | ✓  | ✓  | ✗  |
 
 **Abbrivations**
 * OS/OC: Open source or Open code
@@ -51,3 +52,4 @@ Working list:
 * [Hector quadrotor](http://wiki.ros.org/hector_quadrotor)
 * [RotorS](https://github.com/ethz-asl/rotors_simulator)
 * RISE [paper](https://doi.org/10.55417/fr.2023015)
+* [MRS AUV System](https://github.com/ctu-mrs/mrs_uav_system)
