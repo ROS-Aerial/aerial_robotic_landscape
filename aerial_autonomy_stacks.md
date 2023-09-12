@@ -14,28 +14,32 @@ the following autonomy stack table was extracted and adapted.
 
 | Flight stack   | OS/OC | Modular | Tested in | Middleware | last  update | MF  | RO  | MA  | MP  | PO  |
 | -------------- | ----- | ------- | --------- | ---------- | ------------ | --- | --- | --- | --- | --- |
-| Aerostack      | ✓    | ✓      | S,RL,RO   | ROS        | 10/2021      | ✗  | ✓  | ✓  | ✓  | ✗  |
-| Aerostack2     | ✓    | ✓      | S,RL,RO   | ROS 2      | 03/2023      | ✓  | ✓  | ✓  | ✓  | ✓  |
-| AerialCore     | ✓    | ✓      | S,RL,RO   | ROS        | 03/2023      | ✓  | ✓  | ✓  | ✗  | ✓  |
-| Agilicious     | ✓    | ✓      | S,RL      | ROS        | 03/2023      | ✗  | ✓  | ✗  | ✗  | ✗  |
-| KumarRobotics  | ✓    | ✗      | S,RL,RO   | ROS        | 12/2022      | ✗  | ✓  | ✗  | ✓  | ✗  |
-| CrazyChoir     | ✓    | ✗      | S,RL      | ROS 2      | 02/2023      | ✗  | ✓  | ✓  | ✗  | ✗  |
-| UAL            | ✓    | ✗      | S,RL,RO   | ROS        | 12/2022      | ✓  | ✗  | ✗  | ✓  | ✗  |
+| Aerostack      | ✓    | ✓      | S,RIL,ROL   | ROS        | 10/2021      | ✗  | ✓  | ✓  | ✓  | ✗  |
+| Aerostack2     | ✓    | ✓      | S,RIL,ROL   | ROS 2      | 03/2023      | ✓  | ✓  | ✓  | ✓  | ✓  |
+| AerialCore     | ✓    | ✓      | S,RIL,ROL   | ROS        | 03/2023      | ✓  | ✓  | ✓  | ✗  | ✓  |
+| Agilicious     | ✓    | ✓      | S,RIL      | ROS        | 03/2023      | ✗  | ✓  | ✗  | ✗  | ✗  |
+| KumarRobotics  | ✓    | ✗      | S,RIL,ROL   | ROS        | 12/2022      | ✗  | ✓  | ✗  | ✓  | ✗  |
+| CrazyChoir     | ✓    | ✗      | S,RIL      | ROS 2      | 02/2023      | ✗  | ✓  | ✓  | ✗  | ✗  |
+| UAL            | ✓    | ✗      | S,RIL,ROL   | ROS        | 12/2022      | ✓  | ✗  | ✗  | ✓  | ✗  |
 | XTDrone        | ✓    | ✓      | S         | ROS        | 03/2023      | ✗  | ✓  | ✗  | ✗  | ✗  |
 | RotorS         | ✓    | ✓      | S         | ROS        | 07/2021      | ✗  | ✓  | ✗  | ✗  | ✗  |
 | GAAS           | ✓    | ✓      | S         | ROS        | 10/2021      | ✗  | ✗  | ✗  | ✗  | ✗  |
-| MRS AUV System | ✓    | ✓      | S,RL,RO   | ROS        | 09/2023      | ✓  | ✓  | ✓  | ✓  | ✗  |
+| MRS AUV System | ✓    | ✓      | S,RIL,ROL   | ROS        | 09/2023      | ✓  | ✓  | ✓  | ✓  | ✗  |
+| Crazyswarm     | ✓    | ✗      | S,RIL      | ROS        | 12/2022      | ✗  | ✓  | ✓  | ✗  | ✗  |
+| Crazyswarm2     | ✓    | ✓      | S,RIL      | ROS 2       | 09/2023      | ✗  | ✓  | ✓  | ✗  | ✓  |
+
 
 **Abbrivations**
 * OS/OC: Open source or Open code
+* S: Experiments in simulation
+* RIL: Experiments in the lab
+* ROL: Experiments outside the lab
 * MF: Multi-frame 
 * RO: Rate output
 * MA: Multi agent
 * MP: Multi platform
 * PO: Plugin oriented 
-* S: Experiments in simulation
-* RL: Experiments in the lab
-* RO: Experiments outside the lab
+
 
 ## Working list autonomy stacks
 
