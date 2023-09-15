@@ -82,6 +82,7 @@ _This list contains some resources that we haven't included in the overview. Rem
 * [Aerial robotics 101 medium article](https://medium.com/r3plica/aerial-robotics-101-introduction-f6eeb88c760f)
 * [Aerial robotics with ROS](https://aerialrobotics.readthedocs.io/) (work in progress)
 * [Bitcraze crazyflie tutorial page](https://www.bitcraze.io/documentation/tutorials/)
+* [Simnet + Ardupilot academy](http://www.simnet.aero/academy)
 
 ## Credit
 
