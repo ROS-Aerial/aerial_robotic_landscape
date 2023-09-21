@@ -5,7 +5,7 @@ This is the start of the aerial robotics landscape! Let the information gatherin
 The following list has been compiled during the startup meeting of this workgroup:
 
 * [Autonomy stacks for UAVs](aerial_autonomy_stacks.md)
-* [Autopilot suites](autopilots-suites.md)
+* [Autopilot suites](autopilots_suites.md)
 * Aerial robotics simulation
 * Message standards for UAV
 * Communication for swarms of UAVs
