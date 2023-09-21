@@ -4,6 +4,8 @@ Usually, people tend to think about quadcopters when talking about aerial roboti
 
 ## Copters
 
+<img src="images/quadcopter.png" width="300">
+
 Copters are aerial vehicles that use motors and propellers for their lift and maneuverability in 3D space.
 
 These usually are categorized into the following subcategories:
@@ -15,6 +17,8 @@ These usually are categorized into the following subcategories:
 
 ## Fixed Wing
 
+<img src="images/fixed_wing.png" width="300">
+
 Fixed-wing aerial vehicles use fixed wings for takeoff lift and control.
 
 These are the subcategories:
@@ -24,8 +28,23 @@ These are the subcategories:
 
 ## Flapping Wing
 
+<img src="images/flapping.png" width="300">
+
 Flapping wing aerial vehicles, also called ornithopters, generate lift through flapping their wings.
 
 ## Blimps
 
+
+<img src="images/blimp.png" width="300">
+
+
 Blimps or airships can also be used as aerial vehicles as well. These vehicles stay buoyant by using a balloon with lighter-than-air gas. Maneuverability is either done with flapping wings or rotors.
+
+
+## List to support vehicles per autopilot suite
+
+Each autopilot suite have their a wide range of supported vehicles, to which this itemized list is referenced to. Note that these lists also include non-aerial vehicles as well.
+
+* [Ardupilot supported vehicle types](https://ardupilot.org/ardupilot/docs/common-all-vehicle-types.html)
+* [Paparazzi](https://wiki.paparazziuav.org/wiki/Airframes)
+* [PX4](https://docs.px4.io/master/en/airframes/airframe_reference.html)
