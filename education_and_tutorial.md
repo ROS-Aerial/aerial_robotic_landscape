@@ -83,6 +83,7 @@ _This list contains some resources that we haven't included in the overview. Rem
 * [Aerial robotics with ROS](https://aerialrobotics.readthedocs.io/) (work in progress)
 * [Bitcraze crazyflie tutorial page](https://www.bitcraze.io/documentation/tutorials/)
 * [Simnet + Ardupilot academy](http://www.simnet.aero/academy)
+* [Autonomy course Worcester Polytechnic Institute](https://pear.wpi.edu/teaching/rbe595/fall2023.html)
 
 ## Credit
 
