@@ -6,7 +6,7 @@ The following list has been compiled during the startup meeting of this workgrou
 
 * [Autonomy stacks for UAVs](aerial_autonomy_stacks.md)
 * [Autopilot suites](autopilots_suites.md)
-* Aerial robotics simulation
+* [Aerial robotics simulation](simulation.md)
 * Message standards for UAV
 * Communication for swarms of UAVs
 * [Safety and management systems](safety_management.md)
