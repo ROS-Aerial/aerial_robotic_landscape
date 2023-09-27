@@ -9,11 +9,14 @@ This page presents several simulator options for aerial robotics enthusiasts.
 The following simulators have their own integrated physics simulation and basic rendering capabilities. They are capable of simulating the aerodynamic forces necessary to keep UAVs airborne:
 
 * **AIRsim** (https://github.com/microsoft/AirSim): An open-source project for aerial vehicle simulation by Microsoft.
+* **Flightgear** (https://www.flightgear.org/) This open source simulator is mostly meant for training pilots but have been used for UAvs as well. This simulator JBSsim with unreal engine
 * **Gazebo** (https://gazebosim.org/): A staple simulation widely used by the robotics and ROS (Robot Operating System) community.
 * **Isaac Sim** (https://developer.nvidia.com/isaac-sim): A simulator built by Nvidia for robotics with a strong focus on rendering.
 * **Pybullet** (https://pybullet.org/wordpress/): A real-time physics simulation that easily interfaces with Python.
 * **RealFlight** (https://www.realflight.com/): A simulator heavily used in the RC (Remote Control) community.
 * **Webots** (https://www.cyberbotics.com/): Another versatile robotics simulator with excellent ROS support.
+* **XPlane** (https://www.flightgear.org/) Similar to Flightgear (but then with a commercial license) this simulator was initially made for realistically flying planes for pilots, although it have been used for UAV flight.
+
 
 ## Simulation Packages
 
@@ -22,6 +25,15 @@ Some simulation packages combine physics-based robotics simulators with a render
 * **RotorS** (https://github.com/ethz-asl/rotors_simulator): This package uses Gazebo and includes separate sensor and control modules.
 * **Flightmare** (https://github.com/uzh-rpg/flightmare): Flightmare uses Unity for rendering and provides flexibility in the dynamics simulator, allowing the use of Gazebo.
 * **Gym-pybullet-drones** (https://github.com/utiasDSL/gym-pybullet-drones): This package uses the PyBullet simulator as a base and includes several quadcopter models and control options.
+* **Pegasus Simulator** (https://pegasussimulator.github.io/): The Pegasus simualator is build on top of Isaac Sim to simulate dynamics of multirotor vehicles.
+
+## Flight dynamics models
+
+Some simulators mostly focus on creating accurate dynamics for aerial vehicles. Here are some options:
+
+* JSBSim (https://github.com/JSBSim-Team/jsbsim)
+* YASim (https://wiki.flightgear.org/YASim)
+* More to be added!
 
 ## Available UAV Models
 
