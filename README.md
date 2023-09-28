@@ -15,5 +15,5 @@ The following list has been compiled during the startup meeting of this workgrou
 * [Hardware, Components, and Dev Kits](hardware.md)
 * [Aerial Vehicle Types](aerial_vehicles.md)
 * Planning in 3D
-
+* [Middleware and Drivers](middleware_and_drivers.md)
 
