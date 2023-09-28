@@ -57,3 +57,10 @@ Working list:
 * [RotorS](https://github.com/ethz-asl/rotors_simulator)
 * RISE [paper](https://doi.org/10.55417/fr.2023015)
 * [MRS AUV System](https://github.com/ctu-mrs/mrs_uav_system)
+* [Clover](https://github.com/CopterExpress/clover)
+
+## Partial autonomy packages
+
+A list of packages which don't comprise a full stack but do offer value on top of basic flight controller firmware.
+
+* [MAVROS Controllers](https://github.com/Jaeyoung-Lim/mavros_controllers)

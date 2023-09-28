@@ -20,6 +20,7 @@ These are platforms that are currently commercially available for anybody to buy
 - [DJI tello](https://store.dji.com/se/shop/tello-series)
 - [NXP HoverGames Kit](https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) official hardware for the yearly [HoverGames Challenge](https://www.hovergames.com)
 - [Duckiedrone by Duckietown](https://get.duckietown.com/products/duckiedrone-dd21)
+- [Clover by Coex](https://coex.tech/clover)
 
 ## Inhouse-developed platforms
 
