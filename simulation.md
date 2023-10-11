@@ -15,7 +15,7 @@ The following simulators have their own integrated physics simulation and basic 
 * **Pybullet** (https://pybullet.org/wordpress/): A real-time physics simulation that easily interfaces with Python.
 * **RealFlight** (https://www.realflight.com/): A simulator heavily used in the RC (Remote Control) community.
 * **Webots** (https://www.cyberbotics.com/): Another versatile robotics simulator with excellent ROS support.
-* **XPlane** (https://www.flightgear.org/) Similar to Flightgear (but then with a commercial license) this simulator was initially made for realistically flying planes for pilots, although it have been used for UAV flight.
+* **XPlane** (https://www.x-plane.com/) Similar to Flightgear (but then with a commercial license) this simulator was initially made for realistically flying planes for pilots, although it have been used for UAV flight.
 
 
 ## Simulation Packages
