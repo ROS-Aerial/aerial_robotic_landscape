@@ -58,7 +58,8 @@ As these are capable of running some form of Linux, these can handle for instanc
 - [Odroid (various boards](https://www.hardkernel.com/product-category/odroid-board/)
 - [NXP NAVQPlus](https://www.nxp.com/design/designs/navqplus-ai-ml-companion-computer-evk-for-mobile-robotics-ros-ground-stations-and-camera-heads:8MPNAVQ)
 - [Qualcomm RB5](https://developer.qualcomm.com/qualcomm-robotics-rb5-kit)
-  
+- [MRD5165 Eagle Kit](https://www.mistralsolutions.com/product/mrd5165-eagle-kit/) (coming soon)
+
 ### Reference Bill of Materials
 
 #### Holybro S500v2
