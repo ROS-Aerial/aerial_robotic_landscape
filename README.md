@@ -14,6 +14,7 @@ The following list has been compiled during the startup meeting of this workgrou
 * Legality and airspace access
 * [Hardware, Components, and Dev Kits](hardware.md)
 * [Aerial Vehicle Types](aerial_vehicles.md)
-* Planning in 3D
+* [Outdoor Planning in 3D](3d_planning_outdoor.md)
+* Indoor Planning in 3D
 * [Middleware and Drivers](middleware_and_drivers.md)
 
