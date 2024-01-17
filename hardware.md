@@ -60,6 +60,13 @@ As these are capable of running some form of Linux, these can handle for instanc
 - [Qualcomm RB5](https://developer.qualcomm.com/qualcomm-robotics-rb5-kit)
 - [MRD5165 Eagle Kit](https://www.mistralsolutions.com/product/mrd5165-eagle-kit/) (coming soon)
 
+### Carrier boards
+Several vendors have developed carrier boards which can expose input/output ports of companion computers mentioned above which are packaged in a System-on-Module (SoM) form factor and also offer a standard interface for plugging in popular flight controllers/their own FCs.
+
+- [Mistral MRD5165 Eagle based on Qualcomm RB5](https://www.mistralsolutions.com/mrd5165-eagle-kit/)
+- [ARK Electronics Jetson PAB carrier](https://arkelectron.com/product/ark-jetson-pab-carrier/)
+- [Dronee Lychee Drone autopilot hardware](https://dronee.aero/pages/lychee)
+
 ### Reference Bill of Materials
 
 #### Holybro S500v2
