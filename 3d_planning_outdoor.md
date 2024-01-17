@@ -27,8 +27,11 @@ The following are a list of repositories closely related to outdoor 3D planning.
 * Request to work on issues in the Kanban board
 * Help test pull requests in simulation or on hardware
 * Join the [Outdoor 3D planning Discord thread](https://discord.com/channels/1077825543698927656/1166423176893440031)
+* Submit your first pull request to add yourself to the member list below
 
 ## Members
+
+The following members have been active contributors in the past year. The list may not be comprehensive.
 
 [comment]: <> (Keep sorted alphabetically please)
 
