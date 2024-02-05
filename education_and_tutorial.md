@@ -65,6 +65,15 @@ Link: https://youtu.be/LmEcyQnfpDA
 
 Link: https://www.youtube.com/@IntelligentQuads
 
+### Code Examples
+
+Here are some code examples that can be used as reference for experiments.
+
+**Mambo ROS Examples:** This is a collection of experiments targeted Parrot Mambo drones, there are experiments with one or multiple vehicles at the same time. It runs over ROS over BLE, and some test are adapted to make use of a Vicon MoCap system. From a control theory's perspective, it showcases an optional robust control strategy, using an H-Infinity controller with perturbation estimation and a identified dynamic model of a Parrot Mambo drone. 
+
+Link: https://github.com/TOTON95/Mambo_ROS_Examples
+
+
 ### Some special mentions
 _So here there are some courses that either doesn't fit in the above categories or are deprecated._ 
 

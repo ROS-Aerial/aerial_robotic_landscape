@@ -33,7 +33,7 @@ These are platforms that are standard within a lab or department, with informati
 
 ## Components
 
-Many of the UAVs are usually built by hand and composed of different components. This usually consists of a drone frame, fligth controller boards, companion computers and of course motors, batteries and ESCs. 
+Many of the UAVs are usually built by hand and composed of different components. This usually consists of a drone frame, flight controller boards, companion computers and of course motors, batteries and ESCs. 
 
 ### Drone Frames
 Many drone frames are usually built from carbon fiber and custom-made for application or research.
@@ -44,8 +44,11 @@ There are some frames that are provided that will provide some base:
 - [Pixhawk 4](https://docs.px4.io/main/en/flight_controller/pixhawk4.html) discontinued, go look at:
    -  [Holybro's Pixhawk 6C](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6c) 
    -  [CUAV's Pixhawk V6x](https://doc.cuav.net/flight-controller/pixhawk-v6x/en/#building-firmware)
--  [mRo PixRacer R15](https://store.mrobotics.io/product-p/auav-pxrcr-r15-mr.htm)
--  [Crazyflie Bolt 1.1](https://www.bitcraze.io/products/crazyflie-bolt-1-1/)
+- [mRo PixRacer R15](https://store.mrobotics.io/product-p/auav-pxrcr-r15-mr.htm) discontinued, go look at:
+   - [mRo PixRacerPro](https://store.3dr.com/pixracer-pro/)
+
+- [Crazyflie Bolt 1.1](https://www.bitcraze.io/products/crazyflie-bolt-1-1/)
+- [Control Zero H7 OEM](https://store.3dr.com/control-zero-h7-oem/)
 
 ### Companion Computers
 For the drones that can carry it, the companion computers are important since they can do additional computation that the flight controller can not easily do.
@@ -55,7 +58,7 @@ As these are capable of running some form of Linux, these can handle for instanc
 - [Intel Nuc Boards](https://www.intel.com/content/www/us/en/products/details/nuc/boards/products.html)
 - [Raspberry PI 3 (A+)](https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/) or [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 - [Khadas Vim3](https://www.khadas.com/vim3)
-- [Odroid (various boards](https://www.hardkernel.com/product-category/odroid-board/)
+- [Odroid (various boards)](https://www.hardkernel.com/product-category/odroid-board/)
 - [NXP NAVQPlus](https://www.nxp.com/design/designs/navqplus-ai-ml-companion-computer-evk-for-mobile-robotics-ros-ground-stations-and-camera-heads:8MPNAVQ)
 - [Qualcomm RB5](https://developer.qualcomm.com/qualcomm-robotics-rb5-kit)
 - [MRD5165 Eagle Kit](https://www.mistralsolutions.com/product/mrd5165-eagle-kit/) (coming soon)
