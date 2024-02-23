@@ -69,6 +69,7 @@ Several vendors have developed carrier boards which can expose input/output port
 - [Mistral MRD5165 Eagle based on Qualcomm RB5](https://www.mistralsolutions.com/mrd5165-eagle-kit/)
 - [ARK Electronics Jetson PAB carrier](https://arkelectron.com/product/ark-jetson-pab-carrier/)
 - [Dronee Lychee Drone autopilot hardware](https://dronee.aero/pages/lychee)
+- [Airvolute DroneCore2 Jetson + Cube](https://airvolute.com/dronecore-2/)
 
 ### Reference Bill of Materials
 
