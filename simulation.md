@@ -16,6 +16,8 @@ The following simulators have their own integrated physics simulation and basic 
 * **RealFlight** (https://www.realflight.com/): A simulator heavily used in the RC (Remote Control) community.
 * **Webots** (https://www.cyberbotics.com/): Another versatile robotics simulator with excellent ROS support.
 * **XPlane** (https://www.x-plane.com/) Similar to Flightgear (but then with a commercial license) this simulator was initially made for realistically flying planes for pilots, although it have been used for UAV flight.
+* **Drake** (https://drake.mit.edu/): Drake, a C++ toolbox originally designed as a simulation tool for armed robots, Drake also provides physics capabilities for aerial robotics.
+* **Rotorpy** (https://github.com/spencerfolk/rotorpy): RotorPy, a Python-based multirotor simulation, designed for UAV dynamics research, now prioritizes scalability for deep learning applications with a lightweight engine for easy installatio
 
 
 ## Simulation Packages
