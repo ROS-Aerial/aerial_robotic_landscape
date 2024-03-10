@@ -71,6 +71,12 @@ Several vendors have developed carrier boards which can expose input/output port
 - [Dronee Lychee Drone autopilot hardware](https://dronee.aero/pages/lychee)
 - [Airvolute DroneCore2 Jetson + Cube](https://airvolute.com/dronecore-2/)
 
+### Depth Cameras
+- [Intel RealSense T265 ](https://www.intel.com/content/www/us/en/products/sku/192742/intel-realsense-tracking-camera-t265/specifications.html) Discontinued, look at:
+  - [RealSense D455](https://www.intelrealsense.com/depth-camera-d455/)
+  - [RealSense D435i](https://www.intelrealsense.com/depth-camera-d435i/)
+- Oak-d Series like [OAK-D pro](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9098pro/) or [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095/)
+
 ### Reference Bill of Materials
 
 #### Holybro S500v2
