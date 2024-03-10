@@ -67,6 +67,7 @@ Working list:
 * RISE [paper](https://doi.org/10.55417/fr.2023015)
 * [MRS AUV System](https://github.com/ctu-mrs/mrs_uav_system)
 * [Clover](https://github.com/CopterExpress/clover)
+* [/HKUST-Aerial-Robotics](https://github.com/HKUST-Aerial-Robotics)
 
 ## Partial autonomy packages
 
