@@ -49,6 +49,7 @@ Here is a list of VIO packages that people can use if they have a [depth camera]
 - [OpenVins](https://github.com/rpng/open_vins?tab=readme-ov-file) (ROS1/ROS2): 
 - [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) stand alone
 - [SLAMcore](https://www.slamcore.com/product/) stand alone SDK
+- [ORB-SLAM3 ROS2](https://github.com/suchetanrs/ORB-SLAM3-ROS2-Docker)
 
 ## Working list autonomy stacks
 
