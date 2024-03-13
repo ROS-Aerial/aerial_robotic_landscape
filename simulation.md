@@ -4,11 +4,11 @@ Simulation is crucial when working with Unmanned Aerial Vehicles (UAVs). Testing
 
 This page presents several simulator options for aerial robotics enthusiasts.
 
-# Comparision
+# Comparison
 
 The following simulators have their own integrated physics simulation and basic rendering capabilities. They are capable of simulating the aerodynamic forces necessary to keep UAVs airborne:
 
-For the following comparision, we have refered [this article](https://arxiv.org/pdf/2311.02296.pdf)
+For the following comparison, we have refered [this article](https://arxiv.org/pdf/2311.02296.pdf)
 > Cora A. Dimmig et al. "Survey of Simulators for Aerial Robots" arXiv preprint arXiv:2311.02296v2 (2024)
 
 ## Features
