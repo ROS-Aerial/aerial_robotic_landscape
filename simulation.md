@@ -4,28 +4,57 @@ Simulation is crucial when working with Unmanned Aerial Vehicles (UAVs). Testing
 
 This page presents several simulator options for aerial robotics enthusiasts.
 
-## Simulators
+# Comparision
 
 The following simulators have their own integrated physics simulation and basic rendering capabilities. They are capable of simulating the aerodynamic forces necessary to keep UAVs airborne:
 
-* **AIRsim** (https://github.com/microsoft/AirSim): An open-source project for aerial vehicle simulation by Microsoft.
-* **Flightgear** (https://www.flightgear.org/) This open source simulator is mostly meant for training pilots but have been used for UAvs as well. This simulator JBSsim with unreal engine
-* **Gazebo** (https://gazebosim.org/): A staple simulation widely used by the robotics and ROS (Robot Operating System) community.
-* **Isaac Sim** (https://developer.nvidia.com/isaac-sim): A simulator built by Nvidia for robotics with a strong focus on rendering.
-* **Pybullet** (https://pybullet.org/wordpress/): A real-time physics simulation that easily interfaces with Python.
-* **RealFlight** (https://www.realflight.com/): A simulator heavily used in the RC (Remote Control) community.
-* **Webots** (https://www.cyberbotics.com/): Another versatile robotics simulator with excellent ROS support.
-* **XPlane** (https://www.x-plane.com/) Similar to Flightgear (but then with a commercial license) this simulator was initially made for realistically flying planes for pilots, although it have been used for UAV flight.
+For the following comparision, we have refered [this article](https://arxiv.org/pdf/2311.02296.pdf)
+> Cora A. Dimmig et al. "Survey of Simulators for Aerial Robots" arXiv preprint arXiv:2311.02296v2 (2024)
+
+## Features
+
+List migh not be complete. If you see any error or missing components, feel free to open a PR or issue.
 
 
-## Simulation Packages
+| Name | Physics Engine | Rendering | Linux[^1] | Windows[^1] | MacOS[^1] | Interface | (S/H)ITL[^6] | Active[^2] | Hardware requirement[^3] | Licence | Open source[^4] | Interest [^5] |
+| -------------------------------------------------- | -------------------------- | --------- | --------- | --------- | ----- | -------------- | ------------------ | ------ | -------------------- | -------- | ----------- | -------------- |
+|[Gazebo](https://classic.gazebosim.org/) (<br/>[RotorS](https://github.com/ethz-asl/rotors_simulator), <br/> [CrazyS](https://github.com/gsilano/CrazyS), <br/> [PX4 SITL](https://docs.px4.io/v1.12/en/simulation/gazebo.html#gazebo-simulation)) | ODE/ Bullet/ DART/ Simbody | OGRE | ✓ <br/>( ✓ <br/> ✓ <br/> ✓ )| ✱ <br/>( ✗ <br/> ✗ <br/> ✗)| ✓ <br/>( ✗ <br/> ✗ <br/> ✗ )| ROS 1/2, C++, RL | PX4, ArduPilot, CF[^7] | ✓ <br/>( ✗ <br/> ✱ <br/> ✗ ) | minimal/decent |Apache 2.0| ✓ | High |
+|[Gazebo](https://gazebosim.org/) | Bullet/ DART/ TPE | OGRE | ✓ | ✱ | ✓ | ROS 1/2, C++, Python, RL | PX4, ArduPilot, CF | ✓ | minimal/decent |Apache 2.0| ✓ | High |
+|[Isaac](https://developer.nvidia.com/isaac-sim) (<br/>[Pegasus](https://pegasussimulator.github.io/), <br/>[Aerial Gym](https://github.com/ntnu-arl/aerial_gym_simulator)) | NVIDIA PhysX/ Flex | Vulkan | ✓ | ✗ | ✗ | ROS 1/2, Python, RL | Pegasus: PX4 | ✓ | high/demanding |[NVIDIA OMNIVERSE](https://docs.omniverse.nvidia.com/isaacsim/latest/common/NVIDIA_Omniverse_License_Agreement.html)<br/>(BSD 3)| ✗ <br/> (✓ <br/> ✓) | User specific |
+|[Webots](https://www.cyberbotics.com/)| ODE | OpenGL | ✓ | ✓ | ✓ | ROS 1/2, C/C++, Python, MATLAB, Java | ArduPilot, CF | ✓ | decent/high |Apache 2.0| ✓ | Developing |
+|[CoppeliaSim](https://www.coppeliarobotics.com/)| Bullet/ODE/Vortex/Newton/MuJoCo | OpenGL | ✓ | ✓ | ✓ | ROS 1/2, C/C++, Python, MATLAB, Java,Lua,Octave | -- | ✓ | decent/high |GNU GPL/Commercial| ✱ | Decent |
+|[AIRsim](https://github.com/microsoft/AirSim)| NVIDIA PhysX | Unreal,Unity | ✓ | ✓ | ✓ | ROS 1, C++, Python, C#, Java,RL | PX4, ArduPilot | ✗ | medium/high |MIT| ✓ | Low |
+|[Flightmare](https://github.com/uzh-rpg/flightmare)| Ad hoc, Gazebo classic | Unity | ✓ | ✗ | ✗ | ROS 1, C++, RL | -- | ✗ | -- |MIT| ✓ | Low |
+|[FlightGoggles](https://flightgoggles.mit.edu/)| Ad hoc | Unity | ✓ | ✱ | ✗ | ROS 1, C++ | Motion capture | ✗ | -- |MIT| ✓ | Unknown |
+|[Gym-pybullet-drones](https://github.com/utiasDSL/gym-pybullet-drones)| [Pybullet](https://pybullet.org/wordpress/) | OpenGL | ✓ | ✱ | ✓ | Python, RL | Betaflight, CF | ✓ | minimal/decent/high |MIT (Pybullet: [zlib](https://github.com/bulletphysics/bullet3/blob/master/LICENSE.txt))| ✓ | High |
+|[RotorTM](https://github.com/arplaboratory/RotorTM)| Ad hoc | OpenGL | ✓ | ✗ | ✗ | ROS 1, Python, MATLAB | -- | ✓ | -- |GNU GPL| ✓ | Unknown |
+|[MATLAB UAV Toolbox](https://www.mathworks.com/products/uav.html)| MATLAB | Unreal | ✓ | ✓ | ✓ | ROS 2, MATLAB | PX4 | ✓ | -- |Proprietary, Commercial| ✗ | Unknown |
+| [O3de](https://o3de.org/) | NVIDIA PhysX/ NVIDIA Cloth/ AMD TressFX | Atom | ✓ | ✓ | ✱ | ROS 2[^8] , C++ | unknown | ✓ | decent/high | Apache-2.0/MIT | ✓ | Developing |
 
-Some simulation packages combine physics-based robotics simulators with a rendering engine, often offering modularity and control packages:
+[^1]: ✓: Full support,  ✱: Partial support,  ✗: No support
 
-* **RotorS** (https://github.com/ethz-asl/rotors_simulator): This package uses Gazebo and includes separate sensor and control modules.
-* **Flightmare** (https://github.com/uzh-rpg/flightmare): Flightmare uses Unity for rendering and provides flexibility in the dynamics simulator, allowing the use of Gazebo.
-* **Gym-pybullet-drones** (https://github.com/utiasDSL/gym-pybullet-drones): This package uses the PyBullet simulator as a base and includes several quadcopter models and control options.
-* **Pegasus Simulator** (https://pegasussimulator.github.io/): The Pegasus simualator is build on top of Isaac Sim to simulate dynamics of multirotor vehicles.
+[^2]: ✓: Active and maintained,  ✱: Inactive but  responding to issues/ PR,  ✗: Inactive for 2+ years
+
+[^3]: For a referance, a laptop running Intel i5 10th gen (or similar) with 8gb ddr4 ram and NVIDIA T100 4gb (or similar) are considered as minimal requirement.
+
+[^4]: ✓: Yes,  ✱: Yes for non commercial use-case ,  ✗: No 
+
+[^5]: Usage in Aerial ROS/Robotics community according to several survey on Discourse and during the meetings.
+
+[^6]: (Software/Hardware) In The Loop
+
+[^7]: Crazyflie
+
+[^8]: It seem under development and there is [some docs](https://docs.o3de.org/docs/user-guide/interactivity/robotics/project-configuration/) out there.
+
+
+## Vehicle types
+
+TODO
+
+## Sensor support
+
+TODO
 
 ## Flight dynamics models
 
@@ -40,7 +69,9 @@ Some simulators mostly focus on creating accurate dynamics for aerial vehicles. 
 Each simulator typically offers a range of ready-to-use aerial vehicle models:
 
 * **Gazebo**: https://app.gazebosim.org/search;q=uav
-* **Isaac Sim**: https://docs.omniverse.nvidia.com/isaacsim/latest/reference_assets.html#aerial-robots
+
+[//]: # ( Wrong link. Unable to find correct link rn. * **Isaac Sim**: https://docs.omniverse.nvidia.com/isaacsim/latest/reference_assets.html#aerial-robots)
+
 * **Webots**: https://webots.cloud/proto?keyword=robot%2Fflying
 
 ## Autopilot Suites
