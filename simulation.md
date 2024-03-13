@@ -30,6 +30,11 @@ List migh not be complete. If you see any error or missing components, feel free
 |[RotorTM](https://github.com/arplaboratory/RotorTM)| Ad hoc | OpenGL | ✓ | ✗ | ✗ | ROS 1, Python, MATLAB | -- | ✓ | -- |GNU GPL| ✓ | Unknown |
 |[MATLAB UAV Toolbox](https://www.mathworks.com/products/uav.html)| MATLAB | Unreal | ✓ | ✓ | ✓ | ROS 2, MATLAB | PX4 | ✓ | -- |Proprietary, Commercial| ✗ | Unknown |
 | [O3de](https://o3de.org/) | NVIDIA PhysX/ NVIDIA Cloth/ AMD TressFX | Atom | ✓ | ✓ | ✱ | ROS 2[^8] , C++ | unknown | ✓ | decent/high | Apache-2.0/MIT | ✓ | Developing |
+| [Drake](https://drake.mit.edu/) | ad hoc | unknown | ✓ | ✗ | ✓ | C++, Python, ROS 2 | unknown | ✓ | unknown | BSD 3 | ✓ | Developing |
+| [Flightgear](https://www.flightgear.org/) | unknown | unknown | ✓ | ✓ | ✓ | C++ | unknown | ✓ | minimal/decent | GNU-GPL | ✓ | Low |
+| [RealFlight](https://www.realflight.com/) | unknown | unknown | ✗ | ✓ | ✗ | --  | unknown | ✓ | minimal/decent | non-public | ✗ | Low |
+| [RotorPy](https://github.com/spencerfolk/rotorpy) | ad hoc | unknown | ✓ | ✓ | ✓ | Python | -- | ✓ | minimal/decent | MIT | ✓ | Developing |
+
 
 [^1]: ✓: Full support,  ✱: Partial support,  ✗: No support
 
