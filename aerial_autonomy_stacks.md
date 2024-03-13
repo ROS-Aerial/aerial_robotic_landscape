@@ -38,8 +38,18 @@ the following autonomy stack table was extracted and adapted.
 * RO: Rate output
 * MA: Multi agent
 * MP: Multi platform
-* PO: Plugin oriented 
+* PO: Plugin oriented
 
+## VIO packages
+
+Visual Inertial Odometry packages is an very important strategy of positioning within GPS deprived environments. Since UAVs can not use wheel odometry and heavily relient on cameras, this is one of the main drivers for autonomous exploration with these vehicles. 
+
+Here is a list of VIO packages that people can use if they have a [depth camera](hardware.md) on their platform.
+
+- [OpenVins](https://github.com/rpng/open_vins?tab=readme-ov-file) (ROS1/ROS2): 
+- [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) stand alone
+- [SLAMcore](https://www.slamcore.com/product/) stand alone SDK
+- [ORB-SLAM3 ROS2](https://github.com/suchetanrs/ORB-SLAM3-ROS2-Docker)
 
 ## Working list autonomy stacks
 
@@ -58,6 +68,7 @@ Working list:
 * RISE [paper](https://doi.org/10.55417/fr.2023015)
 * [MRS AUV System](https://github.com/ctu-mrs/mrs_uav_system)
 * [Clover](https://github.com/CopterExpress/clover)
+* [/HKUST-Aerial-Robotics](https://github.com/HKUST-Aerial-Robotics)
 
 ## Partial autonomy packages
 

@@ -21,6 +21,7 @@ These are platforms that are currently commercially available for anybody to buy
 - [NXP HoverGames Kit](https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) official hardware for the yearly [HoverGames Challenge](https://www.hovergames.com)
 - [Duckiedrone by Duckietown](https://get.duckietown.com/products/duckiedrone-dd21)
 - [Clover by Coex](https://coex.tech/clover)
+- [PX4 Autonomy Developer Kit by ModelAI](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
 
 ## Inhouse-developed platforms
 
@@ -62,6 +63,7 @@ As these are capable of running some form of Linux, these can handle for instanc
 - [NXP NAVQPlus](https://www.nxp.com/design/designs/navqplus-ai-ml-companion-computer-evk-for-mobile-robotics-ros-ground-stations-and-camera-heads:8MPNAVQ)
 - [Qualcomm RB5](https://developer.qualcomm.com/qualcomm-robotics-rb5-kit)
 - [MRD5165 Eagle Kit](https://www.mistralsolutions.com/product/mrd5165-eagle-kit/) (coming soon)
+ - [VOXL 2 by Model AI](https://www.modalai.com/collections/blue-uas-framework-components/products/voxl-2)
 
 ### Carrier boards
 Several vendors have developed carrier boards which can expose input/output ports of companion computers mentioned above which are packaged in a System-on-Module (SoM) form factor and also offer a standard interface for plugging in popular flight controllers/their own FCs.
@@ -70,6 +72,13 @@ Several vendors have developed carrier boards which can expose input/output port
 - [ARK Electronics Jetson PAB carrier](https://arkelectron.com/product/ark-jetson-pab-carrier/)
 - [Dronee Lychee Drone autopilot hardware](https://dronee.aero/pages/lychee)
 - [Airvolute DroneCore2 Jetson + Cube](https://airvolute.com/dronecore-2/)
+
+### Depth Cameras
+- [Intel RealSense T265 ](https://www.intel.com/content/www/us/en/products/sku/192742/intel-realsense-tracking-camera-t265/specifications.html) Discontinued, look at:
+  - [RealSense D455](https://www.intelrealsense.com/depth-camera-d455/)
+  - [RealSense D435i](https://www.intelrealsense.com/depth-camera-d435i/)
+- Oak-d Series like [OAK-D pro](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9098pro/) or [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095/)
+- [VOXL CAM by ModelAI](https://www.modalai.com/collections/blue-uas-framework-components/products/voxl-cam?variant=39543794565171)
 
 ### Reference Bill of Materials
 
