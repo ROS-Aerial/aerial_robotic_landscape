@@ -55,7 +55,31 @@ List migh not be complete. If you see any error or missing components, feel free
 
 ## Vehicle types
 
-TODO
+
+| Simulator                             | Multirotor (Basic) | Multirotor (Drag) | Multirotor (Wind) | Fixed-wings | Aerial Manipulators | Swarms     | Cars | Other vehicles |
+| ------------------------------------- | ------------------ | ----------------- | ----------------- | ----------- | ------------------- | ---------- | ---- | -------------- |
+| Gazebo (Classic & New)                |         ✓          |         ✓         |         ✓         |      ✓      |          ✱          |    ✱       |   ✓  |        ✓       |
+| Isaac (Pegasus, Aerial Gym)           |         ✓          |     ✗(✓,✗)        |         ✗         |      ✗      |          ✗          |    ✓       |✓(✗,✗)|     ✓(✗,✗)     |
+| Webots                                |         ✓          |         ✗         |         ✗         |      ✗      |          ✗          |    ✱       |   ✓  |        ✓       |
+| CoppeliaSim                           |         ✓          |         ✓         |         ✱         |      ✗      |          ✱          |    ✱       |   ✓  |        ✓       |
+| AirSim                                |         ✓          |         ✓         |         ✓         |      ✗      |          ✗          |    ✱       |   ✓  |        ✗       |
+| Flightmare                            |         ✓          |         ✓         |         ✗         |      ✗      |          ✗          |    ✓       |   ✗  |        ✗       |
+| FlightGoggles                         |         ✓          |         ✓         |         ✗         |      ✗      |          ✗          |    ✗       |   ✓  |        ✗       |
+| gym-pybullet-drones                   |         ✓          |         ✓         |         ✗         |      ✗      |          ✗          |    ✓       |   ✗  |        ✗       |
+| RotorTM                               |         ✓          |         ✗         |         ✗         |      ✗      |          ✓          |    ✓       |   ✗  |        ✗       |
+| MATLAB UAV Toolbox                    |         ✓          |         ✓         |         ✓         |      ✓      |          ✗          |    ✱       |   ✗  |        ✗       |
+| O3de*                                 |         ~          |         ?         |         ?         |      ?      |          ?          |    ?       |   ~  |        ~       |
+| Drake*                                |         ?          |         ?         |         ?         |      ?      |          ?          |    ?       |   ?  |        ?       |
+| RotorPy*                              |         ~          |         ~         |         ~         |      ✗      |          ✗          |    ~       |   ✗  |        ✗       |
+
+- [ * ] : Unknown data. If you have information on specific topic, please comment bellow with the referance link.
+    - [ ~ ] : Yes according to my knowledge but it needs development.
+    - [ ? ] : Unknown
+    - [ ✗ ] : No according to my research.
+- [ ✓ ] : Yes  
+- [ ✱ ] : Yes. But not specifically designed for it   
+- [ ✗ ] : No 
+
 
 ## Sensor support
 
