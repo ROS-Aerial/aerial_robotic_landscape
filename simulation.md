@@ -56,7 +56,7 @@ List migh not be complete. If you see any error or missing components, feel free
 ## Vehicle types
 
 
-| Simulator                             | Multirotor (Basic) | Multirotor (Drag) | Multirotor (Wind)[^9] | Fixed-wings | Aerial Manipulators[^9] | Swarms[^9] | Cars | Other vehicles |
+| Simulator                             | Multirotor (Basic) | Multirotor (Drag) | Multirotor (Wind) | Fixed-wings | Aerial Manipulators | Swarms     | Cars | Other vehicles |
 | ------------------------------------- | ------------------ | ----------------- | ----------------- | ----------- | ------------------- | ---------- | ---- | -------------- |
 | Gazebo (Classic & New)                |         ✓          |         ✓         |         ✓         |      ✓      |          ✱          |    ✱       |   ✓  |        ✓       |
 | Isaac (Pegasus, Aerial Gym)           |         ✓          |     ✗(✓,✗)        |         ✗         |      ✗      |          ✗          |    ✓       |✓(✗,✗)|     ✓(✗,✗)     |
@@ -72,12 +72,14 @@ List migh not be complete. If you see any error or missing components, feel free
 | Drake*                                |         ?          |         ?         |         ?         |      ?      |          ?          |    ?       |   ?  |        ?       |
 | RotorPy*                              |         ~          |         ~         |         ~         |      ✗      |          ✗          |    ~       |   ✗  |        ✗       |
 
-[ * ] : Unknown data. If you have information on specific topic, please comment bellow with the referance link.
-- [ ~ ] : Yes according to my knowledge but it needs development.
-- [ ? ] : Unknown
-- [ ✗ ] : No according to my research.
+- [ * ] : Unknown data. If you have information on specific topic, please comment bellow with the referance link.
+    - [ ~ ] : Yes according to my knowledge but it needs development.
+    - [ ? ] : Unknown
+    - [ ✗ ] : No according to my research.
+- [ ✓ ] : Yes  
+- [ ✱ ] : Yes. But not specifically designed for it   
+- [ ✗ ] : No 
 
-[^9] : ✓: Yes ,  ✱: Yes. But not specifically designed for it ,  ✗: No 
 
 ## Sensor support
 
