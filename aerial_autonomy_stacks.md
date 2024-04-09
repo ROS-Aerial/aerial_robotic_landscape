@@ -75,3 +75,19 @@ Working list:
 A list of packages which don't comprise a full stack but do offer value on top of basic flight controller firmware.
 
 * [MAVROS Controllers](https://github.com/Jaeyoung-Lim/mavros_controllers)
+
+## Indoor navigation packages
+ROS compatible indoor navigation packages that were developed and tested on aerial robotic platforms are listed below. The list, though not exhaustive, provides a good overview of off-the-shelf indoor navigation software. 
+
+| Package name        | OS/OC | Sensors required         | ROS support | Simulator | Platform/controller | Last updated  |
+| ------------------- | ----- | ------------------------ | ----------- | ----------| ------------------- | ------------- |
+| [Cartographer ROS](https://github.com/ArduPilot/ardupilot_ros/tree/humble)   | ✓     | LiDAR        | ROS 2 | Gazebo | Iris coptor,Ardupilot | 02/2024 |
+| [as2_behaviour_tree](https://github.com/aerostack2/aerostack2/tree/main/as2_behavior_tree)   | ✓     | Unknown | ROS 2 | Gazebo | Crazyflie,DJI,Tello | 02/2024 |
+| [Teach-Repeat-Replan](https://github.com/HKUST-Aerial-Robotics/Teach-Repeat-Replan) | ✓     | Stereo camera  | ROS 1 | MockaFly | DJI N3 | 11/2020 |
+| [rtabmap](https://github.com/matlabbe/rtabmap_drone_example)    | ✓     | Stereo camera  | ROS 1 | Gazebo | PX4 | 05/2023 |
+| [ORB_SLAM_3](https://github.com/arthurfenderbucker/indoor_drone)   | ✓     | Mono/stereo camera | ROS 1 | N/A | Bebop 2 | 06/2023 |
+| [relative_nav](https://github.com/rleish/relative_nav) | ✗     | Stereo camera  | ROS 1 | N/A | Rotorcraft | 04/2017 |
+| [zephyr](https://github.com/vatanaksoytezer/zephyr)    | ✓     | LiDAR        | ROS 1 | RotorS/Gazebo | AscTec Firefly | 11/2018 |
+| [tum_ardrone](https://github.com/tum-vision/tum_ardrone)  | ✓     | Mono camera     | ROS 1 | N/A | AR.Drone | 05/2014 |
+| [kr_autonomous_flight](https://github.com/KumarRobotics/kr_autonomous_flight)   | ✓    | Stereo camera/LiDAR/IMU | ROS 1 | Gazebo | Pixhawk | 08/2023 |
+
