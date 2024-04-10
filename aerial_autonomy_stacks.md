@@ -77,9 +77,9 @@ A list of packages which don't comprise a full stack but do offer value on top o
 * [MAVROS Controllers](https://github.com/Jaeyoung-Lim/mavros_controllers)
 
 ## Indoor navigation packages
-ROS compatible indoor navigation packages that were developed and tested on aerial robotic platforms are listed below. The list, though not exhaustive, provides a good overview of off-the-shelf indoor navigation software. 
+Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_robotic_landscape/blob/main/aerial_autonomy_stacks.md#aerial-autonomy-stacks), the list below outlines specific implementations of indoor navigation software packages in ROS, running on aerial vehicle platforms. The list, though not exhaustive, provides a good overview of available off-the-shelf non-commercial software.
 
-| Package name        | OS/OC | Sensors required         | ROS support | Simulator | Platform/controller | Last updated  |
+| Package name        | OS/OC | Sensors required         | Middleware | Simulator | Platform/controller | Last updated  |
 | ------------------- | ----- | ------------------------ | ----------- | ----------| ------------------- | ------------- |
 | [Cartographer ROS](https://github.com/ArduPilot/ardupilot_ros/tree/humble)   | ✓     | LiDAR        | ROS 2 | Gazebo | Iris coptor,Ardupilot | 02/2024 |
 | [as2_behaviour_tree](https://github.com/aerostack2/aerostack2/tree/main/as2_behavior_tree)   | ✓     | Unknown | ROS 2 | Gazebo | Crazyflie,DJI,Tello | 02/2024 |
