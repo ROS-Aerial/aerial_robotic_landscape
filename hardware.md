@@ -22,6 +22,7 @@ These are platforms that are currently commercially available for anybody to buy
 - [Duckiedrone by Duckietown](https://get.duckietown.com/products/duckiedrone-dd21)
 - [Clover by Coex](https://coex.tech/clover)
 - [PX4 Autonomy Developer Kit by ModelAI](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
+- [Droneblocks DEXI 5](https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/)
 
 ## Inhouse-developed platforms
 
@@ -40,6 +41,7 @@ Many of the UAVs are usually built by hand and composed of different components.
 Many drone frames are usually built from carbon fiber and custom-made for application or research.
 There are some frames that are provided that will provide some base:  
 - [DJI Flame wheel ARF kit F550, F450, F330](https://www-v1.dji.com/flame-wheel-arf/feature.html)
+- [Momentum Drones DEV-7](https://momentumdrones.com/products/dev7-frame-kit)
 
 ### Flight controllers
 - [Pixhawk 4](https://docs.px4.io/main/en/flight_controller/pixhawk4.html) discontinued, go look at:
@@ -50,6 +52,8 @@ There are some frames that are provided that will provide some base:
 
 - [Crazyflie Bolt 1.1](https://www.bitcraze.io/products/crazyflie-bolt-1-1/)
 - [Control Zero H7 OEM](https://store.3dr.com/control-zero-h7-oem/)
+- [ARK Electronics ARKV6X](https://arkelectron.com/product/arkv6x)
+   - [ARK Electronics Pixhawk Autopilot Bus Carrier](https://arkelectron.com/product/ark-pixhawk-autopilot-bus-carrier)
 
 ### Companion Computers
 For the drones that can carry it, the companion computers are important since they can do additional computation that the flight controller can not easily do.
@@ -70,6 +74,7 @@ Several vendors have developed carrier boards which can expose input/output port
 
 - [Mistral MRD5165 Eagle based on Qualcomm RB5](https://www.mistralsolutions.com/mrd5165-eagle-kit/)
 - [ARK Electronics Jetson PAB carrier](https://arkelectron.com/product/ark-jetson-pab-carrier/)
+- [ARK Electronics Pi6X Flow](https://arkelectron.com/product/ark-pi6x-flow)
 - [Dronee Lychee Drone autopilot hardware](https://dronee.aero/pages/lychee)
 - [Airvolute DroneCore2 Jetson + Cube](https://airvolute.com/dronecore-2/)
 
