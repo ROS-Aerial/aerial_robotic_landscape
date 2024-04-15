@@ -1,5 +1,5 @@
 > Work In Progress
-> We are still hard at work at mapping the hardware landscape, if you see anything missing please send a PR, we want to encourage manufacturers to help us make this a complete list
+> We are still hard at work mapping the hardware landscape, if you see anything missing please send a PR, we want to encourage manufacturers to help us make this a complete list
 
 # Aerial robotics Hardware
 
@@ -13,7 +13,7 @@ These are platforms that are currently commercially available for anybody to buy
 
 - [Holybro X500 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
 - [Crazyflie 2.1 - Bitcraze](https://www.bitcraze.io/products/crazyflie-2-1/)
-- [Uvify IFO-S](https://www.uvify.com/ifo-s/)providedn included as well.
+- [Uvify IFO-S](https://www.uvify.com/ifo-s/) provided included as well.
 - [Tricopter voliro AG](https://voliro.com/)
 - [DJI M100](https://www.dji.com/se/matrice100) Discontinued, look at:
     - [DJI M300](https://enterprise.dji.com/matrice-300)
@@ -23,6 +23,7 @@ These are platforms that are currently commercially available for anybody to buy
 - [Clover by Coex](https://coex.tech/clover)
 - [PX4 Autonomy Developer Kit by ModelAI](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
 - [Droneblocks DEXI 5](https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/)
+- [3DR Quad Zero Kit](https://store.3dr.com/3dr-quad-zero-kit/)
 
 ## Inhouse-developed platforms
 
@@ -51,12 +52,16 @@ There are some frames that are provided that will provide some base:
    - [mRo PixRacerPro](https://store.3dr.com/pixracer-pro/)
 
 - [Crazyflie Bolt 1.1](https://www.bitcraze.io/products/crazyflie-bolt-1-1/)
-- [Control Zero H7 OEM](https://store.3dr.com/control-zero-h7-oem/)
+- [3DR Control Zero H7 OEM](https://store.3dr.com/control-zero-h7-oem/)
+   - [3DR Reference Design Carrier Board](https://store.3dr.com/reference-design-carrier-board/)
+   - [3DR "Stick" Adapter (Carrier Board)](https://store.3dr.com/stick-adapter-carrier-board/) 
 - [ARK Electronics ARKV6X](https://arkelectron.com/product/arkv6x)
    - [ARK Electronics Pixhawk Autopilot Bus Carrier](https://arkelectron.com/product/ark-pixhawk-autopilot-bus-carrier)
+- [3DR Control Zero Classic](https://store.3dr.com/control-zero-classic/)
+
 
 ### Companion Computers
-For the drones that can carry it, the companion computers are important since they can do additional computation that the flight controller can not easily do.
+For the drones that can carry it, the companion computers are important since they can do additional computations that the flight controller can not easily do.
 As these are capable of running some form of Linux, these can handle for instance  computer vision with [OpenCV](https://opencv.org/) or run nodes with [ROS](https://www.ros.org/)
 
 - [Nvidia Jetson Xavier](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) or the [TX2 Module](https://developer.nvidia.com/embedded/jetson-tx2)
@@ -70,7 +75,7 @@ As these are capable of running some form of Linux, these can handle for instanc
  - [VOXL 2 by Model AI](https://www.modalai.com/collections/blue-uas-framework-components/products/voxl-2)
 
 ### Carrier boards
-Several vendors have developed carrier boards which can expose input/output ports of companion computers mentioned above which are packaged in a System-on-Module (SoM) form factor and also offer a standard interface for plugging in popular flight controllers/their own FCs.
+Several vendors have developed carrier boards that can expose input/output ports of companion computers mentioned above which are packaged in a System-on-Module (SoM) form factor and also offer a standard interface for plugging in popular flight controllers/their own FCs.
 
 - [Mistral MRD5165 Eagle based on Qualcomm RB5](https://www.mistralsolutions.com/mrd5165-eagle-kit/)
 - [ARK Electronics Jetson PAB carrier](https://arkelectron.com/product/ark-jetson-pab-carrier/)
@@ -82,14 +87,14 @@ Several vendors have developed carrier boards which can expose input/output port
 - [Intel RealSense T265 ](https://www.intel.com/content/www/us/en/products/sku/192742/intel-realsense-tracking-camera-t265/specifications.html) Discontinued, look at:
   - [RealSense D455](https://www.intelrealsense.com/depth-camera-d455/)
   - [RealSense D435i](https://www.intelrealsense.com/depth-camera-d435i/)
-- Oak-d Series like [OAK-D pro](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9098pro/) or [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095/)
+- Oak-d Series like [OAK-D Pro](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9098pro/) or [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095/)
 - [VOXL CAM by ModelAI](https://www.modalai.com/collections/blue-uas-framework-components/products/voxl-cam?variant=39543794565171)
 
 ### Reference Bill of Materials
 
 #### Holybro S500v2
 
-The [Holybro S500v2](https://holybro.com/collections/s500/products/s500-v2-development-kit) is a popular, relatively low-cost quadcopter. This is a list of the parts used with details of battery, motors, ESCs, propellers with reference links to guide custom builds.
+The [Holybro S500v2](https://holybro.com/collections/s500/products/s500-v2-development-kit) is a popular, relatively low-cost quadcopter. This is a list of the parts used with details of battery, motors, ESCs, and propellers with reference links to guide custom builds.
 
 
 | S.No | Part Name                               | Part category           | Description                                               | Price (USD) | Qty         | Total Cost (USD) | Official/Reference Link                                                                                                                                                              |
