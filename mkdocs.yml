@@ -1,0 +1,6 @@
+site_name: Aerial Robotics Landscape
+theme: readthedocs
+
+markdown_extensions:
+- pymdownx.snippets:
+    check_paths: true
