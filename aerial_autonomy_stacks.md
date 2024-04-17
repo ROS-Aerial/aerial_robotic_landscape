@@ -90,4 +90,5 @@ Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_ro
 | [zephyr](https://github.com/vatanaksoytezer/zephyr)    | ✓     | LiDAR        | ROS 1 | RotorS/Gazebo | AscTec Firefly | 11/2018 |
 | [tum_ardrone](https://github.com/tum-vision/tum_ardrone)  | ✓     | Mono camera     | ROS 1 | N/A | AR.Drone | 05/2014 |
 | [kr_autonomous_flight](https://github.com/KumarRobotics/kr_autonomous_flight)   | ✓    | Stereo camera/LiDAR/IMU | ROS 1 | Gazebo | Pixhawk | 08/2023 |
+| [px4_sim_ros2](https://github.com/ParsaKhaledi/px4_sim_ros2)   | ✓    | Stereo camera | ROS 2 | Gazebo | PX4 | 04/2024 |
 
