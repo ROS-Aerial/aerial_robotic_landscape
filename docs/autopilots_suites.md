@@ -1,4 +1,4 @@
-# Autopilot Suites for Aerial Robotics
+# Autopilot Suites
 
 There are several autopilot suites available for control-boards for aerial vehicles. This page mostly have an overview of all of those including some comparison factors in them as well.
 

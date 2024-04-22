@@ -1,4 +1,4 @@
-# Message standards for UAVs
+# Message standards
 
 ## REP 147 A Standard interface for Aerial Vehicles
 
