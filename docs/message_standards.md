@@ -19,5 +19,6 @@ If new messages are added or existing ones are modified, the XML definitions nee
 https://mavlink.io/en/
 
 MAVlink is used in 2 autopilot suites. Eventhough the same message type are being shared in both the suites, the accomendating behavior might differ:
+
 * [Ardupilot MAVlink usage](https://ardupilot.org/dev/docs/mavlink-basics.html)
 * [PX4 MAVlink usage](https://docs.px4.io/main/en/middleware/mavlink.html)

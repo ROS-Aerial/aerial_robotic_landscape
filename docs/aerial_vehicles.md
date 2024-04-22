@@ -1,4 +1,4 @@
-# Vehicle Types in Aerial Robotics
+# Aerial Vehicle Types and Categories
 
 Usually, people tend to think about quadcopters when talking about aerial robotics, but there is actually a much larger variety of vehicle types available! Here's an attempt to list all of them if we can.
 

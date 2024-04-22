@@ -6,7 +6,7 @@ This pages gives an overview of those safety systems that have been implemented 
 
 ## Safety in ROS
 
-Currently specifically for aerial vehicles, the safety implementation is depended on the [ROS autonomy stack]((aerial_autonomy_stacks.md) used. 
+Currently specifically for aerial vehicles, the safety implementation is depended on the [ROS autonomy stack]((aerial_autonomy_stacks.md) used.
 
 The [ROS-0147](https://ros.org/reps/rep-0147.html) has a suggestion for flightmodes for a statemachine that can simplify the understanding of it. It is also expecting that ROS will be run offboard on an external computer, and that it should be in control of the safety state machine. This should probably be discussed if it would be a good idea for ROS to be in control of this or the autopilot suites themselves.
 
@@ -29,11 +29,11 @@ Before a vehicle can fly, certain conditions must be met. These includ:
 
 **Preflight checks documentation:**
 
-* PX4: https://docs.px4.io/main/en/flying/pre_flight_checks.html#preflight-sensor-estimator-checks
-* ArduPilot: https://ardupilot.org/copter/docs/common-prearm-safety-checks.html#failure-messages
-* Beta flight: https://betaflight.com/docs/wiki/archive/GPS-Rescue-v4-4#sanity-check-options
-* Paparazzi UAV: Indicated per platform if necessary, on their wiki:  https://wiki.paparazziuav.org/wiki/Failsafe
-* Crazyflie firmware: https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/functional-areas/supervisor/
+* PX4: <https://docs.px4.io/main/en/flying/pre_flight_checks.html#preflight-sensor-estimator-checks>
+* ArduPilot: <https://ardupilot.org/copter/docs/common-prearm-safety-checks.html#failure-messages>
+* Beta flight: <https://betaflight.com/docs/wiki/archive/GPS-Rescue-v4-4#sanity-check-options>
+* Paparazzi UAV: Indicated per platform if necessary, on their wiki:  <https://wiki.paparazziuav.org/wiki/Failsafe>
+* Crazyflie firmware: <https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/functional-areas/supervisor/>
 
 ### Fail-safe mechanisms
 
@@ -66,11 +66,12 @@ These behaviors can include the following:
 * No input to motors or completely disarming the motors
 
 **Fail-safe documentation**
-* PX4: https://docs.px4.io/main/en/config/safety.html
-* ArduPilot: https://ardupilot.org/copter/docs/failsafe-landing-page.html
-* Betaflight: https://betaflight.com/docs/development/Failsafe
-* Paparazzi UAV: https://wiki.paparazziuav.org/wiki/Failsafe
-* Crazyflie firmware: https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/functional-areas/supervisor/
+
+* PX4: <https://docs.px4.io/main/en/config/safety.html>
+* ArduPilot: <https://ardupilot.org/copter/docs/failsafe-landing-page.html>
+* Betaflight: <https://betaflight.com/docs/development/Failsafe>
+* Paparazzi UAV: <https://wiki.paparazziuav.org/wiki/Failsafe>
+* Crazyflie firmware: <https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/functional-areas/supervisor/>
 
 
 ### Emergencies
