@@ -1,0 +1,17 @@
+site_name: Aerial Robotics Landscape
+theme: readthedocs
+
+nav:
+- 'education_and_tutorial.md'
+- 'aerial_vehicles.md'
+- 'simulation.md'
+- 'hardware.md'
+- 'autopilots_suites.md'
+- 'aerial_autonomy_stacks.md'
+- 'middleware_and_drivers.md'
+- 'message_standards.md'
+- 'safety_management.md'
+
+markdown_extensions:
+- pymdownx.snippets:
+    check_paths: true

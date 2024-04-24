@@ -1,6 +1,7 @@
-# Autopilot Suites for Aerial Robotics
+# Autopilot Suites
 
 There are several autopilot suites available for control-boards for aerial vehicles. This page mostly have an overview of all of those including some comparison factors in them as well.
+
 |Autopilot suite| startup year | latest version |  OS licence | ROS support| supported vehicles |
 |---| --- | --- | --- | --- | --- |
 | [Ardupilot](https://ardupilot.org/) ([GitHub](https://github.com/ArduPilot/ardupilot)) | 2009 | 4.4.0 (08/23) |  GPL 3.0 | yes | Copters, Fixed wings, VTOL |

@@ -1,9 +1,11 @@
+# Hardware, Components, and Dev Kits
+
 > Work In Progress
 > We are still hard at work mapping the hardware landscape, if you see anything missing please send a PR, we want to encourage manufacturers to help us make this a complete list
 
-# Aerial robotics Hardware
 
-This is information compiled from the latest [ICRA 2023 conference](https://www.icra2023.org/) held in London. 
+
+This is information compiled from the latest [ICRA 2023 conference](https://www.icra2023.org/) held in London.
 About 75 Aerial robotics papers were found so here is a list of the standard platforms, companion computers and hardware used in the papers.
 If some of the hardware is outdated, then an alternative is shown
 This is a starting list that can be updated and extended by anyone.
@@ -36,17 +38,17 @@ These are platforms that are standard within a lab or department, with informati
 
 ## Components
 
-Many of the UAVs are usually built by hand and composed of different components. This usually consists of a drone frame, flight controller boards, companion computers and of course motors, batteries and ESCs. 
+Many of the UAVs are usually built by hand and composed of different components. This usually consists of a drone frame, flight controller boards, companion computers and of course motors, batteries and ESCs.
 
 ### Drone Frames
 Many drone frames are usually built from carbon fiber and custom-made for application or research.
-There are some frames that are provided that will provide some base:  
+There are some frames that are provided that will provide some base:
 - [DJI Flame wheel ARF kit F550, F450, F330](https://www-v1.dji.com/flame-wheel-arf/feature.html)
 - [Momentum Drones DEV-7](https://momentumdrones.com/products/dev7-frame-kit)
 
 ### Flight controllers
 - [Pixhawk 4](https://docs.px4.io/main/en/flight_controller/pixhawk4.html) discontinued, go look at:
-   -  [Holybro's Pixhawk 6C](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6c) 
+   -  [Holybro's Pixhawk 6C](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6c)
    -  [CUAV's Pixhawk V6x](https://doc.cuav.net/flight-controller/pixhawk-v6x/en/#building-firmware)
 - [mRo PixRacer R15](https://store.mrobotics.io/product-p/auav-pxrcr-r15-mr.htm) discontinued, go look at:
    - [mRo PixRacerPro](https://store.3dr.com/pixracer-pro/)
@@ -54,7 +56,7 @@ There are some frames that are provided that will provide some base:
 - [Crazyflie Bolt 1.1](https://www.bitcraze.io/products/crazyflie-bolt-1-1/)
 - [3DR Control Zero H7 OEM](https://store.3dr.com/control-zero-h7-oem/)
    - [3DR Reference Design Carrier Board](https://store.3dr.com/reference-design-carrier-board/)
-   - [3DR "Stick" Adapter (Carrier Board)](https://store.3dr.com/stick-adapter-carrier-board/) 
+   - [3DR "Stick" Adapter (Carrier Board)](https://store.3dr.com/stick-adapter-carrier-board/)
 - [ARK Electronics ARKV6X](https://arkelectron.com/product/arkv6x)
    - [ARK Electronics Pixhawk Autopilot Bus Carrier](https://arkelectron.com/product/ark-pixhawk-autopilot-bus-carrier)
 - [3DR Control Zero Classic](https://store.3dr.com/control-zero-classic/)
@@ -113,7 +115,7 @@ The [Holybro S500v2](https://holybro.com/collections/s500/products/s500-v2-devel
 **Notes**:
 
 \*It can be used with Radiomaster Multiprotocol (4 in 1) or CC2500 based Radio Controller like FrSky Taranis X9D or similar<br>
-\*\*Used for connecting to ground control station, 915MHz variant also available  
+\*\*Used for connecting to ground control station, 915MHz variant also available
 
 **Useful tool for this page**:
-https://tabletomarkdown.com/convert-spreadsheet-to-markdown/
+<https://tabletomarkdown.com/convert-spreadsheet-to-markdown/>

@@ -4,14 +4,14 @@ Simulation is crucial when working with Unmanned Aerial Vehicles (UAVs). Testing
 
 This page presents several simulator options for aerial robotics enthusiasts.
 
-# Comparison
+## Comparison
 
 The following simulators have their own integrated physics simulation and basic rendering capabilities. They are capable of simulating the aerodynamic forces necessary to keep UAVs airborne:
 
 For the following comparison, we have refered [this article](https://arxiv.org/pdf/2311.02296.pdf)
 > Cora A. Dimmig et al. "Survey of Simulators for Aerial Robots" arXiv preprint arXiv:2311.02296v2 (2024)
 
-## Features
+### Features
 
 List migh not be complete. If you see any error or missing components, feel free to open a PR or issue.
 
@@ -42,7 +42,7 @@ List migh not be complete. If you see any error or missing components, feel free
 
 [^3]: For a referance, a laptop running Intel i5 10th gen (or similar) with 8gb ddr4 ram and NVIDIA T100 4gb (or similar) are considered as minimal requirement.
 
-[^4]: ✓: Yes,  ✱: Yes for non commercial use-case ,  ✗: No 
+[^4]: ✓: Yes,  ✱: Yes for non commercial use-case ,  ✗: No
 
 [^5]: Usage in Aerial ROS/Robotics community according to several survey on Discourse and during the meetings.
 
@@ -76,9 +76,9 @@ List migh not be complete. If you see any error or missing components, feel free
     - [ ~ ] : Yes according to my knowledge but it needs development.
     - [ ? ] : Unknown
     - [ ✗ ] : No according to my research.
-- [ ✓ ] : Yes  
-- [ ✱ ] : Yes. But not specifically designed for it   
-- [ ✗ ] : No 
+- [ ✓ ] : Yes
+- [ ✱ ] : Yes. But not specifically designed for it
+- [ ✗ ] : No
 
 
 ## Sensor support
@@ -89,28 +89,28 @@ TODO
 
 Some simulators mostly focus on creating accurate dynamics for aerial vehicles. Here are some options:
 
-* JSBSim (https://github.com/JSBSim-Team/jsbsim)
-* YASim (https://wiki.flightgear.org/YASim)
+* JSBSim (<https://github.com/JSBSim-Team/jsbsim>)
+* YASim (<https://wiki.flightgear.org/YASim>)
 * More to be added!
 
 ## Available UAV Models
 
 Each simulator typically offers a range of ready-to-use aerial vehicle models:
 
-* **Gazebo**: https://app.gazebosim.org/search;q=uav
+* **Gazebo**: <https://app.gazebosim.org/search;q=uav>
 
 [//]: # ( Wrong link. Unable to find correct link rn. * **Isaac Sim**: https://docs.omniverse.nvidia.com/isaacsim/latest/reference_assets.html#aerial-robots)
 
-* **Webots**: https://webots.cloud/proto?keyword=robot%2Fflying
+* **Webots**: <https://webots.cloud/proto?keyword=robot%2Fflying>
 
 ## Autopilot Suites
 
 Several autopilot suites provide instructions for using simulators, often with Software-in-the-Loop (SITL) or Hardware-in-the-Loop (HITL) options:
 
-* **Ardupilot**: https://ardupilot.org/copter/docs/common-simulation.html
-* **Betaflight**: https://betaflight.com/docs/development/SITL#sitl-in-realflight-9
-* **Crazyflie**: https://www.bitcraze.io/documentation/tutorials/getting-started-with-simulation/
-* **DJI**: https://www.dji.com/se/simulator
-* **Paparazzi UAV**: https://wiki.paparazziuav.org/wiki/Simulation
-* **PX4**: https://docs.px4.io/main/en/simulation/#simulation
-* **ROSflight**: https://docs.rosflight.org/v1.3/user-guide/gazebo_simulation/
+* **Ardupilot**: <https://ardupilot.org/copter/docs/common-simulation.html>
+* **Betaflight**: <https://betaflight.com/docs/development/SITL#sitl-in-realflight-9>
+* **Crazyflie**: <https://www.bitcraze.io/documentation/tutorials/getting-started-with-simulation/>
+* **DJI**: <https://www.dji.com/se/simulator>
+* **Paparazzi UAV**: <https://wiki.paparazziuav.org/wiki/Simulation>
+* **PX4**: <https://docs.px4.io/main/en/simulation/#simulation>
+* **ROSflight**: <https://docs.rosflight.org/v1.3/user-guide/gazebo_simulation/>
