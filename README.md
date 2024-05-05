@@ -1,4 +1,5 @@
 # Aerial Robotic Landscape
+[![build](https://github.com/ROS-Aerial/aerial_robotic_landscape/actions/workflows/build.yml/badge.svg)](https://github.com/ROS-Aerial/aerial_robotic_landscape/actions/workflows/build.yml)
 
 This repository/website is a collection of resources for aerial robotics. It is intended to be a comprehensive list of recourses for anyone interested in aerial robotics. The resources are divided into categories, such as autonomy stacks, autopilot suites, simulation, message standards, safety and management systems, tutorials and education, hardware, components, and development kits, aerial vehicle types, and middleware and drivers.
 
