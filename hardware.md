@@ -1,4 +1,5 @@
 # Work In Progress
+
 We are still hard at work at mapping the hardware landscape, if you see anything missing please send a PR, we want to encourage manufacturers to help us make this a complete list
 
 # Aerial robotics Hardware
@@ -9,6 +10,7 @@ If some of the hardware is outdated, then an alternative is shown
 This is a starting list that can be updated and extended by anyone.
 
 ## Standard Commercial Platforms
+
 These are platforms that are currently commercially available for anybody to buy for their research.
 
 - [Holybro X500 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
@@ -36,11 +38,13 @@ These are platforms that are standard within a lab or department, with informati
 Many of the UAVs are usually built by hand and composed of different components. This usually consists of a drone frame, fligth controller boards, companion computers and of course motors, batteries and ESCs. 
 
 ### Drone Frames
+
 Many drone frames are usually built from carbon fiber and custom-made for application or research.
 There are some frames that are provided that will provide some base:  
 - [DJI Flame wheel ARF kit F550, F450, F330](https://www-v1.dji.com/flame-wheel-arf/feature.html)
 
 ### Flight controllers
+
 - [Pixhawk 4](https://docs.px4.io/main/en/flight_controller/pixhawk4.html) discontinued, go look at:
    -  [Holybro's Pixhawk 6C](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6c) 
    -  [CUAV's Pixhawk V6x](https://doc.cuav.net/flight-controller/pixhawk-v6x/en/#building-firmware)
@@ -48,8 +52,11 @@ There are some frames that are provided that will provide some base:
 -  [Crazyflie Bolt 1.1](https://www.bitcraze.io/products/crazyflie-bolt-1-1/)
 
 ### Companion Computers
+
 For the drones that can carry it, the companion computers are important since they can do additional computation that the flight controller can not easily do.
-As these are capable of running some form of Linux, these can handle for instance  computer vision with [OpenCV](https://opencv.org/) or run nodes with [ROS](https://www.ros.org/)
+As these are capable of running some form of Linux, these can handle for instance  computer vision with [OpenCV](https://opencv.org/) or run nodes with [ROS](https://www.ros.org/). Some 
+companion computers also integrate flight control (RTOS) hardware
+in the same package.
 
 - [Nvidia Jetson Xavier](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) or the [TX2 Module](https://developer.nvidia.com/embedded/jetson-tx2)
 - [Intel Nuc Boards](https://www.intel.com/content/www/us/en/products/details/nuc/boards/products.html)
@@ -59,6 +66,7 @@ As these are capable of running some form of Linux, these can handle for instanc
 - [NXP NAVQPlus](https://www.nxp.com/design/designs/navqplus-ai-ml-companion-computer-evk-for-mobile-robotics-ros-ground-stations-and-camera-heads:8MPNAVQ)
 - [Qualcomm RB5](https://developer.qualcomm.com/qualcomm-robotics-rb5-kit)
 - [MRD5165 Eagle Kit](https://www.mistralsolutions.com/product/mrd5165-eagle-kit/) (coming soon)
+- [EchoPilot AI](https://echomav.com/product/echopilot-ai/)
 
 ### Reference Bill of Materials
 
