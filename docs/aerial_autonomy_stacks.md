@@ -81,7 +81,7 @@ Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_ro
 
 | Package name        | OS/OC | Sensors required         | Middleware | Simulator | Platform/controller | Last updated  |
 | ------------------- | ----- | ------------------------ | ----------- | ----------| ------------------- | ------------- |
-| [Cartographer ROS](https://github.com/ArduPilot/ardupilot_ros/tree/humble)   | ✓     | LiDAR        | ROS 2 | Gazebo | Iris coptor,Ardupilot | 02/2024 |
+| [Ardupilot ROS](https://github.com/ArduPilot/ardupilot_ros/tree/humble)   | ✓     | LiDAR        | ROS 2 | Gazebo | Iris coptor,Ardupilot | 02/2024 |
 | [as2_behaviour_tree](https://github.com/aerostack2/aerostack2/tree/main/as2_behavior_tree)   | ✓     | Unknown | ROS 2 | Gazebo | Crazyflie,DJI,Tello | 02/2024 |
 | [Teach-Repeat-Replan](https://github.com/HKUST-Aerial-Robotics/Teach-Repeat-Replan) | ✓     | Stereo camera  | ROS 1 | MockaFly | DJI N3 | 11/2020 |
 | [rtabmap](https://github.com/matlabbe/rtabmap_drone_example)    | ✓     | Stereo camera  | ROS 1 | Gazebo | PX4 | 05/2023 |
