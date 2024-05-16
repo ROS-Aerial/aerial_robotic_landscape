@@ -22,3 +22,6 @@ MAVlink is used in 2 autopilot suites. Eventhough the same message type are bein
 
 * [Ardupilot MAVlink usage](https://ardupilot.org/dev/docs/mavlink-basics.html)
 * [PX4 MAVlink usage](https://docs.px4.io/main/en/middleware/mavlink.html)
+
+--8<-- "docs/goatcounter.html"
+

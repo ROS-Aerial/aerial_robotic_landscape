@@ -13,3 +13,5 @@ There are several autopilot suites available for control-boards for aerial vehic
 | [ROSflight](https://docs.rosflight.org/v1.3/) ([GitHub](https://github.com/rosflight/rosflight_firmware)) | 2019 | 2.2.0 beta (09/23)  |BSD 3-Clause | yes | Copters, fixed wings |
 
 *community provided support
+
+--8<-- "docs/goatcounter.html"

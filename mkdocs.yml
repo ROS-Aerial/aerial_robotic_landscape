@@ -3,8 +3,6 @@ theme: readthedocs
 repo_url: https://github.com/ROS-Aerial/aerial_robotic_landscape
 edit_uri: blob/main/docs/
 
-extra_javascript:
-- goatcounter.js
 
 nav:
 - 'education_and_tutorial.md'

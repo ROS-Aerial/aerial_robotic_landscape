@@ -82,3 +82,5 @@ Here a list of that:
 * Remote control should have a dedicated button/switch for different modes, landing, or disarming.
 * Dealing with spinning motors Use a net or towel to stop them and promptly disconnect the battery.
 * To prepare for LiPo battery hazards, Have sand or fire retardant available.
+
+--8<-- "docs/goatcounter.html"
