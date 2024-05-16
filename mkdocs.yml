@@ -3,6 +3,7 @@ theme: readthedocs
 repo_url: https://github.com/ROS-Aerial/aerial_robotic_landscape
 edit_uri: blob/main/docs/
 
+copyright: 'This website is information assembled with help of the ROS Aerial Robotics Community group. Analytics with no-cookie tracking with goatviewer.com'
 
 nav:
 - 'education_and_tutorial.md'
