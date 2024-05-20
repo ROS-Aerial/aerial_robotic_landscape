@@ -19,3 +19,4 @@ nav:
 markdown_extensions:
 - pymdownx.snippets:
     check_paths: true
+- admonition
