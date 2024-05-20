@@ -114,3 +114,5 @@ Several autopilot suites provide instructions for using simulators, often with S
 * **Paparazzi UAV**: <https://wiki.paparazziuav.org/wiki/Simulation>
 * **PX4**: <https://docs.px4.io/main/en/simulation/#simulation>
 * **ROSflight**: <https://docs.rosflight.org/v1.3/user-guide/gazebo_simulation/>
+
+--8<-- "docs/goatcounter.html"

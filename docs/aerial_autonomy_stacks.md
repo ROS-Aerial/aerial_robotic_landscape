@@ -6,11 +6,11 @@ Based on [this discussion in Discourse]( https://discourse.ros.org/t/more-aerial
 
 ## Comparison
 
-From the paper 
+From the paper
 
 > Fernandez-Cortizas, Miguel, et al. "Aerostack2: A Software Framework for Developing Multi-robot Aerial Systems." arXiv preprint arXiv:2303.18237 (2023).
-  
-the following autonomy stack table was extracted and adapted. 
+
+the following autonomy stack table was extracted and adapted.
 
 | Flight stack   | OS/OC | Modular | Tested in | Middleware | last  update | MF  | RO  | MA  | MP  | PO  |
 | -------------- | ----- | ------- | --------- | ---------- | ------------ | --- | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ the following autonomy stack table was extracted and adapted.
 * S: Experiments in simulation
 * RIL: Experiments in the lab
 * ROL: Experiments outside the lab
-* MF: Multi-frame 
+* MF: Multi-frame
 * RO: Rate output
 * MA: Multi agent
 * MP: Multi platform
@@ -42,11 +42,11 @@ the following autonomy stack table was extracted and adapted.
 
 ## VIO packages
 
-Visual Inertial Odometry packages is an very important strategy of positioning within GPS deprived environments. Since UAVs can not use wheel odometry and heavily relient on cameras, this is one of the main drivers for autonomous exploration with these vehicles. 
+Visual Inertial Odometry packages is an very important strategy of positioning within GPS deprived environments. Since UAVs can not use wheel odometry and heavily relient on cameras, this is one of the main drivers for autonomous exploration with these vehicles.
 
 Here is a list of VIO packages that people can use if they have a [depth camera](hardware.md) on their platform.
 
-- [OpenVins](https://github.com/rpng/open_vins?tab=readme-ov-file) (ROS1/ROS2): 
+- [OpenVins](https://github.com/rpng/open_vins?tab=readme-ov-file) (ROS1/ROS2):
 - [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) stand alone
 - [SLAMcore](https://www.slamcore.com/product/) stand alone SDK
 - [ORB-SLAM3 ROS2](https://github.com/suchetanrs/ORB-SLAM3-ROS2-Docker)
@@ -92,3 +92,4 @@ Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_ro
 | [kr_autonomous_flight](https://github.com/KumarRobotics/kr_autonomous_flight)   | ✓    | Stereo camera/LiDAR/IMU | ROS 1 | Gazebo | Pixhawk | 08/2023 |
 | [px4_sim_ros2](https://github.com/ParsaKhaledi/px4_sim_ros2)   | ✓    | Stereo camera | ROS 2 | Gazebo | PX4 | 04/2024 |
 
+--8<-- "docs/goatcounter.html"

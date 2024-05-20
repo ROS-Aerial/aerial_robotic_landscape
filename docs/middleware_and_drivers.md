@@ -1,6 +1,6 @@
 # Middleware and Drivers
 
-The aim for this page is to provide a collection of ROS packages/related libraries which are very useful for aerial ROS projects either to serve as a reference or directly use as a part of a custom software stack. This list aims to address the gap between the flight controller firmware and purely autonomy related packages. 
+The aim for this page is to provide a collection of ROS packages/related libraries which are very useful for aerial ROS projects either to serve as a reference or directly use as a part of a custom software stack. This list aims to address the gap between the flight controller firmware and purely autonomy related packages.
 
 ## Middleware libraries
 
@@ -18,3 +18,5 @@ ROS packages built atop SDKs from drone vendors to interface to their closed-sou
 2. [Parrot Bebop Autonomy](https://github.com/AutonomyLab/bebop_autonomy)
 3. [DJI Tello driver](https://github.com/anqixu/tello_driver)
 4. [Parrot Mambo driver](https://github.com/TOTON95/ros_pyparrot)
+
+--8<-- "docs/goatcounter.html"
