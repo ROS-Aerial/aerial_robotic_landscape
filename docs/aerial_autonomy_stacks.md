@@ -57,6 +57,7 @@ Here is a list of VIO packages that people can use if they have a [depth camera]
 - [Kaggle Underwater forward-looking VI dataset](https://www.kaggle.com/datasets/viseaonlab/flsea-vi)
 - [The Air Lab Datasets](https://theairlab.org/datasets/)
 - [VICON ROS2 bag file Google drive](https://drive.google.com/drive/folders/1xQ1KcZhZ5pioPXTyrZBN6Mjxkfpcd_B3)
+- [The UZH FPV Dataset](https://fpv.ifi.uzh.ch/datasets/)
 
 ## Working list autonomy stacks
 
