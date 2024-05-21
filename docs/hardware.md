@@ -1,31 +1,28 @@
 # Hardware, Components, and Dev Kits
 
-> Work In Progress
-> We are still hard at work mapping the hardware landscape, if you see anything missing please send a PR, we want to encourage manufacturers to help us make this a complete list
+This is an list of development platforms for aerial robotics. Please start a pull request if you'd like to update these.
 
-
-
-This is information compiled from the latest [ICRA 2023 conference](https://www.icra2023.org/) held in London.
-About 75 Aerial robotics papers were found so here is a list of the standard platforms, companion computers and hardware used in the papers.
-If some of the hardware is outdated, then an alternative is shown
-This is a starting list that can be updated and extended by anyone.
-
-## Standard Commercial Platforms
+## Standard Commercial Research Platforms
 These are platforms that are currently commercially available for anybody to buy for their research.
 
-- [Holybro X500 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
+- Holybro:
+   - [Holybro X500 V2 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
+   - [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5) 
 - [Crazyflie 2.1 - Bitcraze](https://www.bitcraze.io/products/crazyflie-2-1/)
-- [Uvify IFO-S](https://www.uvify.com/ifo-s/) provided included as well.
-- [Tricopter voliro AG](https://voliro.com/)
-- [DJI M100](https://www.dji.com/se/matrice100) Discontinued, look at:
-    - [DJI M300](https://enterprise.dji.com/matrice-300)
-- [DJI tello](https://store.dji.com/se/shop/tello-series)
 - [NXP HoverGames Kit](https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) official hardware for the yearly [HoverGames Challenge](https://www.hovergames.com)
-- [Duckiedrone by Duckietown](https://get.duckietown.com/products/duckiedrone-dd21)
+- Duckietown:
+    - [Duckiedrone DD21](https://get.duckietown.com/products/duckiedrone-dd21)
+    - [Duckiedrone DD24](https://get.duckietown.com/products/autonomous-raspberrypi-quadcopter-duckiedrone-dd24)
 - [Clover by Coex](https://coex.tech/clover)
 - [PX4 Autonomy Developer Kit by ModelAI](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
 - [Droneblocks DEXI 5](https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/)
 - [3DR Quad Zero Kit](https://store.3dr.com/3dr-quad-zero-kit/)
+
+## Industrial Platforms
+- [Uvify IFO-S](https://www.uvify.com/ifo-s/)
+- [Tricopter voliro AG](https://voliro.com/)
+- [DJI M300](https://enterprise.dji.com/matrice-300)
+
 
 ## Inhouse-developed platforms
 
@@ -35,6 +32,11 @@ These are platforms that are standard within a lab or department, with informati
 -  [ModQuad - Lehigh University](http://swarmslab.com/projects/)
 -  [RMF-Owl - Norwegian University of Science and Technology](https://ieeexplore.ieee.org/document/9836115)
 -  [MiniHawk-VTOL](https://github.com/StephenCarlson/MiniHawk-VTOL)
+
+## Discontinued Platforms
+- DJI M100
+- [DJI tello](https://store.dji.com/se/shop/tello-series)
+
 
 ## Components
 
