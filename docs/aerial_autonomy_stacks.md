@@ -51,6 +51,14 @@ Here is a list of VIO packages that people can use if they have a [depth camera]
 - [SLAMcore](https://www.slamcore.com/product/) stand alone SDK
 - [ORB-SLAM3 ROS2](https://github.com/suchetanrs/ORB-SLAM3-ROS2-Docker)
 
+### Visual Odometry Datasets
+
+- [Kaggle Zurich Urban Micro Aerial Vehicle](https://www.kaggle.com/datasets/mrisdal/zurich-urban-micro-aerial-vehicle)
+- [Kaggle Underwater forward-looking VI dataset](https://www.kaggle.com/datasets/viseaonlab/flsea-vi)
+- [The Air Lab Datasets](https://theairlab.org/datasets/)
+- [VICON ROS2 bag file Google drive](https://drive.google.com/drive/folders/1xQ1KcZhZ5pioPXTyrZBN6Mjxkfpcd_B3)
+- [The UZH FPV Dataset](https://fpv.ifi.uzh.ch/datasets/)
+
 ## Working list autonomy stacks
 
 This is just a list of autonomy stacks with links, such that later we can add them to the overview.
