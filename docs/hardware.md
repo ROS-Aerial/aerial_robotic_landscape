@@ -84,7 +84,6 @@ Some companion computers also integrate flight control (RTOS) hardware in the sa
 - [MRD5165 Eagle Kit](https://www.mistralsolutions.com/product/mrd5165-eagle-kit/) (coming soon)
 - [VOXL 2 by Model AI](https://www.modalai.com/collections/blue-uas-framework-components/products/voxl-2)
 - [EchoPilot AI](https://echomav.com/product/echopilot-ai/)
-- 
 ### Carrier boards
 Several vendors have developed carrier boards that can expose input/output ports of companion computers mentioned above which are packaged in a System-on-Module (SoM) form factor and also offer a standard interface for plugging in popular flight controllers/their own FCs.
 
