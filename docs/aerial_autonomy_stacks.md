@@ -56,6 +56,7 @@ Here is a list of VIO packages that people can use if they have a [depth camera]
 This is just a list of autonomy stacks with links, such that later we can add them to the overview.
 
 Working list:
+
 * [Aerostack2](https://aerostack2.github.io/)
 * [Aerostack(1)](https://github.com/cvar-upm/aerostack/wiki)
 * [KumarRobotics Autonomy Stack](https://github.com/KumarRobotics/kr_autonomous_flight)
