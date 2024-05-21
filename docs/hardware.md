@@ -1,31 +1,30 @@
 # Hardware, Components, and Dev Kits
 
-> Work In Progress
-> We are still hard at work mapping the hardware landscape, if you see anything missing please send a PR, we want to encourage manufacturers to help us make this a complete list
+This is an list of development platforms for aerial robotics. Please start a pull request if you'd like to update these.
 
+## Standard Commercial Research Platforms
 
-
-This is information compiled from the latest [ICRA 2023 conference](https://www.icra2023.org/) held in London.
-About 75 Aerial robotics papers were found so here is a list of the standard platforms, companion computers and hardware used in the papers.
-If some of the hardware is outdated, then an alternative is shown
-This is a starting list that can be updated and extended by anyone.
-
-## Standard Commercial Platforms
 These are platforms that are currently commercially available for anybody to buy for their research.
 
-- [Holybro X500 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
+- Holybro:
+   - [Holybro X500 V2 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
+   - [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5) 
 - [Crazyflie 2.1 - Bitcraze](https://www.bitcraze.io/products/crazyflie-2-1/)
-- [Uvify IFO-S](https://www.uvify.com/ifo-s/) provided included as well.
-- [Tricopter voliro AG](https://voliro.com/)
-- [DJI M100](https://www.dji.com/se/matrice100) Discontinued, look at:
-    - [DJI M300](https://enterprise.dji.com/matrice-300)
-- [DJI tello](https://store.dji.com/se/shop/tello-series)
 - [NXP HoverGames Kit](https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) official hardware for the yearly [HoverGames Challenge](https://www.hovergames.com)
-- [Duckiedrone by Duckietown](https://get.duckietown.com/products/duckiedrone-dd21)
+- Duckietown:
+    - [Duckiedrone DD21](https://get.duckietown.com/products/duckiedrone-dd21)
+    - [Duckiedrone DD24](https://get.duckietown.com/products/autonomous-raspberrypi-quadcopter-duckiedrone-dd24)
 - [Clover by Coex](https://coex.tech/clover)
 - [PX4 Autonomy Developer Kit by ModelAI](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
 - [Droneblocks DEXI 5](https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/)
 - [3DR Quad Zero Kit](https://store.3dr.com/3dr-quad-zero-kit/)
+
+## Industrial Platforms
+
+- [Uvify IFO-S](https://www.uvify.com/ifo-s/)
+- [Tricopter voliro AG](https://voliro.com/)
+- [DJI M300](https://enterprise.dji.com/matrice-300)
+
 
 ## Inhouse-developed platforms
 
@@ -36,23 +35,30 @@ These are platforms that are standard within a lab or department, with informati
 -  [RMF-Owl - Norwegian University of Science and Technology](https://ieeexplore.ieee.org/document/9836115)
 -  [MiniHawk-VTOL](https://github.com/StephenCarlson/MiniHawk-VTOL)
 
+## Discontinued Platforms
+
+- DJI M100
+- [DJI tello](https://store.dji.com/se/shop/tello-series)
+
+
 ## Components
 
 Many of the UAVs are usually built by hand and composed of different components. This usually consists of a drone frame, flight controller boards, companion computers and of course motors, batteries and ESCs.
 
 ### Drone Frames
+
 Many drone frames are usually built from carbon fiber and custom-made for application or research.
 There are some frames that are provided that will provide some base:
 - [DJI Flame wheel ARF kit F550, F450, F330](https://www-v1.dji.com/flame-wheel-arf/feature.html)
 - [Momentum Drones DEV-7](https://momentumdrones.com/products/dev7-frame-kit)
 
 ### Flight controllers
+
 - [Pixhawk 4](https://docs.px4.io/main/en/flight_controller/pixhawk4.html) discontinued, go look at:
    -  [Holybro's Pixhawk 6C](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6c)
    -  [CUAV's Pixhawk V6x](https://doc.cuav.net/flight-controller/pixhawk-v6x/en/#building-firmware)
 - [mRo PixRacer R15](https://store.mrobotics.io/product-p/auav-pxrcr-r15-mr.htm) discontinued, go look at:
    - [mRo PixRacerPro](https://store.3dr.com/pixracer-pro/)
-
 - [Crazyflie Bolt 1.1](https://www.bitcraze.io/products/crazyflie-bolt-1-1/)
 - [3DR Control Zero H7 OEM](https://store.3dr.com/control-zero-h7-oem/)
    - [3DR Reference Design Carrier Board](https://store.3dr.com/reference-design-carrier-board/)
@@ -63,8 +69,10 @@ There are some frames that are provided that will provide some base:
 
 
 ### Companion Computers
+
 For the drones that can carry it, the companion computers are important since they can do additional computations that the flight controller can not easily do.
-As these are capable of running some form of Linux, these can handle for instance  computer vision with [OpenCV](https://opencv.org/) or run nodes with [ROS](https://www.ros.org/)
+As these are capable of running some form of Linux, these can handle for instance  computer vision with [OpenCV](https://opencv.org/) or run nodes with [ROS](https://www.ros.org/). 
+Some companion computers also integrate flight control (RTOS) hardware in the same package
 
 - [Nvidia Jetson Xavier](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) or the [TX2 Module](https://developer.nvidia.com/embedded/jetson-tx2)
 - [Intel Nuc Boards](https://www.intel.com/content/www/us/en/products/details/nuc/boards/products.html)
@@ -74,8 +82,8 @@ As these are capable of running some form of Linux, these can handle for instanc
 - [NXP NAVQPlus](https://www.nxp.com/design/designs/navqplus-ai-ml-companion-computer-evk-for-mobile-robotics-ros-ground-stations-and-camera-heads:8MPNAVQ)
 - [Qualcomm RB5](https://developer.qualcomm.com/qualcomm-robotics-rb5-kit)
 - [MRD5165 Eagle Kit](https://www.mistralsolutions.com/product/mrd5165-eagle-kit/) (coming soon)
- - [VOXL 2 by Model AI](https://www.modalai.com/collections/blue-uas-framework-components/products/voxl-2)
-
+- [VOXL 2 by Model AI](https://www.modalai.com/collections/blue-uas-framework-components/products/voxl-2)
+- [EchoPilot AI](https://echomav.com/product/echopilot-ai/)
 ### Carrier boards
 Several vendors have developed carrier boards that can expose input/output ports of companion computers mentioned above which are packaged in a System-on-Module (SoM) form factor and also offer a standard interface for plugging in popular flight controllers/their own FCs.
 
