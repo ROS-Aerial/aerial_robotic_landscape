@@ -51,7 +51,7 @@ More substantial changes, including adding new pages or adding/modifying images,
 
 1. Use the git toolchain to get the documentation source code onto your local computer with `git clone git@github.com:ROS-Aerial/aerial_robotic_landscape.git`
 2. Modify the documentation as needed (add, change, delete).
-3. Test that it builds properly.
+3. Test that it builds properly with [mkdocs](https://www.mkdocs.org/). Check out their documentation for building the website and trying the website locally. 
 4. Create a branch for your changes and create a pull request (PR) to pull it back into the documentation.
 
 --8<-- "docs/goatcounter.html"
