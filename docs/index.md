@@ -14,10 +14,8 @@ The main repository for the [Community Work Group](https://github.com/ROS-Aerial
 
 ### Meetings
 The Aerial Robotics group meets bi-weekly on Wednesday's at 16:00 UTC.
-Meetings will be announced on discourse at least a week in advance, and recordings and meeting notes will be made available after each meeting.
+Meetings will be announced on the [ROS Discourse Aerial Robotics forum category](https://discourse.ros.org/tag/wg-aerial-robotics) at least a week in advance, and recordings and meeting notes will be made available after each meeting.
 
-These announcements will be done on the [ROS Discourse Aerial Robotics
-forum category](https://discourse.ros.org/tag/wg-aerial-robotics)
 
 ### Team / Community Coordination
 
@@ -51,11 +49,10 @@ website getting updated.
 
 More substantial changes, including adding new pages or adding/modifying images, aren't as easy to make (or properly test) on Github. For these kinds of changes we suggest using the same approach as for code:
 
-1. Use the git toolchain to get the documentation source code onto your local computer.
+1. Use the git toolchain to get the documentation source code onto your local computer with `git clone git@github.com:ROS-Aerial/aerial_robotic_landscape.git`
 2. Modify the documentation as needed (add, change, delete).
 3. Test that it builds properly.
 4. Create a branch for your changes and create a pull request (PR) to pull it back into the documentation.
-5. The following explain how to get the source code, build locally (to test), and modify the code.
 
 --8<-- "docs/goatcounter.html"
 
