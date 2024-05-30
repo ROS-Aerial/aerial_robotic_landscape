@@ -8,7 +8,10 @@ These are platforms that are currently commercially available for anybody to buy
 
 - Holybro:
    - [Holybro X500 V2 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
-   - [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5) 
+   - DISCONTINUED [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5)
+- Modalai:
+   - [PX4 Autonomy Dev Kit](https://www.modalai.com/products/px4-autonomy-developer-kit?variant=46969885950256)
+   - [Starling 2](https://www.modalai.com/products/starling-2?variant=48173890175280) and [Starling 2 Max](https://www.modalai.com/products/starling-2-max?variant=48172375310640)
 - [Crazyflie 2.1 - Bitcraze](https://www.bitcraze.io/products/crazyflie-2-1/)
 - [NXP HoverGames Kit](https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) official hardware for the yearly [HoverGames Challenge](https://www.hovergames.com)
 - Duckietown:
@@ -53,19 +56,24 @@ There are some frames that are provided that will provide some base:
 - [Momentum Drones DEV-7](https://momentumdrones.com/products/dev7-frame-kit)
 
 ### Flight controllers
-
-- [Pixhawk 4](https://docs.px4.io/main/en/flight_controller/pixhawk4.html) discontinued, go look at:
-   -  [Holybro's Pixhawk 6C](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6c)
-   -  [CUAV's Pixhawk V6x](https://doc.cuav.net/flight-controller/pixhawk-v6x/en/#building-firmware)
-- [mRo PixRacer R15](https://store.mrobotics.io/product-p/auav-pxrcr-r15-mr.htm) discontinued, go look at:
+-Holybro
+   - DISCONTINUED [Pixhawk 4](https://docs.px4.io/main/en/flight_controller/pixhawk4.html) 
+   -  [Holybro Pixhawk 6C](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6c)
+   -  [Holybro Pixhawk 6X](https://holybro.com/products/pixhawk-6x)
+   -  [Holybro Pixhawk 6X PRO](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6x-pro)
+-  [CUAV's Pixhawk V6x](https://doc.cuav.net/flight-controller/pixhawk-v6x/en/#building-firmware)
+-  mRobotics/3DR
+   - [mRo PixRacer R15](https://store.mrobotics.io/product-p/auav-pxrcr-r15-mr.htm) discontinued, go look at:
    - [mRo PixRacerPro](https://store.3dr.com/pixracer-pro/)
-- [Crazyflie Bolt 1.1](https://www.bitcraze.io/products/crazyflie-bolt-1-1/)
-- [3DR Control Zero H7 OEM](https://store.3dr.com/control-zero-h7-oem/)
+   - [3DR Control Zero Classic](https://store.3dr.com/control-zero-classic/)
+   - [3DR Control Zero H7 OEM](https://store.3dr.com/control-zero-h7-oem/)
    - [3DR Reference Design Carrier Board](https://store.3dr.com/reference-design-carrier-board/)
    - [3DR "Stick" Adapter (Carrier Board)](https://store.3dr.com/stick-adapter-carrier-board/)
-- [ARK Electronics ARKV6X](https://arkelectron.com/product/arkv6x)
-   - [ARK Electronics Pixhawk Autopilot Bus Carrier](https://arkelectron.com/product/ark-pixhawk-autopilot-bus-carrier)
-- [3DR Control Zero Classic](https://store.3dr.com/control-zero-classic/)
+- [Crazyflie Bolt 1.1](https://www.bitcraze.io/products/crazyflie-bolt-1-1/)
+- ARK Electronics
+   - [ARK Electronics ARKV6X](https://arkelectron.com/product/arkv6x)
+   - [ARK Electronics Pi6X Flow](https://arkelectron.com/product/ark-pi6x-flow/)
+
 
 
 ### Companion Computers
@@ -75,6 +83,7 @@ As these are capable of running some form of Linux, these can handle for instanc
 Some companion computers also integrate flight control (RTOS) hardware in the same package
 
 - [Nvidia Jetson Xavier](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) or the [TX2 Module](https://developer.nvidia.com/embedded/jetson-tx2)
+- [Nvidia Jetson Orin](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/)
 - [Intel Nuc Boards](https://www.intel.com/content/www/us/en/products/details/nuc/boards/products.html)
 - [Raspberry PI 3 (A+)](https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/) or [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 - [Khadas Vim3](https://www.khadas.com/vim3)
@@ -84,12 +93,15 @@ Some companion computers also integrate flight control (RTOS) hardware in the sa
 - [MRD5165 Eagle Kit](https://www.mistralsolutions.com/product/mrd5165-eagle-kit/) (coming soon)
 - [VOXL 2 by Model AI](https://www.modalai.com/collections/blue-uas-framework-components/products/voxl-2)
 - [EchoPilot AI](https://echomav.com/product/echopilot-ai/)
+- [AMD Xilinx Kria Starter Kits](https://www.amd.com/en/products/system-on-modules/kria.html)
+- [LattePanda x86 boards](https://www.lattepanda.com/)
 ### Carrier boards
 Several vendors have developed carrier boards that can expose input/output ports of companion computers mentioned above which are packaged in a System-on-Module (SoM) form factor and also offer a standard interface for plugging in popular flight controllers/their own FCs.
 
 - [Mistral MRD5165 Eagle based on Qualcomm RB5](https://www.mistralsolutions.com/mrd5165-eagle-kit/)
 - [ARK Electronics Jetson PAB carrier](https://arkelectron.com/product/ark-jetson-pab-carrier/)
 - [ARK Electronics Pi6X Flow](https://arkelectron.com/product/ark-pi6x-flow)
+- [Holybro Jetson Baseboard](https://holybro.com/products/pixhawk-jetson-baseboard?variant=43818665148605)
 - [Dronee Lychee Drone autopilot hardware](https://dronee.aero/pages/lychee)
 - [Airvolute DroneCore2 Jetson + Cube](https://airvolute.com/dronecore-2/)
 
@@ -99,6 +111,15 @@ Several vendors have developed carrier boards that can expose input/output ports
   - [RealSense D435i](https://www.intelrealsense.com/depth-camera-d435i/)
 - Oak-d Series like [OAK-D Pro](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9098pro/) or [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095/)
 - [VOXL CAM by ModelAI](https://www.modalai.com/collections/blue-uas-framework-components/products/voxl-cam?variant=39543794565171)
+
+### Monocular Cameras
+- [Raspberry PI Cameras](https://www.raspberrypi.com/documentation/accessories/camera.html) Compatible with RPI. IMX219 and IMX477 based cameras compatible with Jetson Xavier, NX, Nano, Orin series (other models may require device tree overlays or source changes).
+- [Google Coral Camera](https://coral.ai/products/camera) Compatible with NXP NAVQPLUS
+
+### TOF Cameras
+- [Liteon A65 Camera Starter Kit](https://www.emcraft.com/products/1111) Check with vendor for NXP NAVQPLUS compatibility.
+- [PMD Flexx2 3D Camera](https://www.emcraft.com/products/1178) USB version should be compatible with most companion computers.
+- [VOXL2 TOF Depth Sensor ](https://docs.modalai.com/M0171/) Compatible with VOXL2. Check with vendor for early access product.
 
 ### Reference Bill of Materials
 
