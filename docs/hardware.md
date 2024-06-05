@@ -10,8 +10,8 @@ These are platforms that are currently commercially available for anybody to buy
    - [Holybro X500 V2 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
    - DISCONTINUED [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5)
 - Modalai:
-   - [PX4 Autonomy Dev Kit](https://www.modalai.com/products/px4-autonomy-developer-kit?variant=46969885950256)
-   - [Starling 2](https://www.modalai.com/products/starling-2?variant=48173890175280) and [Starling 2 Max](https://www.modalai.com/products/starling-2-max?variant=48172375310640)
+       - [PX4 Autonomy Dev Kit](https://www.modalai.com/products/px4-autonomy-developer-kit?variant=46969885950256)
+       - [Starling 2](https://www.modalai.com/products/starling-2?variant=48173890175280) and [Starling 2 Max](https://www.modalai.com/products/starling-2-max?variant=48172375310640)
 - [Crazyflie 2.1 - Bitcraze](https://www.bitcraze.io/products/crazyflie-2-1/)
 - [NXP HoverGames Kit](https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) official hardware for the yearly [HoverGames Challenge](https://www.hovergames.com)
 - Duckietown:
