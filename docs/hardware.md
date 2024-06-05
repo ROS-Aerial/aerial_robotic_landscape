@@ -8,7 +8,7 @@ These are platforms that are currently commercially available for anybody to buy
 
 - Holybro:
    - [Holybro X500 V2 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
-   - DISCONTINUED [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5)
+   - [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5)
 - ModalAI:
        - [PX4 Autonomy Dev Kit](https://www.modalai.com/products/px4-autonomy-developer-kit?variant=46969885950256)
        - [Starling 2](https://www.modalai.com/products/starling-2?variant=48173890175280) and [Starling 2 Max](https://www.modalai.com/products/starling-2-max?variant=48172375310640)
@@ -57,7 +57,7 @@ There are some frames that are provided that will provide some base:
 
 ### Flight controllers
 - Holybro
-   - DISCONTINUED [Pixhawk 4](https://docs.px4.io/main/en/flight_controller/pixhawk4.html) 
+   -  [Pixhawk 4](https://docs.px4.io/main/en/flight_controller/pixhawk4.html) 
    -  [Holybro Pixhawk 6C](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6c)
    -  [Holybro Pixhawk 6X](https://holybro.com/products/pixhawk-6x)
    -  [Holybro Pixhawk 6X PRO](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6x-pro)
