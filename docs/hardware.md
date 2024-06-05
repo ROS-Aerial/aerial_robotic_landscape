@@ -56,7 +56,7 @@ There are some frames that are provided that will provide some base:
 - [Momentum Drones DEV-7](https://momentumdrones.com/products/dev7-frame-kit)
 
 ### Flight controllers
--Holybro
+- Holybro
    - DISCONTINUED [Pixhawk 4](https://docs.px4.io/main/en/flight_controller/pixhawk4.html) 
    -  [Holybro Pixhawk 6C](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6c)
    -  [Holybro Pixhawk 6X](https://holybro.com/products/pixhawk-6x)
