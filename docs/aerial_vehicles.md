@@ -50,4 +50,6 @@ Each autopilot suite have their a wide range of supported vehicles, to which thi
 * [Paparazzi](https://wiki.paparazziuav.org/wiki/Airframes)
 * [PX4](https://docs.px4.io/master/en/airframes/airframe_reference.html)
 
+This page was last updated: *{{ git_revision_date_localized }}*
+
 --8<-- "docs/goatcounter.html"
