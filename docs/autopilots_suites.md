@@ -6,7 +6,7 @@ There are several autopilot suites available for control-boards for aerial vehic
 |---| --- | --- | --- | --- | --- |
 | [Ardupilot](https://ardupilot.org/) ([GitHub](https://github.com/ArduPilot/ardupilot)) | 2009 | 4.5.2 (05/24) |  GPL 3.0 | yes | Copters, Fixed wings, VTOL |
 | [Betaflight](https://betaflight.com/) ([GitHub](https://github.com/betaflight/betaflight)) | 2015 | 4.5.0 (04/24) |  GPL 3.0 | no  | Copters |
-| [crazyflie-firmware](https://www.bitcraze.io/) ([GitHub](https://github.com/bitcraze/crazyflie-firmware))  | 2011 | 2023.11 |  GPL 3.0 | yes* | Quadcopters |
+| [crazyflie-firmware](https://www.bitcraze.io/) ([GitHub](https://github.com/bitcraze/crazyflie-firmware))  | 2011 | 2024.2 |  GPL 3.0 | yes* | Quadcopters, Flapping wings |
 |  [DJI autopilot](https://developer.dji.com/) ([GitHub](https://github.com/dji-sdk/Onboard-SDK-ROS)) | 2006 | 2023.9 | closed | yes |  Copters, VTOLS |
 | [Paparazzi](https://wiki.paparazziuav.org/wiki/Main_Page) ([GitHub](https://github.com/paparazzi/paparazzi))   | 2003 | 6.3.0 (12/23)  | GPL 2.0 | no | Copters, Fixed wings, VTOL |
 | [PX4](https://px4.io/) ([GitHub](https://github.com/PX4/PX4-Autopilot)) | 2009 | 1.14.0 (10/23)  |BSD 3-Clause | yes | Copters, Fixed wings, VTOL |'
