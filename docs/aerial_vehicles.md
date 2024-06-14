@@ -49,5 +49,6 @@ Each autopilot suite have their a wide range of supported vehicles, to which thi
 * [Ardupilot supported vehicle types](https://ardupilot.org/ardupilot/docs/common-all-vehicle-types.html)
 * [Paparazzi](https://wiki.paparazziuav.org/wiki/Airframes)
 * [PX4](https://docs.px4.io/master/en/airframes/airframe_reference.html)
+* [Crazyflie](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/#the-crazyflie-2x-family)
 
 --8<-- "docs/goatcounter.html"
