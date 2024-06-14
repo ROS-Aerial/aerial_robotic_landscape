@@ -6,6 +6,8 @@ This is an list of development platforms for aerial robotics. Please start a pul
 
 These are platforms that are currently commercially available for anybody to buy for their research.
 
+### Copters
+
 - Holybro:
    - [Holybro X500 V2 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
    - [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5)
@@ -21,6 +23,10 @@ These are platforms that are currently commercially available for anybody to buy
 - [PX4 Autonomy Developer Kit by ModelAI](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
 - [Droneblocks DEXI 5](https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/)
 - [3DR Quad Zero Kit](https://store.3dr.com/3dr-quad-zero-kit/)
+
+### Flapping wing
+
+- [Flapper Nimble+](https://flapper-drones.com/wp/nimbleplus/) insect-inspired UAV by Flapper Drones
 
 ## Industrial Platforms
 
