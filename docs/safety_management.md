@@ -83,4 +83,6 @@ Here a list of that:
 * Dealing with spinning motors Use a net or towel to stop them and promptly disconnect the battery.
 * To prepare for LiPo battery hazards, Have sand or fire retardant available.
 
+This page was last updated: *{{ git_revision_date_localized }}*
+
 --8<-- "docs/goatcounter.html"

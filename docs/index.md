@@ -55,4 +55,3 @@ More substantial changes, including adding new pages or adding/modifying images,
 4. Create a branch for your changes and create a pull request (PR) to pull it back into the documentation.
 
 --8<-- "docs/goatcounter.html"
-
