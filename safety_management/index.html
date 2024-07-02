@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Safety and Management Systems - Aerial Robotics Landscape</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Safety and Management Systems";
+        var mkdocs_page_input_path = "safety_management.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Aerial Robotics Landscape
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../education_and_tutorial/">Education and tutorials</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../aerial_vehicles/">Aerial Vehicle Types and Categories</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../simulation/">Simulation of Aerial Robotics</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../hardware/">Hardware, Components, and Dev Kits</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../autopilots_suites/">Autopilot Suites</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../aerial_autonomy_stacks/">Aerial Autonomy Stacks</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../middleware_and_drivers/">Middleware and Drivers</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../message_standards/">Message standards</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Safety and Management Systems</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#safety-in-ros">Safety in ROS</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#safety-in-autopilot-suites">Safety in Autopilot suites</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#pre-flight-checks">Pre-flight checks.</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#fail-safe-mechanisms">Fail-safe mechanisms</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#triggers">Triggers</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#fail-safe-behaviors">Fail-safe behaviors</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#emergencies">Emergencies</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Aerial Robotics Landscape</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Safety and Management Systems</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/ROS-Aerial/aerial_robotic_landscape/blob/main/docs/safety_management.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="safety-and-management-systems">Safety and Management Systems</h1>
+<p>Quadcopter and other Aerial vehicles come in all forms and sizes.
+Safety systems are important for all, but the bigger an aerial vehicle becomes, the more important it becomes that the right fail-safes and emergency systems are in place!
+This pages gives an overview of those safety systems that have been implemented so far.</p>
+<h2 id="safety-in-ros">Safety in ROS</h2>
+<p>Currently specifically for aerial vehicles, the safety implementation is depended on the <a href="../aerial_autonomy_stacks/">ROS autonomy stack</a> used.</p>
+<p>The <a href="https://ros.org/reps/rep-0147.html">ROS-0147</a> has a suggestion for flightmodes for a statemachine that can simplify the understanding of it. It is also expecting that ROS will be run offboard on an external computer, and that it should be in control of the safety state machine. This should probably be discussed if it would be a good idea for ROS to be in control of this or the autopilot suites themselves.</p>
+<h2 id="safety-in-autopilot-suites">Safety in Autopilot suites</h2>
+<p>Adapted from the following blogpost: https://www.bitcraze.io/2023/04/safety-and-the-brushless/</p>
+<p>These are current Safety managements systems existing in <a href="https://wiki.paparazziuav.org/wiki/Main_Page">Paparazzi UAV</a>, <a href="https://betaflight.com/">Betaflight</a>, <a href="https://ardupilot.org/">ArduPilot</a> and <a href="https://px4.io/">PX4</a>.
+The <a href="https://www.bitcraze.io/">Crazyflie ecosystem</a> also have some measures but are currently overhauling their safety framework now in the form of a supervisor.</p>
+<h3 id="pre-flight-checks">Pre-flight checks.</h3>
+<p>Before a vehicle can fly, certain conditions must be met. These includ:</p>
+<ul>
+<li>calibrating and ensuring functionality of internal sensors (IMU, barometer, magnetometer)</li>
+<li>receiving a GPS signal</li>
+<li>converging the internal state estimator (usually an extended Kalman filter) to a position</li>
+<li>checking for remote control connection and datalink to a ground station</li>
+<li>conducting feasibility checks (e.g., mission parameters, start location proximity)</li>
+<li>confirming sufficient battery level, and ensuring the absence of error states from previous flights or crashes.</li>
+</ul>
+<p><strong>Preflight checks documentation:</strong></p>
+<ul>
+<li>PX4: <a href="https://docs.px4.io/main/en/flying/pre_flight_checks.html#preflight-sensor-estimator-checks">https://docs.px4.io/main/en/flying/pre_flight_checks.html#preflight-sensor-estimator-checks</a></li>
+<li>ArduPilot: <a href="https://ardupilot.org/copter/docs/common-prearm-safety-checks.html#failure-messages">https://ardupilot.org/copter/docs/common-prearm-safety-checks.html#failure-messages</a></li>
+<li>Beta flight: <a href="https://betaflight.com/docs/wiki/archive/GPS-Rescue-v4-4#sanity-check-options">https://betaflight.com/docs/wiki/archive/GPS-Rescue-v4-4#sanity-check-options</a></li>
+<li>Paparazzi UAV: Indicated per platform if necessary, on their wiki:  <a href="https://wiki.paparazziuav.org/wiki/Failsafe">https://wiki.paparazziuav.org/wiki/Failsafe</a></li>
+<li>Crazyflie firmware: <a href="https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/functional-areas/supervisor/">https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/functional-areas/supervisor/</a></li>
+</ul>
+<h3 id="fail-safe-mechanisms">Fail-safe mechanisms</h3>
+<p>After passing pre-flight checks and arming the UAV, the takeoff command is given. However, UAV flights have inherent risks, particularly during takeoff. To mitigate these risks, numerous safety features, known as failsafes, are implemented during the flight phase. These failsafes are categorized as triggers and behaviors, allowing developers to specify the UAV's response to different failures, such as initiating a safe landing in the event of GPS loss.</p>
+<h4 id="triggers">Triggers</h4>
+<p>Thus, there are triggers that can enable the autopilot’s failsafe mechanics:</p>
+<ul>
+<li>No connection with the remote control</li>
+<li>No connection with the Ground station or Datalink</li>
+<li>Low Battery</li>
+<li>Position estimate diverges or full GPS loss</li>
+<li>Waypoint going beyond geofence or Mission is not feasible</li>
+<li>Other vehicles are nearby.</li>
+</ul>
+<p>Also, sometimes the support of an external Automatic Trigger system is required, which is a box that monitors the conditions where the UAV should take action in case there is no GPS, other aerial vehicles are nearby, or the UAV is crossing a geofence determined by outdoor flight restrictions. Note that all of these triggers usually have a couple of conditions attached, such as the level of the ‘low battery’ or the number of seconds of ‘GPS loss’ deemed acceptable.</p>
+<h4 id="fail-safe-behaviors">Fail-safe behaviors</h4>
+<p>During UAV flights, safety features can be customized per trigger, deviating from the default actions set by regulations. Disarming the vehicle completely increases the risk of crashing and causing harm. Allowing the drone to autonomously complete the mission without intervention poses the risk of losing the vehicle or trespassing restricted areas. Modifying default behaviors should be undertaken by knowledgeable individuals with careful consideration.</p>
+<p>These behaviors can include the following:</p>
+<ul>
+<li>No action at all</li>
+<li>Warning on the console or remote control display</li>
+<li>Continue the mission autonomously</li>
+<li>Stay still at the same position or go to a home position</li>
+<li>Fly to a lower altitude</li>
+<li>Land based on position or safely land by reducing thrust</li>
+<li>No input to motors or completely disarming the motors</li>
+</ul>
+<p><strong>Fail-safe documentation</strong></p>
+<ul>
+<li>PX4: <a href="https://docs.px4.io/main/en/config/safety.html">https://docs.px4.io/main/en/config/safety.html</a></li>
+<li>ArduPilot: <a href="https://ardupilot.org/copter/docs/failsafe-landing-page.html">https://ardupilot.org/copter/docs/failsafe-landing-page.html</a></li>
+<li>Betaflight: <a href="https://betaflight.com/docs/development/Failsafe">https://betaflight.com/docs/development/Failsafe</a></li>
+<li>Paparazzi UAV: <a href="https://wiki.paparazziuav.org/wiki/Failsafe">https://wiki.paparazziuav.org/wiki/Failsafe</a></li>
+<li>Crazyflie firmware: <a href="https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/functional-areas/supervisor/">https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/functional-areas/supervisor/</a></li>
+</ul>
+<h3 id="emergencies">Emergencies</h3>
+<p>Fail-safes ensure safe flight, but emergencies like crashes, flips, or hardware failures can still occur. In such cases, the standard default action is to disarm the vehicle to prevent unintended motor activation. Backup systems connected to ESCs may take over if the autopilot becomes unresponsive. The pilot plays a vital role in safety, with the remote control featuring a dedicated button or switch for different modes, enabling actions like landing or disarming. It's recommended to have a net or towel to stop spinning motors and to promptly disconnect the battery. Being prepared for potential LiPo battery hazards is essential, with sand or fire retardant on hand. While autopilots provide guidance, conducting thorough research on handling emergencies, spinning parts, and LiPo battery fires is crucial.</p>
+<p>Here a list of that:
+* Remote control should have a dedicated button/switch for different modes, landing, or disarming.
+* Dealing with spinning motors Use a net or towel to stop them and promptly disconnect the battery.
+* To prepare for LiPo battery hazards, Have sand or fire retardant available.</p>
+<script data-goatcounter="https://aerial-robotics-landscape.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../message_standards/" class="btn btn-neutral float-left" title="Message standards"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>This website is information assembled with help of the ROS Aerial Robotics Community group. Analytics with no-cookie tracking with goatviewer.com</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/ROS-Aerial/aerial_robotic_landscape" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../message_standards/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

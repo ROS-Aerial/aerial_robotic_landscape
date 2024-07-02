@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Aerial Autonomy Stacks - Aerial Robotics Landscape</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Aerial Autonomy Stacks";
+        var mkdocs_page_input_path = "aerial_autonomy_stacks.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Aerial Robotics Landscape
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../education_and_tutorial/">Education and tutorials</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../aerial_vehicles/">Aerial Vehicle Types and Categories</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../simulation/">Simulation of Aerial Robotics</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../hardware/">Hardware, Components, and Dev Kits</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../autopilots_suites/">Autopilot Suites</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Aerial Autonomy Stacks</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#comparison">Comparison</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#vio-packages">VIO packages</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#visual-odometry-datasets">Visual Odometry Datasets</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#working-list-autonomy-stacks">Working list autonomy stacks</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#partial-autonomy-packages">Partial autonomy packages</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#indoor-navigation-packages">Indoor navigation packages</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../middleware_and_drivers/">Middleware and Drivers</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../message_standards/">Message standards</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../safety_management/">Safety and Management Systems</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Aerial Robotics Landscape</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Aerial Autonomy Stacks</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/ROS-Aerial/aerial_robotic_landscape/blob/main/docs/aerial_autonomy_stacks.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="aerial-autonomy-stacks">Aerial Autonomy Stacks</h1>
+<p>Based on <a href="https://discourse.ros.org/t/more-aerial-autonomy-stacks/30992/">this discussion in Discourse</a> and <a href="https://discourse.ros.org/t/start-up-meeting-aerial-robotics-wg/30869">our startup meeting</a>, we can define an aerial autonomy stack as follows:</p>
+<blockquote>
+<p>An aerial autonomy robotics stack is a collection of building blocks that enable the development of autonomous aerial vehicles, by providing a modular and scalable architecture for sensing, perception, planning, and control tasks. It allows unmanned aerial vehicles to perform complex missions without human intervention, while accommodating different hardware configurations and simulation environments.</p>
+</blockquote>
+<h2 id="comparison">Comparison</h2>
+<p>From the paper</p>
+<blockquote>
+<p>Fernandez-Cortizas, Miguel, et al. "Aerostack2: A Software Framework for Developing Multi-robot Aerial Systems." arXiv preprint arXiv:2303.18237 (2023).</p>
+</blockquote>
+<p>the following autonomy stack table was extracted and adapted.</p>
+<table>
+<thead>
+<tr>
+<th>Flight stack</th>
+<th>OS/OC</th>
+<th>Modular</th>
+<th>Tested in</th>
+<th>Middleware</th>
+<th>last  update</th>
+<th>MF</th>
+<th>RO</th>
+<th>MA</th>
+<th>MP</th>
+<th>PO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aerostack</td>
+<td>✓</td>
+<td>✓</td>
+<td>S,RIL,ROL</td>
+<td>ROS</td>
+<td>10/2021</td>
+<td>✗</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>Aerostack2</td>
+<td>✓</td>
+<td>✓</td>
+<td>S,RIL,ROL</td>
+<td>ROS 2</td>
+<td>03/2023</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>AerialCore</td>
+<td>✓</td>
+<td>✓</td>
+<td>S,RIL,ROL</td>
+<td>ROS</td>
+<td>03/2023</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✗</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>Agilicious</td>
+<td>✓</td>
+<td>✓</td>
+<td>S,RIL</td>
+<td>ROS</td>
+<td>03/2023</td>
+<td>✗</td>
+<td>✓</td>
+<td>✗</td>
+<td>✗</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>KumarRobotics</td>
+<td>✓</td>
+<td>✗</td>
+<td>S,RIL,ROL</td>
+<td>ROS</td>
+<td>12/2022</td>
+<td>✗</td>
+<td>✓</td>
+<td>✗</td>
+<td>✓</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>CrazyChoir</td>
+<td>✓</td>
+<td>✗</td>
+<td>S,RIL</td>
+<td>ROS 2</td>
+<td>02/2023</td>
+<td>✗</td>
+<td>✓</td>
+<td>✓</td>
+<td>✗</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>UAL</td>
+<td>✓</td>
+<td>✗</td>
+<td>S,RIL,ROL</td>
+<td>ROS</td>
+<td>12/2022</td>
+<td>✓</td>
+<td>✗</td>
+<td>✗</td>
+<td>✓</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>XTDrone</td>
+<td>✓</td>
+<td>✓</td>
+<td>S</td>
+<td>ROS</td>
+<td>03/2023</td>
+<td>✗</td>
+<td>✓</td>
+<td>✗</td>
+<td>✗</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>RotorS</td>
+<td>✓</td>
+<td>✓</td>
+<td>S</td>
+<td>ROS</td>
+<td>07/2021</td>
+<td>✗</td>
+<td>✓</td>
+<td>✗</td>
+<td>✗</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>GAAS</td>
+<td>✓</td>
+<td>✓</td>
+<td>S</td>
+<td>ROS</td>
+<td>10/2021</td>
+<td>✗</td>
+<td>✗</td>
+<td>✗</td>
+<td>✗</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>MRS AUV System</td>
+<td>✓</td>
+<td>✓</td>
+<td>S,RIL,ROL</td>
+<td>ROS</td>
+<td>09/2023</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>Crazyswarm</td>
+<td>✓</td>
+<td>✗</td>
+<td>S,RIL</td>
+<td>ROS</td>
+<td>12/2022</td>
+<td>✗</td>
+<td>✓</td>
+<td>✓</td>
+<td>✗</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>Crazyswarm2</td>
+<td>✓</td>
+<td>✓</td>
+<td>S,RIL</td>
+<td>ROS 2</td>
+<td>09/2023</td>
+<td>✗</td>
+<td>✓</td>
+<td>✓</td>
+<td>✗</td>
+<td>✓</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Abbrivations</strong>
+* OS/OC: Open source or Open code
+* S: Experiments in simulation
+* RIL: Experiments in the lab
+* ROL: Experiments outside the lab
+* MF: Multi-frame
+* RO: Rate output
+* MA: Multi agent
+* MP: Multi platform
+* PO: Plugin oriented</p>
+<h2 id="vio-packages">VIO packages</h2>
+<p>Visual Inertial Odometry packages is an very important strategy of positioning within GPS deprived environments. Since UAVs can not use wheel odometry and heavily relient on cameras, this is one of the main drivers for autonomous exploration with these vehicles.</p>
+<p>Here is a list of VIO packages that people can use if they have a <a href="../hardware/">depth camera</a> on their platform.</p>
+<ul>
+<li><a href="https://github.com/rpng/open_vins?tab=readme-ov-file">OpenVins</a> (ROS1/ROS2):</li>
+<li><a href="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion">VINS-Fusion</a> stand alone</li>
+<li><a href="https://www.slamcore.com/product/">SLAMcore</a> stand alone SDK</li>
+<li><a href="https://github.com/suchetanrs/ORB-SLAM3-ROS2-Docker">ORB-SLAM3 ROS2</a></li>
+</ul>
+<h3 id="visual-odometry-datasets">Visual Odometry Datasets</h3>
+<ul>
+<li><a href="https://www.kaggle.com/datasets/mrisdal/zurich-urban-micro-aerial-vehicle">Kaggle Zurich Urban Micro Aerial Vehicle</a></li>
+<li><a href="https://www.kaggle.com/datasets/viseaonlab/flsea-vi">Kaggle Underwater forward-looking VI dataset</a></li>
+<li><a href="https://theairlab.org/datasets/">The Air Lab Datasets</a></li>
+<li><a href="https://drive.google.com/drive/folders/1xQ1KcZhZ5pioPXTyrZBN6Mjxkfpcd_B3">VICON ROS2 bag file Google drive</a></li>
+<li><a href="https://fpv.ifi.uzh.ch/datasets/">The UZH FPV Dataset</a></li>
+</ul>
+<h2 id="working-list-autonomy-stacks">Working list autonomy stacks</h2>
+<p>This is just a list of autonomy stacks with links, such that later we can add them to the overview.</p>
+<p>Working list:</p>
+<ul>
+<li><a href="https://aerostack2.github.io/">Aerostack2</a></li>
+<li><a href="https://github.com/cvar-upm/aerostack/wiki">Aerostack(1)</a></li>
+<li><a href="https://github.com/KumarRobotics/kr_autonomous_flight">KumarRobotics Autonomy Stack</a></li>
+<li><a href="https://agilicious.readthedocs.io/en/latest/index.html">Agilicious</a></li>
+<li><a href="https://imrclab.github.io/crazyswarm2/">Crazyswarm2</a></li>
+<li><a href="https://crazyswarm.readthedocs.io/en/latest/">Crazyswarm(1)</a></li>
+<li><a href="https://github.com/ctu-mrs/mrs_uav_system">MRS UAV System</a></li>
+<li><a href="http://wiki.ros.org/hector_quadrotor">Hector quadrotor</a></li>
+<li><a href="https://github.com/ethz-asl/rotors_simulator">RotorS</a></li>
+<li>RISE <a href="https://doi.org/10.55417/fr.2023015">paper</a></li>
+<li><a href="https://github.com/ctu-mrs/mrs_uav_system">MRS AUV System</a></li>
+<li><a href="https://github.com/CopterExpress/clover">Clover</a></li>
+<li><a href="https://github.com/HKUST-Aerial-Robotics">/HKUST-Aerial-Robotics</a></li>
+</ul>
+<h2 id="partial-autonomy-packages">Partial autonomy packages</h2>
+<p>A list of packages which don't comprise a full stack but do offer value on top of basic flight controller firmware.</p>
+<ul>
+<li><a href="https://github.com/Jaeyoung-Lim/mavros_controllers">MAVROS Controllers</a></li>
+</ul>
+<h2 id="indoor-navigation-packages">Indoor navigation packages</h2>
+<p>Given the above <a href="https://github.com/ROS-Aerial/aerial_robotic_landscape/blob/main/aerial_autonomy_stacks.md#aerial-autonomy-stacks">Aerial Autonomy Stacks</a>, the list below outlines specific implementations of indoor navigation software packages in ROS, running on aerial vehicle platforms. The list, though not exhaustive, provides a good overview of available off-the-shelf non-commercial software.</p>
+<table>
+<thead>
+<tr>
+<th>Package name</th>
+<th>OS/OC</th>
+<th>Sensors required</th>
+<th>Middleware</th>
+<th>Simulator</th>
+<th>Platform/controller</th>
+<th>Last updated</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/ArduPilot/ardupilot_ros/tree/humble">Ardupilot ROS</a></td>
+<td>✓</td>
+<td>LiDAR</td>
+<td>ROS 2</td>
+<td>Gazebo</td>
+<td>Iris coptor,Ardupilot</td>
+<td>02/2024</td>
+</tr>
+<tr>
+<td><a href="https://github.com/aerostack2/aerostack2/tree/main/as2_behavior_tree">as2_behaviour_tree</a></td>
+<td>✓</td>
+<td>Unknown</td>
+<td>ROS 2</td>
+<td>Gazebo</td>
+<td>Crazyflie,DJI,Tello</td>
+<td>02/2024</td>
+</tr>
+<tr>
+<td><a href="https://github.com/HKUST-Aerial-Robotics/Teach-Repeat-Replan">Teach-Repeat-Replan</a></td>
+<td>✓</td>
+<td>Stereo camera</td>
+<td>ROS 1</td>
+<td>MockaFly</td>
+<td>DJI N3</td>
+<td>11/2020</td>
+</tr>
+<tr>
+<td><a href="https://github.com/matlabbe/rtabmap_drone_example">rtabmap</a></td>
+<td>✓</td>
+<td>Stereo camera</td>
+<td>ROS 1</td>
+<td>Gazebo</td>
+<td>PX4</td>
+<td>05/2023</td>
+</tr>
+<tr>
+<td><a href="https://github.com/arthurfenderbucker/indoor_drone">ORB_SLAM_3</a></td>
+<td>✓</td>
+<td>Mono/stereo camera</td>
+<td>ROS 1</td>
+<td>N/A</td>
+<td>Bebop 2</td>
+<td>06/2023</td>
+</tr>
+<tr>
+<td><a href="https://github.com/rleish/relative_nav">relative_nav</a></td>
+<td>✗</td>
+<td>Stereo camera</td>
+<td>ROS 1</td>
+<td>N/A</td>
+<td>Rotorcraft</td>
+<td>04/2017</td>
+</tr>
+<tr>
+<td><a href="https://github.com/vatanaksoytezer/zephyr">zephyr</a></td>
+<td>✓</td>
+<td>LiDAR</td>
+<td>ROS 1</td>
+<td>RotorS/Gazebo</td>
+<td>AscTec Firefly</td>
+<td>11/2018</td>
+</tr>
+<tr>
+<td><a href="https://github.com/tum-vision/tum_ardrone">tum_ardrone</a></td>
+<td>✓</td>
+<td>Mono camera</td>
+<td>ROS 1</td>
+<td>N/A</td>
+<td>AR.Drone</td>
+<td>05/2014</td>
+</tr>
+<tr>
+<td><a href="https://github.com/KumarRobotics/kr_autonomous_flight">kr_autonomous_flight</a></td>
+<td>✓</td>
+<td>Stereo camera/LiDAR/IMU</td>
+<td>ROS 1</td>
+<td>Gazebo</td>
+<td>Pixhawk</td>
+<td>08/2023</td>
+</tr>
+<tr>
+<td><a href="https://github.com/ParsaKhaledi/px4_sim_ros2">px4_sim_ros2</a></td>
+<td>✓</td>
+<td>Stereo camera</td>
+<td>ROS 2</td>
+<td>Gazebo</td>
+<td>PX4</td>
+<td>04/2024</td>
+</tr>
+</tbody>
+</table>
+<script data-goatcounter="https://aerial-robotics-landscape.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../autopilots_suites/" class="btn btn-neutral float-left" title="Autopilot Suites"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../middleware_and_drivers/" class="btn btn-neutral float-right" title="Middleware and Drivers">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>This website is information assembled with help of the ROS Aerial Robotics Community group. Analytics with no-cookie tracking with goatviewer.com</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/ROS-Aerial/aerial_robotic_landscape" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../autopilots_suites/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../middleware_and_drivers/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
