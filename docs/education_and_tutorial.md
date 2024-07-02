@@ -27,6 +27,10 @@ Udacity has been offering a course on Aerial Vehicles for quite some time for th
 
 Link: <https://www.udacity.com/course/flying-car-nanodegree–nd787>
 
+edX offers the **'ETHx: Autonomous Mobile Robots'** course. Taught by Prof. Roland Siegwart, Dr. Davide Scaramuzza, Prof. Marco Hutter, Prof. Margarita Chli, Prof. Martin Rufli and Prof. Nicholas Lawrance from ETH Zurich, this 15-week course focuses on the principles of autonomous navigation and control of mobile robots. It covers topics such as perception, localization, planning, and control, which are essential for enabling robots to operate autonomously in dynamic environments. You can audit the course material for free with limited access.
+
+Link: <https://www.edx.org/learn/autonomous-robotics/eth-zurich-autonomous-mobile-robots?utm_campaign=social-sharing-course-page&utm_medium=social&utm_source=email>
+
 Additionally, there’s the course **‘Applied Control System 3: UAV Drone (3D Dynamics & Control)’** which is part of a series by Mark Misin. This course delves deep into the dynamics, control, and modeling of quadrotors.
 
 Link: <https://www.udemy.com/course/applied-control-systems-for-engineers-2-uav-drone-control/>
