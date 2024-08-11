@@ -19,4 +19,6 @@ ROS packages built atop SDKs from drone vendors to interface to their closed-sou
 3. [DJI Tello driver](https://github.com/anqixu/tello_driver)
 4. [Parrot Mambo driver](https://github.com/TOTON95/ros_pyparrot)
 
+This page was last updated: *{{ git_revision_date_localized }}*
+
 --8<-- "docs/goatcounter.html"

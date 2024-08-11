@@ -20,3 +20,7 @@ markdown_extensions:
 - pymdownx.snippets:
     check_paths: true
 - admonition
+
+plugins:
+    - search
+    - git-revision-date-localized
