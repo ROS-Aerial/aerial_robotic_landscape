@@ -9,7 +9,6 @@ These are platforms that are currently commercially available for anybody to buy
 ### Copters
 
 - Holybro:
-   - [Holybro X500 V2 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
    - [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5)
 - ModalAI:
    - [PX4 Autonomy Dev Kit](https://www.modalai.com/products/px4-autonomy-developer-kit?variant=46969885950256)
