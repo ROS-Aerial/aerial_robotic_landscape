@@ -22,6 +22,7 @@ These are platforms that are currently commercially available for anybody to buy
 - [PX4 Autonomy Developer Kit by ModelAI](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
 - [Droneblocks DEXI 5](https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/)
 - [3DR Quad Zero Kit](https://store.3dr.com/3dr-quad-zero-kit/)
+- [Fly4Future Robofly](https://fly4future.com/robofly/)
 
 ### Flapping wing
 
