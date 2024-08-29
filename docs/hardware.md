@@ -23,6 +23,7 @@ These are platforms that are currently commercially available for anybody to buy
 - [Droneblocks DEXI 5](https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/)
 - [3DR Quad Zero Kit](https://store.3dr.com/3dr-quad-zero-kit/)
 - [Fly4Future Robofly](https://fly4future.com/robofly/)
+- [FLy4Future custom drone designs](https://fly4future.com/custom-drones/)
 
 ### Flapping wing
 
@@ -30,7 +31,6 @@ These are platforms that are currently commercially available for anybody to buy
 
 ## Industrial Platforms
 
-- [Uvify IFO-S](https://www.uvify.com/ifo-s/)
 - [Tricopter voliro AG](https://voliro.com/)
 - [DJI M300](https://enterprise.dji.com/matrice-300)
 
