@@ -9,7 +9,6 @@ These are platforms that are currently commercially available for anybody to buy
 ### Copters
 
 - Holybro:
-   - [Holybro X500 V2 - PX4 Developer Kit](https://holybro.com/product/x500-v2-kit)
    - [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5)
 - ModalAI:
    - [PX4 Autonomy Dev Kit](https://www.modalai.com/products/px4-autonomy-developer-kit?variant=46969885950256)
@@ -23,6 +22,8 @@ These are platforms that are currently commercially available for anybody to buy
 - [PX4 Autonomy Developer Kit by ModelAI](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
 - [Droneblocks DEXI 5](https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/)
 - [3DR Quad Zero Kit](https://store.3dr.com/3dr-quad-zero-kit/)
+- [Fly4Future Robofly](https://fly4future.com/robofly/)
+- [FLy4Future custom drone designs](https://fly4future.com/custom-drones/)
 
 ### Flapping wing
 
@@ -30,7 +31,6 @@ These are platforms that are currently commercially available for anybody to buy
 
 ## Industrial Platforms
 
-- [Uvify IFO-S](https://www.uvify.com/ifo-s/)
 - [Tricopter voliro AG](https://voliro.com/)
 - [DJI M300](https://enterprise.dji.com/matrice-300)
 
