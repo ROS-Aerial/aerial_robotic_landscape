@@ -9,7 +9,7 @@ This also includes input from [a Linkedin post](https://www.linkedin.com/feed/up
 This section explains some of the recourses in more detail.
 
 ### Books
-There is this important resource which is the book titled ‘Small Unmanned Aircraft: Theory and Practice.’ This book has been written by Randy Beard and Tim McLain of Brigham Young University, and it covers everything from the absolute basics of coordinate frames and quadrotor dynamics to path planning and cameras. It is a must-read for anybody starting in UAVs and Aerial robotics.
+There is this important resource which is the book titled **‘Small Unmanned Aircraft: Theory and Practice.’** This book has been written by Randy Beard and Tim McLain of Brigham Young University, and it covers everything from the absolute basics of coordinate frames and quadrotor dynamics to path planning and cameras. It is a must-read for anybody starting in UAVs and Aerial robotics.
 
 The physical book can be found here: <http://press.princeton.edu/titles/9632.html>
 
@@ -17,7 +17,7 @@ The available PDFs can be accessed on GitHub: <https://github.com/randybeard/uav
 
 ### Summer schools
 
-There is an in-person IEEE RAS summer school on Multi-robot Systems organized by the Czech Technical University of Prague. It has been organized for over 5 summers and they use real aerial robotic platform for their praticals with sutdents, along with gettting lessons of both UAV and multi-robot experts. A summerschool to not miss if you'd like to get started in the world of aerial robotics!
+There is an in-person **IEEE RAS summer school on Multi-robot Systems** organized by the Czech Technical University of Prague. It has been organized for over 5 summers and they use real aerial robotic platform for their praticals with sutdents, along with gettting lessons of both UAV and multi-robot experts. A summerschool to not miss if you'd like to get started in the world of aerial robotics!
 
 Link: <https://mrs.fel.cvut.cz/summer-school-2025/>
 
@@ -31,7 +31,7 @@ Link: <https://www.coursera.org/learn/robotics-flight>
 
 Udacity has been offering a course on Aerial Vehicles for quite some time for the **Flying car nano degree**. The lessons are taught by top names in the industry and cover key aspects of Aerial Robotics, such as motion planning, controls, and estimation, with lab assignments involving a real drone. The course duration is 4 months, and access is available for a fee.
 
-Link: <https://www.udacity.com/course/flying-car-nanodegree–nd787>
+Link: <https://www.udacity.com/course/flying-car-nanodegree--nd787>
 
 edX offers the **'ETHx: Autonomous Mobile Robots'** course. Taught by Prof. Roland Siegwart, Dr. Davide Scaramuzza, Prof. Marco Hutter, Prof. Margarita Chli, Prof. Martin Rufli and Prof. Nicholas Lawrance from ETH Zurich, this 15-week course focuses on the principles of autonomous navigation and control of mobile robots. It covers topics such as perception, localization, planning, and control, which are essential for enabling robots to operate autonomously in dynamic environments. You can audit the course material for free with limited access.
 
@@ -99,7 +99,6 @@ _This list contains some resources that we haven't included in the overview. Rem
 * [PX4 getting started page](https://px4.io/software/getting-started/)
 * [Learning ArduPilot](https://ardupilot.org/dev/docs/learning-ardupilot-introduction.html)
 * [Aerial robotics 101 medium article](https://medium.com/r3plica/aerial-robotics-101-introduction-f6eeb88c760f)
-* [Aerial robotics with ROS](https://aerialrobotics.readthedocs.io/) (work in progress)
 * [Bitcraze crazyflie tutorial page](https://www.bitcraze.io/documentation/tutorials/)
 * [Simnet + Ardupilot academy](http://www.simnet.aero/academy)
 * [Autonomy course Worcester Polytechnic Institute](https://pear.wpi.edu/teaching/rbe595/fall2023.html)
