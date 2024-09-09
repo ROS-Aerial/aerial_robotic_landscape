@@ -15,6 +15,12 @@ The physical book can be found here: <http://press.princeton.edu/titles/9632.htm
 
 The available PDFs can be accessed on GitHub: <https://github.com/randybeard/uavbook>
 
+### Summer schools
+
+There is an in-person IEEE RAS summer school on Multi-robot Systems organized by the Czech Technical University of Prague. It has been organized for over 5 summers and they use real aerial robotic platform for their praticals with sutdents, along with gettting lessons of both UAV and multi-robot experts. A summerschool to not miss if you'd like to get started in the world of aerial robotics!
+
+Link: <https://mrs.fel.cvut.cz/summer-school-2025/>
+
 ### Online Courses on Aerial Robotics
 
 _This section shows online courses for aerial robotics with online instructor._
