@@ -17,7 +17,7 @@ The available PDFs can be accessed on GitHub: <https://github.com/randybeard/uav
 
 ### Summer schools
 
-There is an in-person **IEEE RAS summer school on Multi-robot Systems** organized by the Czech Technical University of Prague. It has been organized for over 5 summers and they use real aerial robotic platform for their praticals with sutdents, along with gettting lessons of both UAV and multi-robot experts. A summerschool to not miss if you'd like to get started in the world of aerial robotics!
+There is an in-person **IEEE RAS summer school on Multi-robot Systems** organized by the Czech Technical University of Prague. It has been organized for over 5 summers and they use real aerial robotic platforms for their practicals with students, along with gettting lessons of both UAV and multi-robot experts. A summer school to not miss if you'd like to get started in the world of aerial robotics!
 
 Link: <https://mrs.fel.cvut.cz/summer-school-2025/>
 
