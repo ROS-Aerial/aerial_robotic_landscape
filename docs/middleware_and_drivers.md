@@ -8,7 +8,7 @@ Enabling low overhead publish/subscribe on microcontrollers:
 
 1. [Micro-XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS)
 2. [Zenoh](https://github.com/eclipse-zenoh/zenoh-plugin-dds)
-3. [PX4-FastRTPS](https://github.com/eProsima/px4_to_ros) - superceded by Micro-XRCE-DDS (https://docs.px4.io/main/en/middleware/uxrce_dds.html)
+3. [PX4-FastRTPS](https://github.com/eProsima/px4_to_ros) - superceded by [Micro-XRCE-DDS](https://docs.px4.io/main/en/middleware/uxrce_dds.html)
 
 ## Driver packages for drone platforms
 
