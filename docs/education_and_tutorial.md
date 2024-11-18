@@ -32,7 +32,7 @@ If you are fully committed to pursuing a career in aerial robotics, both **Embry
 Link Embry-Riddle Aeronautical University: <https://erau.edu/degrees/bachelor/unmanned-aircraft-systems> 
 Link University of North Dakota: <https://und.edu/programs/unmanned-aircraft-system-operations-bs-aero/>
 
-If you have already done your bachelors in a different engineering major, or if you just want to learn me, The **University of Soutern Denmark** offers a Drone and Autonomous Systems specialization for their master programmes in Robots Systems.
+If you have already done your bachelors in a different engineering major, or if you just want to learn, The **University of Soutern Denmark** offers a Drone and Autonomous Systems specialization for their master programmes in Robots Systems.
 
 Link: <https://www.sdu.dk/en/uddannelse/kandidat/robotteknologi/uddannelsens_opbygning/drone/>
 
