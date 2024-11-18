@@ -8,8 +8,10 @@ This page presents several simulator options for aerial robotics enthusiasts.
 
 The following simulators have their own integrated physics simulation and basic rendering capabilities. They are capable of simulating the aerodynamic forces necessary to keep UAVs airborne:
 
-For the following comparison, we have refered [this article](https://arxiv.org/pdf/2311.02296.pdf)
-> Cora A. Dimmig et al. "Survey of Simulators for Aerial Robots" arXiv preprint arXiv:2311.02296v2 (2024)
+For the following comparison, we have refered to this article:
+> C. A. Dimmig et al., "Survey of Simulators for Aerial Robots: An Overview and In-Depth Systematic Comparisons," in IEEE Robotics & Automation Magazine, doi: 10.1109/MRA.2024.3433171
+
+The Arxiv prepint of the paper can be found [here](https://arxiv.org/abs/2311.02296)
 
 ### Features
 
