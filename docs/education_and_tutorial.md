@@ -21,6 +21,21 @@ There is an in-person **IEEE RAS summer school on Multi-robot Systems** organize
 
 Link: <https://mrs.fel.cvut.cz/summer-school-2025/>
 
+The University of Soutern Denmark has their yearly **Drone Summer School at the SDU UAS Center**. Here you will learn to construct and fly drones focused around computer-vision. There will be team formation where the drone is build and where it can be flown outside in their huge UAS Denmark test center.
+
+Link: <https://www.sdu.dk/en/forskning/sduuascenter/education/drone-summer-school/>
+
+### University Specialization in in Aerial Robotics
+
+If you are fully committed to pursuing a career in aerial robotics, both **Embry-Riddle Aeronautical University** and the **University of North Dakota** offer full bachelor’s majors in becoming a UAV engineer.
+
+Link Embry-Riddle Aeronautical University: <https://erau.edu/degrees/bachelor/unmanned-aircraft-systems> 
+Link University of North Dakota: <https://und.edu/programs/unmanned-aircraft-system-operations-bs-aero/>
+
+If you have already done your bachelors in a different engineering major, or if you just want to learn, The **University of Soutern Denmark** offers a Drone and Autonomous Systems specialization for their master programmes in Robots Systems.
+
+Link: <https://www.sdu.dk/en/uddannelse/kandidat/robotteknologi/uddannelsens_opbygning/drone/>
+
 ### Online Courses on Aerial Robotics
 
 _This section shows online courses for aerial robotics with online instructor._
@@ -33,7 +48,7 @@ Udacity has been offering a course on Aerial Vehicles for quite some time for th
 
 Link: <https://www.udacity.com/course/flying-car-nanodegree--nd787>
 
-edX offers the **'ETHx: Autonomous Mobile Robots'** course. Taught by Prof. Roland Siegwart, Dr. Davide Scaramuzza, Prof. Marco Hutter, Prof. Margarita Chli, Prof. Martin Rufli and Prof. Nicholas Lawrance from ETH Zurich, this 15-week course focuses on the principles of autonomous navigation and control of mobile robots. It covers topics such as perception, localization, planning, and control, which are essential for enabling robots to operate autonomously in dynamic environments. You can audit the course material for free with limited access.
+EdX offers the **'ETHx: Autonomous Mobile Robots'** course. Taught by Prof. Roland Siegwart, Dr. Davide Scaramuzza, Prof. Marco Hutter, Prof. Margarita Chli, Prof. Martin Rufli and Prof. Nicholas Lawrance from ETH Zurich, this 15-week course focuses on the principles of autonomous navigation and control of mobile robots. It covers topics such as perception, localization, planning, and control, which are essential for enabling robots to operate autonomously in dynamic environments. You can audit the course material for free with limited access.
 
 Link: <https://www.edx.org/learn/autonomous-robotics/eth-zurich-autonomous-mobile-robots?utm_campaign=social-sharing-course-page&utm_medium=social&utm_source=email>
 
@@ -91,7 +106,7 @@ _So here there are some courses that either doesn't fit in the above categories 
 * Self-Driving Car Specialization: If you are interested in learning more about SLAM (Simultaneous Localization and Mapping) and sensors, this specialization is tailored for self-driving cars but the theory can be useful for drones as well. Link: <https://www.coursera.org/specializations/self-driving-cars>
 * Autonomous Navigation for Flying Robots: This older course is still highly relevant for anyone interested in autonomous navigation for flying robots. It offers valuable insights and knowledge. Link: <https://www.edx.org/course/autonomous-navigation-for-flying-robots>
 * Drone Dojo: For those looking to build their own drones, Drone Dojo provides useful instructions and courses to get started on DIY drone projects. Link: <https://dojofordrones.com/>
-* Bachelor Majors in UAV Engineering: If you are fully committed to pursuing a career in aerial robotics, both Embry-Riddle Aeronautical University and the University of North Dakota offer full bachelor’s majors in becoming a UAV engineer. Embry-Riddle Aeronautical University: <https://erau.edu/degrees/bachelor/unmanned-aircraft-systems> University of North Dakota: <https://und.edu/programs/unmanned-aircraft-system-operations-bs-aero/>
+
 
 ## Working list
 _This list contains some resources that we haven't included in the overview. Remove the item once it has been included_
