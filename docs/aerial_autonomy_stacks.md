@@ -13,7 +13,7 @@ Adapted and appended from the paper:
 the following autonomy stack table was extracted and adapted.
 
 | Flight stack   |  Middleware | last  update |
-| -------------- | ----- | ------- | --------- | ---------- | ------------ | 
+| -------------- | ----- | ------- |
 | [Aerostack(1)](https://github.com/cvar-upm/aerostack/wiki)       | ROS        | 10/2021      |
 | [Aerostack2](https://aerostack2.github.io/)       | ROS 2      | 08/2024      | 
 | [Agilicious](https://agilicious.readthedocs.io/en/latest/index.html)       | ROS        | 03/2023      | 
