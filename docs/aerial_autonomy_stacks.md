@@ -6,39 +6,33 @@ Based on [this discussion in Discourse]( https://discourse.ros.org/t/more-aerial
 
 ## Comparison
 
-From the paper
+Adapted and appended from the paper:
 
 > Fernandez-Cortizas, Miguel, et al. "Aerostack2: A Software Framework for Developing Multi-robot Aerial Systems." arXiv preprint arXiv:2303.18237 (2023).
 
 the following autonomy stack table was extracted and adapted.
 
-| Flight stack   | OS/OC | Modular | Tested in | Middleware | last  update | MF  | RO  | MA  | MP  | PO  |
-| -------------- | ----- | ------- | --------- | ---------- | ------------ | --- | --- | --- | --- | --- |
-| Aerostack      | ✓    | ✓      | S,RIL,ROL   | ROS        | 10/2021      | ✗  | ✓  | ✓  | ✓  | ✗  |
-| Aerostack2     | ✓    | ✓      | S,RIL,ROL   | ROS 2      | 03/2023      | ✓  | ✓  | ✓  | ✓  | ✓  |
-| AerialCore     | ✓    | ✓      | S,RIL,ROL   | ROS        | 03/2023      | ✓  | ✓  | ✓  | ✗  | ✓  |
-| Agilicious     | ✓    | ✓      | S,RIL      | ROS        | 03/2023      | ✗  | ✓  | ✗  | ✗  | ✗  |
-| KumarRobotics  | ✓    | ✗      | S,RIL,ROL   | ROS        | 12/2022      | ✗  | ✓  | ✗  | ✓  | ✗  |
-| CrazyChoir     | ✓    | ✗      | S,RIL      | ROS 2      | 02/2023      | ✗  | ✓  | ✓  | ✗  | ✗  |
-| UAL            | ✓    | ✗      | S,RIL,ROL   | ROS        | 12/2022      | ✓  | ✗  | ✗  | ✓  | ✗  |
-| XTDrone        | ✓    | ✓      | S         | ROS        | 03/2023      | ✗  | ✓  | ✗  | ✗  | ✗  |
-| RotorS         | ✓    | ✓      | S         | ROS        | 07/2021      | ✗  | ✓  | ✗  | ✗  | ✗  |
-| GAAS           | ✓    | ✓      | S         | ROS        | 10/2021      | ✗  | ✗  | ✗  | ✗  | ✗  |
-| MRS AUV System | ✓    | ✓      | S,RIL,ROL   | ROS        | 09/2023      | ✓  | ✓  | ✓  | ✓  | ✗  |
-| Crazyswarm     | ✓    | ✗      | S,RIL      | ROS        | 12/2022      | ✗  | ✓  | ✓  | ✗  | ✗  |
-| Crazyswarm2     | ✓    | ✓      | S,RIL      | ROS 2       | 09/2023      | ✗  | ✓  | ✓  | ✗  | ✓  |
+| Flight stack   |  Middleware | last  update |
+| -------------- | ----- | ------- | --------- | ---------- | ------------ | 
+| [Aerostack(1)](https://github.com/cvar-upm/aerostack/wiki)       | ROS        | 10/2021      |
+| [Aerostack2](https://aerostack2.github.io/)       | ROS 2      | 08/2024      | 
+| [Agilicious](https://agilicious.readthedocs.io/en/latest/index.html)       | ROS        | 03/2023      | 
+| [KumarRobotics Autonomy Stack](https://github.com/KumarRobotics/kr_autonomous_flight)  | ROS        | 2022     |
+| [CrazyChoir](https://github.com/OPT4SMART/crazychoir)     | ROS 2      | 09/2024    |
+| [UAL](https://github.com/grvcTeam/grvc-ual)            | ROS        | 12/2022      |
+| [XTDrone](https://github.com/robin-shaun/XTDrone)       | ROS        | 03/204      | 
+| [RotorS](https://github.com/ethz-asl/rotors_simulator)         | ROS        | 07/2021      |
+| [GAAS](https://github.com/generalized-intelligence/GAAS)           | ROS        | 10/2021      | 
+| [MRS AUV System](https://github.com/ctu-mrs/mrs_uav_system)   | ROS        | 10/2024     |
+| [Crazyswarm2](https://imrclab.github.io/crazyswarm2/)         | ROS 2        | 11/2024     |
+| [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)    | ROS        | 12/2022      | 
 
+Other Autonomy stacks:
 
-**Abbrivations**
-* OS/OC: Open source or Open code
-* S: Experiments in simulation
-* RIL: Experiments in the lab
-* ROL: Experiments outside the lab
-* MF: Multi-frame
-* RO: Rate output
-* MA: Multi agent
-* MP: Multi platform
-* PO: Plugin oriented
+* [Hector quadrotor](http://wiki.ros.org/hector_quadrotor)
+* [Clover](https://github.com/CopterExpress/clover)
+* [/HKUST-Aerial-Robotics](https://github.com/HKUST-Aerial-Robotics)
+
 
 ## VIO packages
 
@@ -48,7 +42,7 @@ Here is a list of VIO packages that people can use if they have a [depth camera]
 
 - [OpenVins](https://github.com/rpng/open_vins?tab=readme-ov-file) (ROS1/ROS2):
 - [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) stand alone
-- [SLAMcore](https://www.slamcore.com/product/) stand alone SDK
+- [SLAMcore](https://www.slamcore.com/products/slamcore-sdk/) stand alone SDK
 - [ORB-SLAM3 ROS2](https://github.com/suchetanrs/ORB-SLAM3-ROS2-Docker)
 
 ### Visual Odometry Datasets
@@ -56,28 +50,8 @@ Here is a list of VIO packages that people can use if they have a [depth camera]
 - [Kaggle Zurich Urban Micro Aerial Vehicle](https://www.kaggle.com/datasets/mrisdal/zurich-urban-micro-aerial-vehicle)
 - [Kaggle Underwater forward-looking VI dataset](https://www.kaggle.com/datasets/viseaonlab/flsea-vi)
 - [The Air Lab Datasets](https://theairlab.org/datasets/)
-- [VICON ROS2 bag file Google drive](https://drive.google.com/drive/folders/1xQ1KcZhZ5pioPXTyrZBN6Mjxkfpcd_B3)
 - [The UZH FPV Dataset](https://fpv.ifi.uzh.ch/datasets/)
 
-## Working list autonomy stacks
-
-This is just a list of autonomy stacks with links, such that later we can add them to the overview.
-
-Working list:
-
-* [Aerostack2](https://aerostack2.github.io/)
-* [Aerostack(1)](https://github.com/cvar-upm/aerostack/wiki)
-* [KumarRobotics Autonomy Stack](https://github.com/KumarRobotics/kr_autonomous_flight)
-* [Agilicious](https://agilicious.readthedocs.io/en/latest/index.html)
-* [Crazyswarm2](https://imrclab.github.io/crazyswarm2/)
-* [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)
-* [MRS UAV System](https://github.com/ctu-mrs/mrs_uav_system)
-* [Hector quadrotor](http://wiki.ros.org/hector_quadrotor)
-* [RotorS](https://github.com/ethz-asl/rotors_simulator)
-* RISE [paper](https://doi.org/10.55417/fr.2023015)
-* [MRS AUV System](https://github.com/ctu-mrs/mrs_uav_system)
-* [Clover](https://github.com/CopterExpress/clover)
-* [/HKUST-Aerial-Robotics](https://github.com/HKUST-Aerial-Robotics)
 
 ## Partial autonomy packages
 
