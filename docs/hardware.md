@@ -155,4 +155,6 @@ The [Holybro S500v2](https://holybro.com/collections/s500/products/s500-v2-devel
 **Useful tool for this page**:
 <https://tabletomarkdown.com/convert-spreadsheet-to-markdown/>
 
+This page was last updated: *{{ git_revision_date_localized }}*
+
 --8<-- "docs/goatcounter.html"

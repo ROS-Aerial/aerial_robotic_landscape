@@ -102,4 +102,6 @@ Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_ro
 | [px4_sim_ros2](https://github.com/ParsaKhaledi/px4_sim_ros2)   | ✓    | Stereo camera | ROS 2 | Gazebo | PX4 | 04/2024 |
 | [pidrone_pkg](https://github.com/h2r/pidrone_pkg/tree/dd21)   | ✓    | Mono camera/IR | ROS 1 | N/A | Duckiedrone | 05/2024 |
 
+This page was last updated: *{{ git_revision_date_localized }}*
+
 --8<-- "docs/goatcounter.html"

@@ -108,4 +108,6 @@ _This list contains some resources that we haven't included in the overview. Rem
 
 Lots of thanks for anybody contributing to this [linkedin post](https://www.linkedin.com/feed/update/urn:li:activity:7079385991144185856/). This was extremely helpful!
 
+This page was last updated: *{{ git_revision_date_localized }}*
+
 --8<-- "docs/goatcounter.html"

@@ -14,4 +14,6 @@ There are several autopilot suites available for control-boards for aerial vehic
 
 *community provided support
 
+This page was last updated: *{{ git_revision_date_localized }}*
+
 --8<-- "docs/goatcounter.html"

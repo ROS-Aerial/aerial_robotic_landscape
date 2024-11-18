@@ -115,4 +115,6 @@ Several autopilot suites provide instructions for using simulators, often with S
 * **PX4**: <https://docs.px4.io/main/en/simulation/#simulation>
 * **ROSflight**: <https://docs.rosflight.org/v1.3/user-guide/gazebo_simulation/>
 
+This page was last updated: *{{ git_revision_date_localized }}*
+
 --8<-- "docs/goatcounter.html"
