@@ -90,6 +90,10 @@ Link: <https://youtu.be/LmEcyQnfpDA>
 
 Link: <https://www.youtube.com/@IntelligentQuads>
 
+**Quadcopter build and programming manual**: This manual will guide you every step of the way, explaining the essentials on aeronautics, electronics and embedded programming. All components are commercially available and all programs are fully hackable, meaning that you can adapt anything you want and create a quadcopter capable of stuff that goes way beyond the scope of this manual!
+
+Link: <https://github.com/CarbonAeronautics/Manual-Quadcopter-Drone>
+
 ### Code Examples
 
 Here are some code examples that can be used as reference for experiments.
