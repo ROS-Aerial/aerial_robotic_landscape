@@ -60,7 +60,7 @@ A list of packages which don't comprise a full stack but do offer value on top o
 * [MAVROS Controllers](https://github.com/Jaeyoung-Lim/mavros_controllers)
 
 ## Indoor navigation packages
-Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_robotic_landscape/blob/main/aerial_autonomy_stacks.md#aerial-autonomy-stacks), the list below outlines specific implementations of indoor navigation software packages in ROS, running on aerial vehicle platforms. The list, though not exhaustive, provides a good overview of available off-the-shelf non-commercial software.
+Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_robotic_landscape/blob/main/docs/aerial_autonomy_stacks.md#aerial-autonomy-stacks), the list below outlines specific implementations of indoor navigation software packages in ROS, running on aerial vehicle platforms. The list, though not exhaustive, provides a good overview of available off-the-shelf non-commercial software.
 
 | Package name        | OS/OC | Sensors required         | Middleware | Simulator | Platform/controller | Last updated  |
 | ------------------- | ----- | ------------------------ | ----------- | ----------| ------------------- | ------------- |
