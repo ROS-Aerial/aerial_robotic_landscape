@@ -8,8 +8,10 @@ This page presents several simulator options for aerial robotics enthusiasts.
 
 The following simulators have their own integrated physics simulation and basic rendering capabilities. They are capable of simulating the aerodynamic forces necessary to keep UAVs airborne:
 
-For the following comparison, we have refered [this article](https://arxiv.org/pdf/2311.02296.pdf)
-> Cora A. Dimmig et al. "Survey of Simulators for Aerial Robots" arXiv preprint arXiv:2311.02296v2 (2024)
+For the following comparison, we have refered to this article:
+> C. A. Dimmig et al., "Survey of Simulators for Aerial Robots: An Overview and In-Depth Systematic Comparisons," in IEEE Robotics & Automation Magazine, doi: 10.1109/MRA.2024.3433171
+
+The Arxiv prepint of the paper can be found [here](https://arxiv.org/abs/2311.02296)
 
 ### Features
 
@@ -20,7 +22,7 @@ List migh not be complete. If you see any error or missing components, feel free
 | -------------------------------------------------- | -------------------------- | --------- | --------- | --------- | ----- | -------------- | ------------------ | ------ | -------------------- | -------- | ----------- | -------------- |
 |[Gazebo](https://classic.gazebosim.org/) (<br/>[RotorS](https://github.com/ethz-asl/rotors_simulator), <br/> [CrazyS](https://github.com/gsilano/CrazyS), <br/> [PX4 SITL](https://docs.px4.io/v1.12/en/simulation/gazebo.html#gazebo-simulation)) | ODE/ Bullet/ DART/ Simbody | OGRE | ✓ <br/>( ✓ <br/> ✓ <br/> ✓ )| ✱ <br/>( ✗ <br/> ✗ <br/> ✗)| ✓ <br/>( ✗ <br/> ✗ <br/> ✗ )| ROS 1/2, C++, RL | PX4, ArduPilot, CF[^7] | ✓ <br/>( ✗ <br/> ✱ <br/> ✗ ) | minimal/decent |Apache 2.0| ✓ | High |
 |[Gazebo](https://gazebosim.org/) | Bullet/ DART/ TPE | OGRE | ✓ | ✱ | ✓ | ROS 1/2, C++, Python, RL | PX4, ArduPilot, CF | ✓ | minimal/decent |Apache 2.0| ✓ | High |
-|[Isaac](https://developer.nvidia.com/isaac-sim) (<br/>[Pegasus](https://pegasussimulator.github.io/), <br/>[Aerial Gym](https://github.com/ntnu-arl/aerial_gym_simulator)) | NVIDIA PhysX/ Flex | Vulkan | ✓ | ✗ | ✗ | ROS 1/2, Python, RL | Pegasus: PX4 | ✓ | high/demanding |[NVIDIA OMNIVERSE](https://docs.omniverse.nvidia.com/isaacsim/latest/common/NVIDIA_Omniverse_License_Agreement.html)<br/>(BSD 3)| ✗ <br/> (✓ <br/> ✓) | User specific |
+|[Isaac](https://developer.nvidia.com/isaac-sim) (<br/>[Pegasus](https://pegasussimulator.github.io/PegasusSimulator/), <br/>[Aerial Gym](https://github.com/ntnu-arl/aerial_gym_simulator)) | NVIDIA PhysX/ Flex | Vulkan | ✓ | ✗ | ✗ | ROS 1/2, Python, RL | Pegasus: PX4 | ✓ | high/demanding |[NVIDIA OMNIVERSE](https://docs.omniverse.nvidia.com/isaacsim/latest/common/NVIDIA_Omniverse_License_Agreement.html)<br/>(BSD 3)| ✗ <br/> (✓ <br/> ✓) | User specific |
 |[Webots](https://www.cyberbotics.com/)| ODE | OpenGL | ✓ | ✓ | ✓ | ROS 1/2, C/C++, Python, MATLAB, Java | ArduPilot, CF | ✓ | decent/high |Apache 2.0| ✓ | Developing |
 |[CoppeliaSim](https://www.coppeliarobotics.com/)| Bullet/ODE/Vortex/Newton/MuJoCo | OpenGL | ✓ | ✓ | ✓ | ROS 1/2, C/C++, Python, MATLAB, Java,Lua,Octave | -- | ✓ | decent/high |GNU GPL/Commercial| ✱ | Decent |
 |[AIRsim](https://github.com/microsoft/AirSim)| NVIDIA PhysX | Unreal,Unity | ✓ | ✓ | ✓ | ROS 1, C++, Python, C#, Java,RL | PX4, ArduPilot | ✗ | medium/high |MIT| ✓ | Low |

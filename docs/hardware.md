@@ -8,22 +8,33 @@ These are platforms that are currently commercially available for anybody to buy
 
 ### Copters
 
-- Holybro:
+Holybro:
+
    - [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5)
-- ModalAI:
+
+ModalAI:
+
    - [PX4 Autonomy Dev Kit](https://www.modalai.com/products/px4-autonomy-developer-kit?variant=46969885950256)
    - [Starling 2](https://www.modalai.com/products/starling-2?variant=48173890175280) and [Starling 2 Max](https://www.modalai.com/products/starling-2-max?variant=48172375310640)
-- [Crazyflie 2.1 - Bitcraze](https://www.bitcraze.io/products/crazyflie-2-1/)
-- [NXP HoverGames Kit](https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) official hardware for the yearly [HoverGames Challenge](https://www.hovergames.com)
-- Duckietown:
-    - [Duckiedrone DD21](https://get.duckietown.com/products/duckiedrone-dd21)
-    - [Duckiedrone DD24](https://get.duckietown.com/products/autonomous-raspberrypi-quadcopter-duckiedrone-dd24)
-- [Clover by Coex](https://coex.tech/clover)
-- [PX4 Autonomy Developer Kit by ModelAI](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
-- [Droneblocks DEXI 5](https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/)
-- [3DR Quad Zero Kit](https://store.3dr.com/3dr-quad-zero-kit/)
+- [PX4 Autonomy Developer Kit](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
+
+Duckietown:
+
+- [Duckiedrone DD21](https://get.duckietown.com/products/duckiedrone-dd21)
+- [Duckiedrone DD24](https://get.duckietown.com/products/autonomous-raspberrypi-quadcopter-duckiedrone-dd24)
+
+Fly4Future:
+
 - [Fly4Future Robofly](https://fly4future.com/robofly/)
 - [FLy4Future custom drone designs](https://fly4future.com/custom-drones/)
+
+Other:
+
+- [NXP HoverGames Kit](https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) official hardware for the yearly [HoverGames Challenge](https://www.hovergames.com)
+- [Clover by Coex](https://clover.coex.tech/en/)
+- [Droneblocks DEXI 5](https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/)
+- [3DR Quad Zero Kit](https://store.3dr.com/3dr-quad-zero-kit/)
+- [Crazyflie 2.1+ - Bitcraze](https://www.bitcraze.io/products/crazyflie-2-1-plus/)
 
 ### Flapping wing
 
@@ -34,20 +45,14 @@ These are platforms that are currently commercially available for anybody to buy
 - [Tricopter voliro AG](https://voliro.com/)
 - [DJI M300](https://enterprise.dji.com/matrice-300)
 
-
 ## Inhouse-developed platforms
 
-These are platforms that are standard within a lab or department, with information of what it contains provided with perhaps build instructions.,
+These are platforms that are standard within a lab or department, with information of what it contains provided with perhaps build instructions:
 
 -  [Agilicous - University of Zurich](https://agilicious.readthedocs.io/en/latest/index.html)
 -  [ModQuad - Lehigh University](http://swarmslab.com/projects/)
 -  [RMF-Owl - Norwegian University of Science and Technology](https://ieeexplore.ieee.org/document/9836115)
 -  [MiniHawk-VTOL](https://github.com/StephenCarlson/MiniHawk-VTOL)
-
-## Discontinued Platforms
-
-- DJI M100
-- [DJI tello](https://store.dji.com/se/shop/tello-series)
 
 
 ## Components
@@ -58,29 +63,35 @@ Many of the UAVs are usually built by hand and composed of different components.
 
 Many drone frames are usually built from carbon fiber and custom-made for application or research.
 There are some frames that are provided that will provide some base:
+
 - [DJI Flame wheel ARF kit F550, F450, F330](https://www-v1.dji.com/flame-wheel-arf/feature.html)
 - [Momentum Drones DEV-7](https://momentumdrones.com/products/dev7-frame-kit)
 
 ### Flight controllers
-- Holybro
+
+Holybro:
+
    -  [Pixhawk 4](https://docs.px4.io/main/en/flight_controller/pixhawk4.html) 
    -  [Holybro Pixhawk 6C](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6c)
    -  [Holybro Pixhawk 6X](https://holybro.com/products/pixhawk-6x)
    -  [Holybro Pixhawk 6X PRO](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6x-pro)
--  [CUAV's Pixhawk V6x](https://doc.cuav.net/flight-controller/pixhawk-v6x/en/#building-firmware)
--  mRobotics/3DR
-   - [mRo PixRacer R15](https://store.mrobotics.io/product-p/auav-pxrcr-r15-mr.htm) discontinued, go look at:
+
+mRobotics/3DR:
+
    - [mRo PixRacerPro](https://store.3dr.com/pixracer-pro/)
    - [3DR Control Zero Classic](https://store.3dr.com/control-zero-classic/)
    - [3DR Control Zero H7 OEM](https://store.3dr.com/control-zero-h7-oem/)
    - [3DR Reference Design Carrier Board](https://store.3dr.com/reference-design-carrier-board/)
    - [3DR "Stick" Adapter (Carrier Board)](https://store.3dr.com/stick-adapter-carrier-board/)
+
+Bitcraze:
+
 - [Crazyflie Bolt 1.1](https://www.bitcraze.io/products/crazyflie-bolt-1-1/)
-- ARK Electronics
+
+ARK Electronics
+
    - [ARK Electronics ARKV6X](https://arkelectron.com/product/arkv6x)
    - [ARK Electronics Pi6X Flow](https://arkelectron.com/product/ark-pi6x-flow/)
-
-
 
 ### Companion Computers
 
@@ -90,17 +101,18 @@ Some companion computers also integrate flight control (RTOS) hardware in the sa
 
 - [Nvidia Jetson Xavier](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) or the [TX2 Module](https://developer.nvidia.com/embedded/jetson-tx2)
 - [Nvidia Jetson Orin](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/)
-- [Intel Nuc Boards](https://www.intel.com/content/www/us/en/products/details/nuc/boards/products.html)
-- [Raspberry PI 3 (A+)](https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/) or [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
+- [ASUS NUC Boards](https://www.asus.com/se/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-14-pro/)
+- [Raspberry PI  (A+)](https://www.raspberrypi.com/products/raspberry-pi-5/)
 - [Khadas Vim3](https://www.khadas.com/vim3)
 - [Odroid (various boards)](https://www.hardkernel.com/product-category/odroid-board/)
 - [NXP NAVQPlus](https://www.nxp.com/design/designs/navqplus-ai-ml-companion-computer-evk-for-mobile-robotics-ros-ground-stations-and-camera-heads:8MPNAVQ)
-- [Qualcomm RB5](https://developer.qualcomm.com/qualcomm-robotics-rb5-kit)
-- [MRD5165 Eagle Kit](https://www.mistralsolutions.com/product/mrd5165-eagle-kit/) (coming soon)
+- [Qualcomm RB5](https://www.qualcomm.com/developer/hardware/robotics-rb5-development-kit)
+- [MRD5165 Eagle Kit](https://www.mistralsolutions.com/product/mrd5165-eagle-kit/)
 - [VOXL 2 by Model AI](https://www.modalai.com/collections/blue-uas-framework-components/products/voxl-2)
 - [EchoPilot AI](https://echomav.com/product/echopilot-ai/)
 - [AMD Xilinx Kria Starter Kits](https://www.amd.com/en/products/system-on-modules/kria.html)
 - [LattePanda x86 boards](https://www.lattepanda.com/)
+- 
 ### Carrier boards
 Several vendors have developed carrier boards that can expose input/output ports of companion computers mentioned above which are packaged in a System-on-Module (SoM) form factor and also offer a standard interface for plugging in popular flight controllers/their own FCs.
 
@@ -112,7 +124,6 @@ Several vendors have developed carrier boards that can expose input/output ports
 - [Airvolute DroneCore2 Jetson + Cube](https://airvolute.com/dronecore-2/)
 
 ### Depth Cameras
-- [Intel RealSense T265 ](https://www.intel.com/content/www/us/en/products/sku/192742/intel-realsense-tracking-camera-t265/specifications.html) Discontinued, look at:
   - [RealSense D455](https://www.intelrealsense.com/depth-camera-d455/)
   - [RealSense D435i](https://www.intelrealsense.com/depth-camera-d435i/)
 - Oak-d Series like [OAK-D Pro](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9098pro/) or [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095/)

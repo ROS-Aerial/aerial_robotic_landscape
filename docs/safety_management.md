@@ -11,7 +11,7 @@ Currently specifically for aerial vehicles, the safety implementation is depende
 The [ROS-0147](https://ros.org/reps/rep-0147.html) has a suggestion for flightmodes for a statemachine that can simplify the understanding of it. It is also expecting that ROS will be run offboard on an external computer, and that it should be in control of the safety state machine. This should probably be discussed if it would be a good idea for ROS to be in control of this or the autopilot suites themselves.
 
 ## Safety in Autopilot suites
-Adapted from the following blogpost: https://www.bitcraze.io/2023/04/safety-and-the-brushless/
+Adapted from the following blogpost: <https://www.bitcraze.io/2023/04/safety-and-the-brushless/>
 
 These are current Safety managements systems existing in [Paparazzi UAV](https://wiki.paparazziuav.org/wiki/Main_Page), [Betaflight](https://betaflight.com/), [ArduPilot](https://ardupilot.org/) and [PX4](https://px4.io/).
 The [Crazyflie ecosystem](https://www.bitcraze.io/) also have some measures but are currently overhauling their safety framework now in the form of a supervisor.
@@ -31,7 +31,7 @@ Before a vehicle can fly, certain conditions must be met. These includ:
 
 * PX4: <https://docs.px4.io/main/en/flying/pre_flight_checks.html#preflight-sensor-estimator-checks>
 * ArduPilot: <https://ardupilot.org/copter/docs/common-prearm-safety-checks.html#failure-messages>
-* Beta flight: <https://betaflight.com/docs/wiki/archive/GPS-Rescue-v4-4#sanity-check-options>
+* Beta flight: <https://betaflight.com/docs/wiki/guides/current/GPS-Rescue-v4-4#sanity-check-options>
 * Paparazzi UAV: Indicated per platform if necessary, on their wiki:  <https://wiki.paparazziuav.org/wiki/Failsafe>
 * Crazyflie firmware: <https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/functional-areas/supervisor/>
 
@@ -69,7 +69,7 @@ These behaviors can include the following:
 
 * PX4: <https://docs.px4.io/main/en/config/safety.html>
 * ArduPilot: <https://ardupilot.org/copter/docs/failsafe-landing-page.html>
-* Betaflight: <https://betaflight.com/docs/development/Failsafe>
+* Betaflight: <https://betaflight.com/docs/wiki/guides/current/Failsafe>
 * Paparazzi UAV: <https://wiki.paparazziuav.org/wiki/Failsafe>
 * Crazyflie firmware: <https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/functional-areas/supervisor/>
 
