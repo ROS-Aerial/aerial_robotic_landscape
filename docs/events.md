@@ -1,28 +1,58 @@
 # Events in Aerial Robotics
 
+Here are events like expos or academic conferences listed that are important for Aerial Robotists.
+
+If you know of any events that should be listed here, please submit a PR to the repository.
+
 ## 2025
-* [**Xponential EU**](https://www.xponential-europe.com/) Feb 17-20, Dusseldorf, Germany
-  * Expo and trade fair
-  * Hosts the European Drone Forum on 17-18 Feb
-* [**ICUAS**](https://uasconferences.com/2025_icuas/) May 14-17, Charlotte, USA
-  * International Conference on Unmanned Aircraft Systems
-  * Paper submission deadline on Feb 4 2025
-* [**Xponential**](https://xponential.org/) May 19-20 Houston, USA
-  * Technology Expo with a focus on drones
-* [**ICRA**](https://2025.ieee-icra.org/) May 19-23, Atlanta, USA
-  * Academic robotics conference with many sessions on UAVs
-  * Paper submission Deadline on Sept 15 2024 (already passed)
-  * Check out the workshops on UAVs
-* **ROSCon** Oct 2025, Singapore, Singapore
-  * Developer Conference on the Robot Operating System (ROS)
-  * Exact date not known yet
-* [**IROS**](http://www.iros25.org/), Oct 19-25, Hanzhou, China
-  * Academic robotics conference with many sessions on UAVs
-  * Paper submission deadline on March 1 2025
-  * Check out the workshops on UAVs
-* [**IMAV**](https://femexrobotica.org/imav2025/), Nov 10-14, San Andres Cholula, Mexico
-  * Micro Air Vehicle Conference and Competition
-  * Call for papers and participation not out yet
+
+### Xponential Europe
+* **Website:** [https://www.xponential-europe.com/](https://www.xponential-europe.com/)
+* **Date:** Feb 17-20
+* **Location:** Dusseldorf, Germany
+* **Description:** Expo and trade fair
+* **Side-events:** European Drone Forum on 17-18 Feb
+
+### ICUAS
+* **Website:** [https://uasconferences.com/2025_icuas/](https://uasconferences.com/2025_icuas/)
+* **Date:** May 14-17
+* **Location:** Charlotte, USA
+* **Description:** International Conference on Unmanned Aircraft Systems
+* **Paper submission deadline:** Feb 4 2025
+
+### Xponential
+* **Website:** [https://xponential.org/](https://xponential.org/)
+* **Date:** May 19-20
+* **Location:** Houston, USA
+* **Description:** Technology Expo with a focus on drones
+
+### ICRA
+* **Website:** [https://2025.ieee-icra.org/](https://2025.ieee-icra.org/)
+* **Date:** May 19-23
+* **Location:** Atlanta, USA
+* **Description:** Academic robotics conference with many sessions on UAVs
+* **Paper submission deadline:** Sept 15 2024 (already passed)
+
+### ROSCon
+* **Website:** Not out yet
+* **Date:** Oct 2025 (exact dates not known yet)
+* **Location:** Singapore, Singapore
+* **Description:** Developer Conference on the Robot Operating System (ROS)
+* **Call for papers and participation:** Not out yet
+
+### IROS
+* **Website:** [http://www.iros25.org/](http://www.iros25.org/)
+* **Date:** Oct 19-25
+* **Location:** Hanzhou, China
+* **Description:** Academic robotics conference with many sessions on UAVs
+* **Paper submission deadline:** March 1 2025
+
+### IMAV
+* **Website:** [https://femexrobotica.org/imav2025/](https://femexrobotica.org/imav2025/)
+* **Date:** Nov 10-14
+* **Location:** San Andres Cholula, Mexico
+* **Description:** Micro Air Vehicle Conference and Competition
+* **Call for participation:** Not out yet
 
 
 
