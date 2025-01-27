@@ -6,8 +6,9 @@ edit_uri: blob/main/docs/
 copyright: 'This website is information assembled with help of the ROS Aerial Robotics Community group. Analytics with no-cookie tracking with goatviewer.com'
 
 nav:
-- 'education_and_tutorial.md'
 - 'aerial_vehicles.md'
+- 'education_and_tutorial.md'
+- 'events.md'
 - 'simulation.md'
 - 'hardware.md'
 - 'autopilots_suites.md'
