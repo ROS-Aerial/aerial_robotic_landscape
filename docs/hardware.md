@@ -49,6 +49,7 @@ Other:
 
 These are platforms that are standard within a lab or department, with information of what it contains provided with perhaps build instructions:
 
+-  [OmniQuad - University of Naples Federico II](https://tilties2.github.io/omniquad-website/)
 -  [Agilicous - University of Zurich](https://agilicious.readthedocs.io/en/latest/index.html)
 -  [ModQuad - Lehigh University](http://swarmslab.com/projects/)
 -  [RMF-Owl - Norwegian University of Science and Technology](https://ieeexplore.ieee.org/document/9836115)
