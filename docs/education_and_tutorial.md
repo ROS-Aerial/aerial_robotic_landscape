@@ -59,6 +59,10 @@ Link: <https://www.udemy.com/course/applied-control-systems-for-engineers-2-uav-
 ### University courses on Aerial Robotics with open resources
 _This section showes university courses that have released recordings of lectures, slides and/or assignments. For instructions participants would need to follow the actual course at that one university._
 
+MIT are offering a course on **Visual Navigation for Autonomous Vehicles (VNAV)**, making all the handouts, notes and slides availabie. This course is tought by Prof.  Luca Carlone, and teaches about the theoratical theroy of visual navigation. It also covers the latest algorithms, like SLAM, detection and deep learning and which software packages to use, like ROS 2 and a Unity based simulator.
+
+Link: <https://vnav.mit.edu/>
+
 The University of Maryland offers a course on **Autonomous Aerial Robotics**, making all videos, slides, and assignments available. Taught by Nitin J. Sanket and Chahat Deep Singh, the course covers everything from basic control and dynamics to full autonomy. It’s a comprehensive resource for aerial robotics. The course utilizes the _Parrot Bebop 2.0_, and while a Mocap system is required, you may explore the possibility of adapting the course to a different platform. _ROS_ is also part of this course
 
 Link: <http://prg.cs.umd.edu/enae788m>
