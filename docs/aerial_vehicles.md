@@ -51,9 +51,9 @@ Blimps or airships can also be used as aerial vehicles as well. These vehicles s
 
 Each autopilot suite have their a wide range of supported vehicles, to which this itemized list is referenced to. Note that these lists also include non-aerial vehicles as well.
 
-* [Ardupilot supported vehicle types](https://ardupilot.org/ardupilot/docs/common-all-vehicle-types.html)
+* [Ardupilot](https://ardupilot.org/ardupilot/docs/common-all-vehicle-types.html)
 * [Paparazzi](https://wiki.paparazziuav.org/wiki/Airframes)
-* [PX4](https://docs.px4.io/master/en/airframes/airframe_reference.html)
+* [PX4 Autopilot](https://docs.px4.io/main/en/airframes/airframe_reference.html)
 * [Crazyflie](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/#the-crazyflie-2x-family)
 
 This page was last updated: *{{ git_revision_date_localized }}*
