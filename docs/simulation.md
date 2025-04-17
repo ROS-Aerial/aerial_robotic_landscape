@@ -36,6 +36,7 @@ List migh not be complete. If you see any error or missing components, feel free
 | [Flightgear](https://www.flightgear.org/) | unknown | unknown | ✓ | ✓ | ✓ | C++ | unknown | ✓ | minimal/decent | GNU-GPL | ✓ | Low |
 | [RealFlight](https://www.realflight.com/) | unknown | unknown | ✗ | ✓ | ✗ | --  | unknown | ✓ | minimal/decent | non-public | ✗ | Low |
 | [RotorPy](https://github.com/spencerfolk/rotorpy) | ad hoc | unknown | ✓ | ✓ | ✓ | Python | -- | ✓ | minimal/decent | MIT | ✓ | Developing |
+| [jMAVSim](https://github.com/PX4/jMAVSim) | unkown | Java3D | ✓ | ✓ | ✓ | Java, UDP | PX4 | ✓ | minimal/decent | BSD-3 | ✓ | Low |
 
 
 [^1]: ✓: Full support,  ✱: Partial support,  ✗: No support
