@@ -16,12 +16,17 @@ nav:
 - 'middleware_and_drivers.md'
 - 'message_standards.md'
 - 'safety_management.md'
+- 'support.md'
 
 markdown_extensions:
-- pymdownx.snippets:
-    check_paths: true
-- admonition
-
+    - pymdownx.snippets:
+        check_paths: true
+    - admonition
+    - attr_list
+    - mdx_include
+    - pymdownx.details
+    
 plugins:
     - search
     - git-revision-date-localized
+    - external-markdown
