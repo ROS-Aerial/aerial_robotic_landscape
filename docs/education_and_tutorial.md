@@ -98,6 +98,10 @@ Link: <https://www.youtube.com/@IntelligentQuads>
 
 Link: <https://github.com/CarbonAeronautics/Manual-Quadcopter-Drone>
 
+**DroneBlocks**: This channel hosts educational content for robotics, it mainly focuses on aerial platforms such as DJI, CrazyFly, and PX4.
+
+Link: <https://www.youtube.com/@droneblocks>
+
 ### Code Examples
 
 Here are some code examples that can be used as reference for experiments.
