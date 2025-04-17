@@ -139,6 +139,9 @@ Several vendors have developed carrier boards that can expose input/output ports
 - [PMD Flexx2 3D Camera](https://www.emcraft.com/products/1178) USB version should be compatible with most companion computers.
 - [VOXL2 TOF Depth Sensor ](https://docs.modalai.com/M0171/) Compatible with VOXL2. Check with vendor for early access product.
 
+### Event Cameras
+- [OpenMV N6](https://openmv.io/collections/cameras/products/openmv-n6?variant=41573456576606)
+
 ### Reference Bill of Materials
 
 #### Holybro S500v2
