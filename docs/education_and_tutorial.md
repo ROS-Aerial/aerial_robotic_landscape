@@ -9,7 +9,7 @@ This also includes input from [a Linkedin post](https://www.linkedin.com/feed/up
 This section explains some of the recourses in more detail.
 
 ### Books
-There is this important resource which is the book titled **‘Small Unmanned Aircraft: Theory and Practice.’** This book has been written by Randy Beard and Tim McLain of Brigham Young University, and it covers everything from the absolute basics of coordinate frames and quadrotor dynamics to path planning and cameras. It is a must-read for anybody starting in UAVs and Aerial robotics.
+There is this important resource which is the book titled **‘Small Unmanned Aircraft: Theory and Practice. (2012)’** This book has been written by Randy Beard and Tim McLain of Brigham Young University, and it covers everything from the absolute basics of coordinate frames and quadrotor dynamics to path planning and cameras. It is a must-read for anybody starting in UAVs and Aerial robotics.
 
 The physical book can be found here: <http://press.princeton.edu/titles/9632.html>
 
@@ -42,13 +42,19 @@ _This section shows online courses for aerial robotics with online instructor._
 
 Udacity has been offering a course on Aerial Vehicles for quite some time for the **Flying car nano degree**. The lessons are taught by top names in the industry and cover key aspects of Aerial Robotics, such as motion planning, controls, and estimation, with lab assignments involving a real drone. The course duration is 4 months, and access is available for a fee.
 
+Year last updated: **2025**
+
 Link: <https://www.udacity.com/course/flying-car-nanodegree--nd787>
 
 EdX offers the **'ETHx: Autonomous Mobile Robots'** course. Taught by Prof. Roland Siegwart, Dr. Davide Scaramuzza, Prof. Marco Hutter, Prof. Margarita Chli, Prof. Martin Rufli and Prof. Nicholas Lawrance from ETH Zurich, this 15-week course focuses on the principles of autonomous navigation and control of mobile robots. It covers topics such as perception, localization, planning, and control, which are essential for enabling robots to operate autonomously in dynamic environments. You can audit the course material for free with limited access.
 
-Link: <https://www.edx.org/learn/autonomous-robotics/eth-zurich-autonomous-mobile-robots?utm_campaign=social-sharing-course-page&utm_medium=social&utm_source=email>
+Year last updated: **??**
+
+Link: <https://www.edx.org/learn/autonomous-robotics/eth-zurich-autonomous-mobile-robots>
 
 Additionally, there’s the course **‘Applied Control System 3: UAV Drone (3D Dynamics & Control)’** which is part of a series by Mark Misin. This course delves deep into the dynamics, control, and modeling of quadrotors.
+
+Year last updated: **2025**
 
 Link: <https://www.udemy.com/course/applied-control-systems-for-engineers-2-uav-drone-control/>
 
@@ -57,48 +63,62 @@ _This section showes university courses that have released recordings of lecture
 
 MIT are offering a course on **Visual Navigation for Autonomous Vehicles (VNAV)**, making all the handouts, notes and slides availabie. This course is tought by Prof.  Luca Carlone, and teaches about the theoratical theroy of visual navigation. It also covers the latest algorithms, like SLAM, detection and deep learning and which software packages to use, like ROS 2 and a Unity based simulator.
 
+Year last updated: **2022**
+
 Link: <https://vnav.mit.edu/>
 
 The University of Maryland offers a course on **Autonomous Aerial Robotics**, making all videos, slides, and assignments available. Taught by Nitin J. Sanket and Chahat Deep Singh, the course covers everything from basic control and dynamics to full autonomy. It’s a comprehensive resource for aerial robotics. The course utilizes the _Parrot Bebop 2.0_, and while a Mocap system is required, you may explore the possibility of adapting the course to a different platform. _ROS_ is also part of this course
 
+Year last updated: **2019**
+
 Link: <http://prg.cs.umd.edu/enae788m>
 
-**‘Visual Navigation For Autonomous Vehicles’** is a course available on MIT Open Courseware, taught by Prof. Luca Carlone. As the name implies, the course primarily focuses on autonomous navigation for any autonomous vehicle. It includes exercises where students implement vision algorithms on both ground robots and drones. Additionally, the course covers working with ROS and applying the knowledge to a simulated drone in Unity. The students also get to learn how to work with _ROS_
-
-Link: <https://ocw.mit.edu/courses/16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020/>
-
 The **‘Bio-inspired Robotics’** course at the University of Washington, led by Prof. Sawyer Fuller, explores the realm of drawing inspiration from nature rather than reinventing the wheel. It covers various robots inspired by creatures capable of swimming, walking, hopping, and of course, flying. Lab assignments in this course involve working with a _Crazyflie_ drone.
+
+Year last updated: **2023**
 
 Link: <https://faculty.washington.edu/minster/bio_inspired_robotics/>
 
 Brown University offers a course called **‘Introduction to Robotics’** taught by Prof. Stefanie Tellix. While the introduction covers generic robotics, the focus of the full course is on building and programming the _Duckiedrone_. The course dives straight into autonomy and also teaches students how to work with _ROS_.
 
+Year last updated: **2023**
+
 Link: <https://cs.brown.edu/courses/cs1951r/>
 
-Princeton University  have also decided to release their **‘Intro to Robotics’** lectures and materials for the public. It covers all from control and estimation, computer vision and planning. Also it offers lab assignments with the _Crazyflie_.
+Princeton University  have also decided to release their **‘Intro to Robotics’** lectures (recordings and slides) and materials for the public. It covers all from control and estimation, computer vision and planning. Also it offers lab assignments with the _Crazyflie_.
+
+Year last updated: **2022**
 
 Link: <https://irom-lab.princeton.edu/intro-to-robotics/>
 
 ### Youtube
 _Youtube also has quite some tutorials available so this section highlights a few._
 
-**Drone Programming with Python**: This popular tutorial/course teaches viewers how to program a real drone using Python with the _DJI Tello_. It offers a great opportunity for anyone looking for a short and enjoyable project to undertake, especially on a rainy day, while still working with a real platform.
+**Drone Programming with Python (2021)**: This popular tutorial/course teaches viewers how to program a real drone using Python with the _DJI Tello_. It offers a great opportunity for anyone looking for a short and enjoyable project to undertake, especially on a rainy day, while still working with a real platform.
 
 Link: <https://youtu.be/LmEcyQnfpDA>
 
 **Intelligent Quads YouTube Channel**: This channel is entirely dedicated to creating autonomous UAVs, covering topics from Ardupilot to MAVlink to ROS and Gazebo. It appears to be a valuable resource for beginners in the field of autonomous UAVs. This also includes _ROS_ as part of the lessons as well.
 
+Last video online: **2023**
+
 Link: <https://www.youtube.com/@IntelligentQuads>
 
 **Quadcopter build and programming manual**: This manual will guide you every step of the way, explaining the essentials on aeronautics, electronics and embedded programming. All components are commercially available and all programs are fully hackable, meaning that you can adapt anything you want and create a quadcopter capable of stuff that goes way beyond the scope of this manual!
 
-Link: <https://github.com/CarbonAeronautics/Manual-Quadcopter-Drone>
+Last video online: **2023**
+
+Link: <https://www.youtube.com/@carbonaeronautics>
 
 **DroneBlocks**: This channel hosts educational content for robotics, it mainly focuses on aerial platforms such as DJI, CrazyFly, and PX4.
+
+Last video online: **2025**
 
 Link: <https://www.youtube.com/@droneblocks>
 
 **PX4 Autopilot specific content**: This channel is supported by the Dronecode Foundation and is the official PX4 Autopilot channel, you can expect video recordings from Dronecode/PX4 events, and tutorials/guides from any open source project hosted under the Dronecode umbrella.
+
+Last video online: **2025**
 
 Link: <https://www.youtube.com/@px4autopilot>
 
@@ -107,6 +127,8 @@ Link: <https://www.youtube.com/@px4autopilot>
 Here are some code examples that can be used as reference for experiments.
 
 **Mambo ROS Examples:** This is a collection of experiments targeted Parrot Mambo drones, there are experiments with one or multiple vehicles at the same time. It runs over ROS over BLE, and some test are adapted to make use of a Vicon MoCap system. From a control theory's perspective, it showcases an optional robust control strategy, using an H-Infinity controller with perturbation estimation and a identified dynamic model of a Parrot Mambo drone.
+
+Last video online: **2023**
 
 Link: <https://github.com/TOTON95/Mambo_ROS_Examples>
 
