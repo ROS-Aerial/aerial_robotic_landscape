@@ -43,9 +43,9 @@ If you know of any events that should be listed here, please submit a PR to the 
 ### ROSCon
 * **Date:** Oct 27-29
 * **Location:** Singapore, Singapore
-* **Website:** Not out yet
+* **Website:**  [https://roscon.ros.org/2025/](https://roscon.ros.org/2025/)
 * **Description:** Developer Conference on the Robot Operating System (ROS)
-* **Call for participation:** Not out yet
+* **Call for participation:** Deadline 2nd of june
 
 ### IROS
 * **Date:** Oct 19-25
@@ -60,6 +60,15 @@ If you know of any events that should be listed here, please submit a PR to the 
 * **Website:** [https://femexrobotica.org/imav2025/](https://femexrobotica.org/imav2025/)
 * **Description:** Micro Air Vehicle Conference and Competition
 * **Call for participation:** Not out yet
+
+## 2026
+
+### Commercial UAV Forum
+* **Date:** April 22-23
+* **Location:** Amsterdam, The Netherlands
+* **Website:** [https://www.forumuav.com/](https://www.forumuav.com/)
+* **Description:** Commercial drone event
+* **Call for participation:** Accepting submissions now
 
 This page was last updated: *{{ git_revision_date_localized }}*
 
