@@ -98,6 +98,10 @@ Link: <https://www.youtube.com/@IntelligentQuads>
 
 Link: <https://github.com/CarbonAeronautics/Manual-Quadcopter-Drone>
 
+**PX4 Autopilot specific content**: This channel is supported by the Dronecode Foundation and is the official PX4 Autopilot channel, you can expect video recordings from Dronecode/PX4 events, and tutorials/guides from any open source project hosted under the Dronecode umbrella.
+
+Link: <https://www.youtube.com/@px4autopilot>
+
 ### Code Examples
 
 Here are some code examples that can be used as reference for experiments.
