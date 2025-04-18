@@ -40,10 +40,6 @@ Link: <https://www.sdu.dk/en/uddannelse/kandidat/robotteknologi/uddannelsens_opb
 
 _This section shows online courses for aerial robotics with online instructor._
 
-Coursera offers the **‘Robotics: Aerial Robotics’** course as part of the Robotics specialization. Taught by Prof. Vijay Kumar from Penn University, this 4-week course covers the mechanics and control of aerial vehicles using Matlab. It starts from 1 dimension and gradually progresses to the 3rd dimension in simulation. The course is part of a paid educational program, but you can audit the lessons for free.
-
-Link: <https://www.coursera.org/learn/robotics-flight>
-
 Udacity has been offering a course on Aerial Vehicles for quite some time for the **Flying car nano degree**. The lessons are taught by top names in the industry and cover key aspects of Aerial Robotics, such as motion planning, controls, and estimation, with lab assignments involving a real drone. The course duration is 4 months, and access is available for a fee.
 
 Link: <https://www.udacity.com/course/flying-car-nanodegree--nd787>
