@@ -39,6 +39,13 @@ If you know of any events that should be listed here, please submit a PR to the 
 * **Location:** Odense, Denmark
 * **Website:** [[https://2025.ieee-icra.org/](https://internationaldroneshow.com/)]([https://2025.ieee-icra.org/](https://internationaldroneshow.com/))
 * **Description:** Drone business expo with many demos
+
+### Embedded Linux Conference Europe
+* **Date:** Aug 25-27
+* **Location:** Amsterdam, Netherlands
+* **Website:** https://events.linuxfoundation.org/open-source-summit-europe/
+* **Description:** Hosted within the Open Source Summit, ELC is the premiere event for anything open source and embedded
+* **Call for participation:** Closed
  
 ### ROSCon
 * **Date:** Oct 27-29
