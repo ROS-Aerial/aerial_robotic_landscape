@@ -46,12 +46,6 @@ Year last updated: **2025**
 
 Link: <https://www.udacity.com/course/flying-car-nanodegree--nd787>
 
-EdX offers the **'ETHx: Autonomous Mobile Robots'** course. Taught by Prof. Roland Siegwart, Dr. Davide Scaramuzza, Prof. Marco Hutter, Prof. Margarita Chli, Prof. Martin Rufli and Prof. Nicholas Lawrance from ETH Zurich, this 15-week course focuses on the principles of autonomous navigation and control of mobile robots. It covers topics such as perception, localization, planning, and control, which are essential for enabling robots to operate autonomously in dynamic environments. You can audit the course material for free with limited access.
-
-Year last updated: **??**
-
-Link: <https://www.edx.org/learn/autonomous-robotics/eth-zurich-autonomous-mobile-robots>
-
 Additionally, there’s the course **‘Applied Control System 3: UAV Drone (3D Dynamics & Control)’** which is part of a series by Mark Misin. This course delves deep into the dynamics, control, and modeling of quadrotors.
 
 Year last updated: **2025**
@@ -140,7 +134,7 @@ _So here there are some courses that either doesn't fit in the above categories 
 * Self-Driving Car Specialization: If you are interested in learning more about SLAM (Simultaneous Localization and Mapping) and sensors, this specialization is tailored for self-driving cars but the theory can be useful for drones as well. Link: <https://www.coursera.org/specializations/self-driving-cars>
 * Autonomous Navigation for Flying Robots: This older course is still highly relevant for anyone interested in autonomous navigation for flying robots. It offers valuable insights and knowledge. Link: <https://www.edx.org/course/autonomous-navigation-for-flying-robots>
 * Drone Dojo: For those looking to build their own drones, Drone Dojo provides useful instructions and courses to get started on DIY drone projects. Link: <https://dojofordrones.com/>
-
+* ETHx: Autonomous Mobile Robots: This course focuses on the principles of autonomous navigation and control of mobile robots, which could also be applicable for autonomy of drones. It covers topics such as perception, localization, planning, and control, which are essential for enabling robots to operate autonomously in dynamic environments. You can audit the course material for free with limited access. Link: <https://www.edx.org/learn/autonomous-robotics/eth-zurich-autonomous-mobile-robots>
 
 ## Working list
 _This list contains some resources that we haven't included in the overview. Remove the item once it has been included_
