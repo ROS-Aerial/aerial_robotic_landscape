@@ -4,22 +4,32 @@ on:
     branches:
       - main
   workflow_dispatch:
-  
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v2
+
+      - uses: actions/setup-python@v5
         with:
           python-version: 3.x
+
       - name: Installing dependencies
-        run: pip install -r requirements.txt
-      - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
+        run: |
+          pip install -r requirements.txt
+
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
       - name: Build and Deployment
-        run: mkdocs gh-deploy --force
+        run: |
+          mkdocs gh-deploy --force
+
       - name: Checking Links
-        run: mkdocs-linkcheck --sync -r docs/ -m get --verbose
-        continue-on-error: true 
+        continue-on-error: true
+        run: |
+          mkdocs-linkcheck --sync -r docs/ -m get --verbose
