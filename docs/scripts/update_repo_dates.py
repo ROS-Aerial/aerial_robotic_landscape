@@ -27,8 +27,8 @@ AUTH_HEADER = {"Authorization": f"Bearer {GITHUB_TOKEN}"} if GITHUB_TOKEN else {
 # If GITHUB_TOKEN is absent / empty, AUTH_HEADER will be {}
 
 # ───────────── regexes ─────────────────────────────────────────────
-LINK_RE   = re.compile(r"\[([^\]]+)]\((https?://[^\)]+)\)")
-GH_REPO   = re.compile(r"https://github\.com/([^/]+/[^/]+)")
+LINK_RE = re.compile(r"\[([^\]]+)]\((https?://[^\)]+)\)")
+GH_RE   = re.compile(r"https://github\.com/([^/]+/[^/]+)")
 
 # ───────────── GitHub helper with simple cache ────────────────────
 _cache: dict[str, str] = {}               # owner/repo → MM/YYYY
@@ -56,33 +56,28 @@ def last_commit_mm_yyyy(repo: str) -> str:
 
 # ───────────── row‑processing logic ────────────────────────────────
 def refresh_row(line: str) -> str:
-    """If first link is GitHub, replace final cell (|  MM/YYYY  |)."""
+    """Replace the row’s final cell with new_date if first link is GitHub."""
     if not line.lstrip().startswith("|"):
-        return line              # not a table row
+        return line
+
     m = LINK_RE.search(line)
     if not m:
-        return line              # row without a link
+        return line
     url = m.group(2)
-    gh = GH_REPO.match(url)
+    gh  = GH_RE.match(url)
     if not gh:
-        return line              # link isn't GitHub
+        return line
 
-    repo = gh.group(1)
-    # strip extra path segments (e.g. .../tree/main) if any
-    owner_repo = "/".join(repo.split("/")[:2]).removesuffix(".git")
+    owner_repo = "/".join(gh.group(1).split("/")[:2]).removesuffix(".git")
     new_date   = last_commit_mm_yyyy(owner_repo)
-    # ─── DEBUG ──────────────────────────────────────────────
-    before = line
-    # ────────────────────────────────────────────────────────
 
-    line = re.sub(r"\|\s*\d{2}/\d{4}\s*\|$", f"| {new_date} |", line)
+    # ── split the row on '|' — keep leading/trailing empties
+    parts = line.split("|")
 
-    # # ─── DEBUG ──────────────────────────────────────────────
-    # if before == line:
-    #     print(f"[REGEX] no match on → {before.strip()}")
-    # # ────────────────────────────────────────────────────────
+    # last non‑newline element is '' (after trailing '|'), so date cell is -2
+    parts[-2] = f" {new_date} "
 
-    return line
+    return "|".join(parts)
 
 # ───────────── main pass ───────────────────────────────────────────
 def main() -> None:

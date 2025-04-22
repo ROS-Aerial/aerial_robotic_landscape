@@ -15,17 +15,17 @@ the following autonomy stack table was extracted and adapted.
 | Flight stack   |  Middleware | last  update |
 | -------------- | ----- | ------- |
 | [Aerostack(1)](https://github.com/cvar-upm/aerostack/wiki)       | ROS        | 11/2021 |
-| [Aerostack2](https://github.com/aerostack2/aerostack2)       | ROS 2      | 04/2025 |
-| [Agilicious](https://agilicious.readthedocs.io/en/latest/index.html)       | ROS        | 03/2023      |
+| [Aerostack2](https://github.com/aerostack2/aerostack2)       | ROS 2      | 04/2025 | 
+| [Agilicious](https://agilicious.readthedocs.io/en/latest/index.html)       | ROS        | 03/2023      | 
 | [KumarRobotics Autonomy Stack](https://github.com/KumarRobotics/kr_autonomous_flight)  | ROS        | 08/2023 |
 | [CrazyChoir](https://github.com/OPT4SMART/crazychoir)     | ROS 2      | 04/2025 |
 | [UAL](https://github.com/grvcTeam/grvc-ual)            | ROS        | 12/2022 |
-| [XTDrone](https://github.com/robin-shaun/XTDrone)      | ROS       | 05/2024 |
+| [XTDrone](https://github.com/robin-shaun/XTDrone)       | ROS        | 05/2024 | 
 | [RotorS](https://github.com/ethz-asl/rotors_simulator)         | ROS        | 07/2021 |
-| [GAAS](https://github.com/generalized-intelligence/GAAS)           | ROS        | 10/2021 |
+| [GAAS](https://github.com/generalized-intelligence/GAAS)           | ROS        | 10/2021 | 
 | [MRS AUV System](https://github.com/ctu-mrs/mrs_uav_system)   | ROS        | 03/2025 |
 | [Crazyswarm2](https://github.com/IMRCLab/crazyswarm2)         | ROS 2        | 03/2025 |
-| [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)    | ROS        | 12/2022      |
+| [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)    | ROS        | 12/2022      | 
 
 Other Autonomy stacks:
 
