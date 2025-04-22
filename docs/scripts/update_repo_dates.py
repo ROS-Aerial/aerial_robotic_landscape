@@ -1,14 +1,27 @@
 #!/usr/bin/env python3
 """
-update_repo_dates.py
-------------------------------------------------
-• Scans docs/aerial_autonomy_stacks.md
-• Looks at every markdown table row (any table)
-• If the row’s first link is a GitHub URL:
-      – Extract owner/repo
-      – Query GitHub API for the latest commit
-      – Replace the row’s final date cell with MM/YYYY
-• Rows whose first link is *not* GitHub are left untouched.
+This script updates the dates in markdown tables within the file.
+
+`docs/aerial_autonomy_stacks.md`.
+
+It performs the following steps:
+
+1. Scans the markdown file for table rows.
+2. If the first link in a row is a GitHub URL:
+   - Extracts the owner/repo from the URL.
+   - Queries the GitHub API for the latest commit date.
+   - Replaces the row's final date cell with the commit date in MM/YYYY format.
+3. Rows whose first link is not a GitHub URL are left untouched.
+
+Requirements:
+- Python 3.9+
+- A valid GitHub token (optional) for authenticated API requests.
+
+Environment Variables:
+- `GITHUB_TOKEN`: Your GitHub personal access token for higher rate limits.
+
+Usage:
+    python docs/scripts/update_repo_dates.py
 """
 
 import os
@@ -16,75 +29,108 @@ import re
 import requests
 from datetime import datetime
 from pathlib import Path
+from typing import Dict
 
-# ───────────── configuration ───────────────────────────────────────
-MARKDOWN_FILE = Path("docs/aerial_autonomy_stacks.md")   # adjust if needed
-TIMEOUT_S     = 10                                       # GitHub request timeout
 
-# ───────────── Optional auth header ───────────────────────────
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")        # set this in your shell
+# ───────────── Configuration ───────────────────────────────────────
+MARKDOWN_FILE = Path("docs/aerial_autonomy_stacks.md")  # Adjust if needed
+TIMEOUT_S = 10  # GitHub request timeout in seconds
+
+# ───────────── Optional Auth Header ────────────────────────────────
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Set this in your shell
 AUTH_HEADER = {"Authorization": f"Bearer {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
-# If GITHUB_TOKEN is absent / empty, AUTH_HEADER will be {}
+# If GITHUB_TOKEN is absent/empty, AUTH_HEADER will be {}
 
-# ───────────── regexes ─────────────────────────────────────────────
+# ───────────── Regex Patterns ──────────────────────────────────────
 LINK_RE = re.compile(r"\[([^\]]+)]\((https?://[^\)]+)\)")
-GH_RE   = re.compile(r"https://github\.com/([^/]+/[^/]+)")
+GH_RE = re.compile(r"https://github\.com/([^/]+/[^/]+)")
 
-# ───────────── GitHub helper with simple cache ────────────────────
-_cache: dict[str, str] = {}               # owner/repo → MM/YYYY
+# ───────────── GitHub Helper with Simple Cache ─────────────────────
+_cache: Dict[str, str] = {}  # Cache for owner/repo → MM/YYYY
+
 
 def last_commit_mm_yyyy(repo: str) -> str:
+    """
+    Fetch the latest commit date for a given GitHub repository.
+
+    Args:
+        repo (str): The GitHub repository in the format 'owner/repo'.
+
+    Returns:
+        str: The latest commit date in MM/YYYY format,
+        or "error" if the request fails.
+    """
     if repo in _cache:
         return _cache[repo]
+
     url = f"https://api.github.com/repos/{repo}/commits"
     try:
         resp = requests.get(
             url,
             params={"per_page": 1},
             headers=AUTH_HEADER,
-            timeout=TIMEOUT_S
+            timeout=TIMEOUT_S,
         )
-        # print(repo, resp.status_code, resp.text[:120])
         resp.raise_for_status()
-        iso = resp.json()[0]["commit"]["committer"]["date"]
-        dt  = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        iso_date = resp.json()[0]["commit"]["committer"]["date"]
+        dt = datetime.fromisoformat(iso_date.replace("Z", "+00:00"))
         _cache[repo] = dt.strftime("%m/%Y")
     except Exception as e:
-        print(f"{repo}: {e}")
+        print(f"Error fetching data for {repo}: {e}")
         _cache[repo] = "error"
+
     return _cache[repo]
 
-# ───────────── row‑processing logic ────────────────────────────────
+
 def refresh_row(line: str) -> str:
-    """Replace the row’s final cell with new_date if first link is GitHub."""
+    """
+    Update the date cell of a markdown table row with the latest commit date.
+
+    If the first link in the row is a GitHub URL.
+
+    Args:
+        line (str): A single line from the markdown file.
+
+    Returns:
+        str: The updated line with the latest commit date,
+        or the original line if no update is needed.
+    """
     if not line.lstrip().startswith("|"):
         return line
 
-    m = LINK_RE.search(line)
-    if not m:
-        return line
-    url = m.group(2)
-    gh  = GH_RE.match(url)
-    if not gh:
+    match = LINK_RE.search(line)
+    if not match:
         return line
 
-    owner_repo = "/".join(gh.group(1).split("/")[:2]).removesuffix(".git")
-    new_date   = last_commit_mm_yyyy(owner_repo)
+    url = match.group(2)
+    gh_match = GH_RE.match(url)
+    if not gh_match:
+        return line
 
-    # ── split the row on '|' — keep leading/trailing empties
+    owner_repo = "/".join(gh_match.group(1).split("/")[:2]).removesuffix(".git")
+    new_date = last_commit_mm_yyyy(owner_repo)
+
+    # Split the row on '|' while keeping leading/trailing empties
     parts = line.split("|")
 
-    # last non‑newline element is '' (after trailing '|'), so date cell is -2
-    parts[-2] = f" {new_date} "
+    # Update the second-to-last cell (last non-empty element is after trailing '|')
+    if len(parts) > 2:
+        parts[-2] = f" {new_date} "
 
     return "|".join(parts)
 
-# ───────────── main pass ───────────────────────────────────────────
+
 def main() -> None:
+    """Process the markdown file and update GitHub-linked table rows."""
+    if not MARKDOWN_FILE.exists():
+        print(f"Error: Markdown file '{MARKDOWN_FILE}' not found.")
+        return
+
     lines = MARKDOWN_FILE.read_text().splitlines()
-    lines = [refresh_row(l) for l in lines]
-    MARKDOWN_FILE.write_text("\n".join(lines))
-    print("All GitHub‑linked table rows updated.")
+    updated_lines = [refresh_row(line) for line in lines]
+    MARKDOWN_FILE.write_text("\n".join(updated_lines))
+    print("All GitHub-linked table rows updated.")
+
 
 if __name__ == "__main__":
     main()
