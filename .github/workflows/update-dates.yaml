@@ -2,8 +2,8 @@ name: Refresh repo dates
 
 on:
   schedule:
-    # ── run daily at 01:00 UTC ─────────────────────────────────────
-    - cron: '0 1 * * *'
+    # ── run weekly on Monday at 01:00 UTC ──────────────────────────
+    - cron: '0 1 * * 1'
   workflow_dispatch:           # allow manual runs from the Actions tab
 
 permissions:
