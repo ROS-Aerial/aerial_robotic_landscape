@@ -42,7 +42,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain)" ]]; then
             git add docs/aerial_autonomy_stacks.md
-            git commit -m "chore: update repo dates (automated)"
+            git commit -m "docs: weekly update autonomy stacks"
             git push
           else
             echo "No changes – nothing to commit."
