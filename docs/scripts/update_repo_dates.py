@@ -44,6 +44,7 @@ AUTH_HEADER = {"Authorization": f"Bearer {GITHUB_TOKEN}"} if GITHUB_TOKEN else {
 # ───────────── Regex Patterns ──────────────────────────────────────
 LINK_RE = re.compile(r"\[([^\]]+)]\((https?://[^\)]+)\)")
 GH_RE = re.compile(r"https://github\.com/([^/]+/[^/]+)")
+LAST_UPDATED_RE = re.compile(r"_Table last updated on \*\*(.+)\*\*")
 
 # ───────────── GitHub Helper with Simple Cache ─────────────────────
 _cache: Dict[str, str] = {}  # Cache for owner/repo → MM/YYYY
@@ -120,6 +121,29 @@ def refresh_row(line: str) -> str:
     return "|".join(parts)
 
 
+def update_last_updated_sections(lines: list[str]) -> list[str]:
+    """
+    Update all "last updated" sections in the markdown file.
+
+    Args:
+        lines (list[str]): The lines of the markdown file.
+
+    Returns:
+        list[str]: The updated lines with all "last updated" sections updated.
+    """
+    now = datetime.utcnow().strftime("%B %dth, %Y at %I:%M:%S %p UTC")
+    last_updated_text = f"_Table last updated on **{now}**_"
+
+    updated_lines = []
+    for line in lines:
+        if LAST_UPDATED_RE.match(line):
+            updated_lines.append(last_updated_text)
+        else:
+            updated_lines.append(line)
+
+    return updated_lines
+
+
 def main() -> None:
     """Process the markdown file and update GitHub-linked table rows."""
     if not MARKDOWN_FILE.exists():
@@ -128,6 +152,7 @@ def main() -> None:
 
     lines = MARKDOWN_FILE.read_text().splitlines()
     updated_lines = [refresh_row(line) for line in lines]
+    updated_lines = update_last_updated_sections(updated_lines)
     MARKDOWN_FILE.write_text("\n".join(updated_lines))
     print("All GitHub-linked table rows updated.")
 
