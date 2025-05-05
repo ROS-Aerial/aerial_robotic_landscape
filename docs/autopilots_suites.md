@@ -1,18 +1,51 @@
 # Autopilot Suites
 
-There are several autopilot suites available for control-boards for aerial vehicles. This page mostly have an overview of all of those including some comparison factors in them as well.
+There are several autopilot suites available for control-boards for aerial vehicles. This page has an overview of those most commonly used.
 
-|Autopilot suite| startup year | latest version |  OS licence | ROS support| supported vehicles |
-|---| --- | --- | --- | --- | --- |
-| [Ardupilot](https://ardupilot.org/) ([GitHub](https://github.com/ArduPilot/ardupilot)) | 2009 | 4.5.7 (10/24) |  GPL 3.0 | yes | Copters, Fixed wings, VTOL |
-| [Betaflight](https://betaflight.com/) ([GitHub](https://github.com/betaflight/betaflight)) | 2015 | 4.5.1 (06/24) |  GPL 3.0 | no  | Copters |
-| [crazyflie-firmware](https://www.bitcraze.io/) ([GitHub](https://github.com/bitcraze/crazyflie-firmware))  | 2011 | 2024.10 |  GPL 3.0 | yes* | Quadcopters, Flapping wings |
-|  [DJI autopilot](https://developer.dji.com/) ([GitHub](https://github.com/dji-sdk/Onboard-SDK-ROS)) | 2006 | 3.6 (02/2018) | closed | yes |  Copters, VTOLS |
-| [Paparazzi](https://wiki.paparazziuav.org/wiki/Main_Page) ([GitHub](https://github.com/paparazzi/paparazzi))   | 2003 | 6.4.0 (04/24)  | GPL 2.0 | no | Copters, Fixed wings, VTOL |
-| [PX4](https://px4.io/) ([GitHub](https://github.com/PX4/PX4-Autopilot)) | 2009 | 1.15.1 (11/24)  |BSD 3-Clause | yes | Copters, Fixed wings, VTOL |'
-| [ROSflight](https://docs.rosflight.org/v1.3/) ([GitHub](https://github.com/rosflight/rosflight_firmware)) | 2019 | 1.3.0 (03/20)  |BSD 3-Clause | yes | Copters, fixed wings |
+## PX4
+>_"PX4 is used in a wide range of use-cases, from consumer drones to industrial applications. It is also the leading research platform for drones and has been successfully applied to under water vehicles and boats."_ [source](https://px4.io/)
 
-*community provided support
+* Github: <https://github.com/PX4/PX4-Autopilot>
+* Homepage: <https://px4.io/>
+
+
+## Ardupilot
+> _"ArduPilot is a trusted, versatile, and open source autopilot system supporting many vehicle types: multi-copters, traditional helicopters, fixed wing aircraft, boats, submarines, rovers and more. The source code is developed by a large community of professionals and enthusiasts."_ [source](https://ardupilot.org/)
+
+* Github: <https://github.com/ArduPilot/ardupilot>
+* Homepage: <https://ardupilot.org/>
+
+## Paparazzi
+> _"Paparazzi UAV (Unmanned Aerial Vehicle) is an open-source drone hardware and software project encompassing autopilot systems and ground station software for multicopters/multirotors, fixed-wing, helicopters and hybrid aircraft that was founded in 2003"_ [source](https://wiki.paparazziuav.org/)
+
+* Github: <https://github.com/paparazzi/paparazzi>
+* Homepage: <https://wiki.paparazziuav.org/>
+
+## Crazyflie
+> _"The Crazyflie 2.1+. is a versatile open source flying development platform that only weighs 27g and fits in the palm of your hand."_ [source](https://www.bitcraze.io/products/crazyflie-2-1-plus/)
+
+* Github: <https://github.com/bitcraze/crazyflie-firmware>
+* Homepage: <https://www.bitcraze.io/>
+
+## Betaflight
+> _"Betaflight is the world's leading multi-rotor flight control software.
+The global FPV drone racing and freestyle community choose Betaflight for its performance, precision, cutting edge features, reliability and hardware support."_ [source](https://betaflight.com/)
+
+* Github: <https://github.com/betaflight/betaflight>
+* Homepage: <https://betaflight.com/>
+
+
+## ROSFlight
+> _"ROSflight is an autopilot system designed from the ground up with researchers in mind, and for easy integration with ROS."_ [source](https://betaflight.com/)
+
+* Github: <https://github.com/rosflight/rosflight_firmware>
+* Homepage: <https://docs.rosflight.org/v1.3/>
+
+## Inactive projects
+
+* [DJI autopilot SDK](https://github.com/dji-sdk/Onboard-SDK-ROS) 
+
+
 
 This page was last updated: *{{ git_revision_date_localized }}*
 
