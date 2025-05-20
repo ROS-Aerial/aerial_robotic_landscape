@@ -11,7 +11,7 @@ nav:
 - 'events.md'
 - 'simulation.md'
 - 'hardware.md'
-- 'autopilots_suites.md'
+- 'software.md'
 - 'aerial_autonomy_stacks.md'
 - 'middleware_and_drivers.md'
 - 'message_standards.md'

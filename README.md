@@ -6,7 +6,7 @@ This repository/website is a collection of resources for aerial robotics. It is 
 ## Index
 
 * [Autonomy stacks for UAVs](docs/aerial_autonomy_stacks.md)
-* [Autopilot suites](docs/autopilots_suites.md)
+* [Software](docs/software.md)
 * [Aerial robotics simulation](docs/simulation.md)
 * [Message standards for UAV](docs/message_standards.md)
 * [Safety and management systems](docs/safety_management.md)
