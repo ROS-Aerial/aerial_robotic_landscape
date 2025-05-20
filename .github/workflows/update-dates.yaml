@@ -20,6 +20,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
+      - uses: actions/create-github-app-token@v1
+        id: generate-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -39,6 +45,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ steps.generate-token.outputs.token }}
           title: "[Weekly] Update Repo Dates"
           commit-message: "docs: weekly update autonomy stacks"
           add-paths: docs/aerial_autonomy_stacks.md
