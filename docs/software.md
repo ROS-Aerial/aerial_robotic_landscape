@@ -1,6 +1,9 @@
 # Software
 
-In aerial robotics, a UAV’s software stack is typically divided into two subsystems. The Flight Control Firmware—embedded onboard the vehicle—manages real-time sensor fusion, attitude stabilization and closed-loop flight control. The Ground Control Station (GCS)—running on the operator’s workstation—provides the human–machine interface for mission planning, live telemetry monitoring, parameter tuning and post-flight analysis. Below, we list popular open-source flight control firmware and GCS packages along with their supported platforms.
+In aerial robotics, a UAV’s software stack is typically divided into two subsystems: 
+
+* **The Flight Control Firmware**: embedded onboard the vehicle—manages real-time sensor fusion, attitude stabilization and closed-loop flight control.
+* **The Ground Control Station (GCS)**: running on the operator’s workstation—provides the human–machine interface for mission planning, live telemetry monitoring, parameter tuning and post-flight analysis. Below, we list popular open-source flight control firmware and GCS packages along with their supported platforms.
 
 ## Flight Control Firmware
 
