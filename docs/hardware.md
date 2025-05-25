@@ -1,7 +1,8 @@
 # Hardware
 The main hardware components of drones can be seperated into processors, sensors, telemetry, and motor drivers (speed controllers). Here we compare the current avalible options for each compenent and further categorize each one of them based on type and functionality. 
 
-![Example of UAV wiring diagram](images/Pixhawk5X.jpg)
+<img src="images/Pixhawk5X.jpg" alt="Example of UAV wiring diagram"
+     width="50%" />
 
 Above is an example wiring diagram of a UAV using the [Holybro Pixhawk 5X Flight Controller](https://docs.px4.io/main/en/flight_controller/pixhawk5x.html) in family of Pixhawk® flight controllers. **Note** This a relativly advanced controller, here to illustrate what the wiring diagram of a UAV might look like. Simpler controllers might not be as complex depending on requirments. 
 
