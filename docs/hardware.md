@@ -4,11 +4,17 @@ The main hardware components of drones can be seperated into processors, sensors
 <img src="images/Pixhawk5X.jpg" alt="Example of UAV wiring diagram"
      width="50%" />
 
-Above is an example wiring diagram of a UAV using the [Holybro Pixhawk 5X Flight Controller](https://docs.px4.io/main/en/flight_controller/pixhawk5x.html) in family of Pixhawk® flight controllers. **Note** This a relativly advanced controller, here to illustrate what the wiring diagram of a UAV might look like. Simpler controllers might not be as complex depending on requirments. 
+The diagram above shows the wiring of a UAV using the [Holybro Pixhawk 5X Flight Controller](https://docs.px4.io/main/en/flight_controller/pixhawk5x.html) — in the Pixhawk® flight-controller family. This a relativly advanced controller here to show what a fully featured wiring schematic might look like; features may differ depending on your specific controller and requirements.
 
 ---
 ## Processors 
 Processors are the main component in which computation takes place within a UAV. All electrical components such as sensors and telemetry are connected to this system. A UAV can consist of 1 or multiple processors depending on complexity, typically this is structed into a primary procssor (flight controller) which handles low level operations such as internal pose estimation and navigation, and secondary processors (companion computers) which are used for high level autonomy such as perception sensing or onboard decisions planning. 
+
+For those interested in developing custom flight processors here are a few good recources 
+> - [KiCad 6 STM32 PCB Design Full Tutorial by Phil's Lab](https://www.youtube.com/watch?v=aVUqaB0IMh4&t=65s)
+> - [Flight Control System Design: Hardware and PCB Design with KiCAD by Phil's Lab](https://www.youtube.com/watch?v=rLDqQ2L_mUQ)
+
+Below is a list comparing the features and specification of popular flight controllers, companion computers, and carrier boards. 
 
 ### Flight Controllers
 Comparison of MCUs, sensors and licenses for Open-Source Hardware (OSH) flight controller platforms.
@@ -35,10 +41,6 @@ _All platforms have IMUs. Interfaces: UART, PWM, I2C._ [[1]](#references)
 
 > **Notes:**
 > - b: barometer; m: magnetometer; p: pitot tube sensor c: CAN; s: SPI; a: ADC; pp: PPM; sb: S.BUS; ds: DSM; da: DAC; x: XBEE; au: AUX, [d]: discontinued
-
-For those interested in developing custom flight controllers here are a few good recources 
-> - [KiCad 6 STM32 PCB Design Full Tutorial by Phil's Lab](https://www.youtube.com/watch?v=aVUqaB0IMh4&t=65s)
-> - [Flight Control System Design: Hardware and PCB Design with KiCAD by Phil's Lab](https://www.youtube.com/watch?v=rLDqQ2L_mUQ)
 
 ### Companion Computers
 For the drones that can carry it, the companion computers are important since they can do additional computations that the flight controller can not easily do. As these are capable of running some form of Linux, these can handle for instance  computer vision with [OpenCV](https://opencv.org/) or run nodes with [ROS](https://www.ros.org/). 
