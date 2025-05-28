@@ -37,8 +37,8 @@ _All platforms have IMUs. Interfaces: UART, PWM, I2C._ [[1]](#references)
 > - b: barometer; m: magnetometer; p: pitot tube sensor c: CAN; s: SPI; a: ADC; pp: PPM; sb: S.BUS; ds: DSM; da: DAC; x: XBEE; au: AUX, [d]: discontinued
 
 For those interested in developing custom flight controllers here are a few good recources 
-> - (KiCad 6 STM32 PCB Design Full Tutorial by Phil's Lab)[https://www.youtube.com/watch?v=aVUqaB0IMh4&t=65s]
-> - (flight Control Systems Design by Phil's Lab)[https://www.youtube.com/watch?v=rLDqQ2L_mUQ]
+> - [KiCad 6 STM32 PCB Design Full Tutorial by Phil's Lab](https://www.youtube.com/watch?v=aVUqaB0IMh4&t=65s)
+> - [flight Control Systems Design by Phil's Lab](https://www.youtube.com/watch?v=rLDqQ2L_mUQ)
 
 ### Companion Computers
 For the drones that can carry it, the companion computers are important since they can do additional computations that the flight controller can not easily do. As these are capable of running some form of Linux, these can handle for instance  computer vision with [OpenCV](https://opencv.org/) or run nodes with [ROS](https://www.ros.org/). 
