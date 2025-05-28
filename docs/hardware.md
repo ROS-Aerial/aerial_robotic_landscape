@@ -14,6 +14,8 @@ For those interested in developing custom flight processors here are a few good 
 > - [KiCad 6 STM32 PCB Design Full Tutorial by Phil's Lab](https://www.youtube.com/watch?v=aVUqaB0IMh4&t=65s)
 > - [Flight Control System Design: Hardware and PCB Design with KiCAD by Phil's Lab](https://www.youtube.com/watch?v=rLDqQ2L_mUQ)
 
+Below is a list comparing the features and specification of popular flight controllers, companion computers, and carrier boards. 
+
 ### Flight Controllers
 Comparison of MCUs, sensors and licenses for Open-Source Hardware (OSH) flight controller platforms.
 _All platforms have IMUs. Interfaces: UART, PWM, I2C._ [[1]](#references)
