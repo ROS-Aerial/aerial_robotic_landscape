@@ -1,103 +1,47 @@
-# Hardware, Components, and Dev Kits
+# Hardware
+The main hardware components of drones can be seperated into processors, sensors, telemetry, and motor drivers (speed controllers). Here we compare the current avalible options for each compenent and further categorize each one of them based on type and functionality. 
 
-This is an list of development platforms for aerial robotics. Please start a pull request if you'd like to update these.
+<img src="images/Pixhawk5X.jpg" alt="Example of UAV wiring diagram"
+     width="50%" />
 
-## Standard Commercial Research Platforms
+Above is an example wiring diagram of a UAV using the [Holybro Pixhawk 5X Flight Controller](https://docs.px4.io/main/en/flight_controller/pixhawk5x.html) in family of Pixhawk® flight controllers. **Note** This a relativly advanced controller, here to illustrate what the wiring diagram of a UAV might look like. Simpler controllers might not be as complex depending on requirments. 
 
-These are platforms that are currently commercially available for anybody to buy for their research.
+---
+## Processors 
+Processors are the main component in which computation takes place within a UAV. All electrical components such as sensors and telemetry are connected to this system. A UAV can consist of 1 or multiple processors depending on complexity, typically this is structed into a primary procssor (flight controller) which handles low level operations such as internal pose estimation and navigation, and secondary processors (companion computers) which are used for high level autonomy such as perception sensing or onboard decisions planning. 
 
-### Copters
+### Flight Controllers
+Comparison of MCUs, sensors and licenses for Open-Source Hardware (OSH) flight controller platforms.
+_All platforms have IMUs. Interfaces: UART, PWM, I2C._ [[1]](#references)
 
-Holybro:
+| Platform        | MCU           | Sensors      | Interfaces                          | License             |
+|-----------------|---------------|--------------|-------------------------------------|---------------------|
+| Pixhawk         | STM32F427     | b, m         | c, s, a, pp, sb, ds                 | BSD-2-Clause        |
+| Pixhawk 2       | STM32F427     | b, m         | c, s, a, pp, sb, ds                 | CC-BY-SA-3.0        |
+| PixRacer        | STM32F427     | b, m         | c, pp, sb, ds                       | CC-BY-4.0           |
+| Pixhawk 3 Pro   | STM32F427     | b, m         | c, s, pp, sb, ds                    | CC-BY-4.0           |
+| PX4 FMUv5 & v6  | STM32F427     | b, m         | c, s, a, pp, sb, ds                 | CC-BY-4.0           |
+| Sparky2         | STM32F405     | b, m         | c, pp, sb, ds, da                   | CC-BY-NC-SA-4.0     |
+| Chimera         | STM32F767     | b, m, p      | c, s, a, da, pp, sb, ds, x, au      | GPL-2.0             |
+| CC3D            | STM32F103     | None         | pp, ds, sb                          | GPL-3.0             |
+| Atom            | STM32F103     | None         | pp, ds, sb                          | GPL-3.0             |
+| APM 2.8         | ATmega2560    | b            | pp, a                               | GPL-3.0             |
+| FlyMaple        | STM32F103     | b, m         | –                                   | GPL-3.0             |
+| Erle-Brain 3    | Raspberry Pi  | b, m         | a                                   | CC-BY-NC-SA-4.0     |
+| PXFmini         | Raspberry Pi  | b, m         | a                                   | CC-BY-NC-SA-4.0     |
+| AeroQuad [d]    | STM32F407     | b, m         | –                                   | GPL-2.0             |
+| Mikrokopter [d] | ATmega644     | b            | s, pp                               | –                   |
+| MatrixPilot [d] | dsPIC33FJ256  | None         | –                                   | GPL-3.0             |
 
-   - [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5)
+> **Notes:**
+> - b: barometer; m: magnetometer; p: pitot tube sensor c: CAN; s: SPI; a: ADC; pp: PPM; sb: S.BUS; ds: DSM; da: DAC; x: XBEE; au: AUX, [d]: discontinued
 
-ModalAI:
-
-   - [PX4 Autonomy Dev Kit](https://www.modalai.com/products/px4-autonomy-developer-kit?variant=46969885950256)
-   - [Starling 2](https://www.modalai.com/products/starling-2?variant=48173890175280) and [Starling 2 Max](https://www.modalai.com/products/starling-2-max?variant=48172375310640)
-- [PX4 Autonomy Developer Kit](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
-
-Duckietown:
-
-- [Duckiedrone DD21](https://get.duckietown.com/products/duckiedrone-dd21)
-- [Duckiedrone DD24](https://get.duckietown.com/products/autonomous-raspberrypi-quadcopter-duckiedrone-dd24)
-
-Fly4Future:
-
-- [Fly4Future Robofly](https://fly4future.com/robofly/)
-- [FLy4Future custom drone designs](https://fly4future.com/custom-drones/)
-
-Other:
-
-- [NXP HoverGames Kit](https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) official hardware for the yearly [HoverGames Challenge](https://www.hovergames.com)
-- [Clover by Coex](https://clover.coex.tech/en/)
-- [Droneblocks DEXI 5](https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/)
-- [3DR Quad Zero Kit](https://store.3dr.com/3dr-quad-zero-kit/)
-- [Crazyflie 2.1+ - Bitcraze](https://www.bitcraze.io/products/crazyflie-2-1-plus/)
-
-### Flapping wing
-
-- [Flapper Nimble+](https://flapper-drones.com/wp/nimbleplus/) insect-inspired UAV by Flapper Drones
-
-## Industrial Platforms
-
-- [Tricopter voliro AG](https://voliro.com/)
-- [DJI M300](https://enterprise.dji.com/matrice-300)
-
-## Inhouse-developed platforms
-
-These are platforms that are standard within a lab or department, with information of what it contains provided with perhaps build instructions:
-
--  [OmniQuad - University of Naples Federico II](https://tilties2.github.io/omniquad-website/)
--  [Agilicous - University of Zurich](https://agilicious.readthedocs.io/en/latest/index.html)
--  [ModQuad - Lehigh University](http://swarmslab.com/projects/)
--  [RMF-Owl - Norwegian University of Science and Technology](https://ieeexplore.ieee.org/document/9836115)
--  [MiniHawk-VTOL](https://github.com/StephenCarlson/MiniHawk-VTOL)
-
-
-## Components
-
-Many of the UAVs are usually built by hand and composed of different components. This usually consists of a drone frame, flight controller boards, companion computers and of course motors, batteries and ESCs.
-
-### Drone Frames
-
-Many drone frames are usually built from carbon fiber and custom-made for application or research.
-There are some frames that are provided that will provide some base:
-
-- [DJI Flame wheel ARF kit F550, F450, F330](https://www-v1.dji.com/flame-wheel-arf/feature.html)
-- [Momentum Drones DEV-7](https://momentumdrones.com/products/dev7-frame-kit)
-
-### Flight controllers
-
-Holybro:
-
-   -  [Pixhawk 4](https://docs.px4.io/main/en/flight_controller/pixhawk4.html) 
-   -  [Holybro Pixhawk 6C](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6c)
-   -  [Holybro Pixhawk 6X](https://holybro.com/products/pixhawk-6x)
-   -  [Holybro Pixhawk 6X PRO](https://holybro.com/collections/autopilot-flight-controllers/products/pixhawk-6x-pro)
-
-mRobotics/3DR:
-
-   - [mRo PixRacerPro](https://store.3dr.com/pixracer-pro/)
-   - [3DR Control Zero Classic](https://store.3dr.com/control-zero-classic/)
-   - [3DR Control Zero H7 OEM](https://store.3dr.com/control-zero-h7-oem/)
-   - [3DR Reference Design Carrier Board](https://store.3dr.com/reference-design-carrier-board/)
-   - [3DR "Stick" Adapter (Carrier Board)](https://store.3dr.com/stick-adapter-carrier-board/)
-
-Bitcraze:
-
-- [Crazyflie Bolt 1.1](https://www.bitcraze.io/products/crazyflie-bolt-1-1/)
-
-ARK Electronics
-
-   - [ARK Electronics ARKV6X](https://arkelectron.com/product/arkv6x)
-   - [ARK Electronics Pi6X Flow](https://arkelectron.com/product/ark-pi6x-flow/)
+For those interested in developing custom flight controllers here are a few good recources 
+> - [KiCad 6 STM32 PCB Design Full Tutorial by Phil's Lab](https://www.youtube.com/watch?v=aVUqaB0IMh4&t=65s)
+> - [Flight Control System Design: Hardware and PCB Design with KiCAD by Phil's Lab](https://www.youtube.com/watch?v=rLDqQ2L_mUQ)
 
 ### Companion Computers
-
-For the drones that can carry it, the companion computers are important since they can do additional computations that the flight controller can not easily do.
-As these are capable of running some form of Linux, these can handle for instance  computer vision with [OpenCV](https://opencv.org/) or run nodes with [ROS](https://www.ros.org/). 
+For the drones that can carry it, the companion computers are important since they can do additional computations that the flight controller can not easily do. As these are capable of running some form of Linux, these can handle for instance  computer vision with [OpenCV](https://opencv.org/) or run nodes with [ROS](https://www.ros.org/). 
 Some companion computers also integrate flight control (RTOS) hardware in the same package
 
 - [Nvidia Jetson Xavier](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) or the [TX2 Module](https://developer.nvidia.com/embedded/jetson-tx2)
@@ -124,6 +68,12 @@ Several vendors have developed carrier boards that can expose input/output ports
 - [Dronee Lychee Drone autopilot hardware](https://dronee.aero/pages/lychee)
 - [Airvolute DroneCore2 Jetson + Cube](https://airvolute.com/dronecore-2/)
 
+---
+## Sensors 
+### Navigation and Localization Sensors 
+- TO DO
+
+### Perception Sensors
 ### Depth Cameras
   - [RealSense D455](https://www.intelrealsense.com/depth-camera-d455/)
   - [RealSense D435i](https://www.intelrealsense.com/depth-camera-d435i/)
@@ -142,34 +92,20 @@ Several vendors have developed carrier boards that can expose input/output ports
 ### Event Cameras
 - [OpenMV N6](https://openmv.io/collections/cameras/products/openmv-n6?variant=41573456576606)
 
-### Reference Bill of Materials
+---
+## Telemetry
+- TO DO
 
-#### Holybro S500v2
+---
+## Motor Drivers (Electronic Speed Controllers (ESC))
+- TO DO
 
-The [Holybro S500v2](https://holybro.com/collections/s500/products/s500-v2-development-kit) is a popular, relatively low-cost quadcopter. This is a list of the parts used with details of battery, motors, ESCs, and propellers with reference links to guide custom builds.
-
-
-| S.No | Part Name                               | Part category           | Description                                               | Price (USD) | Qty         | Total Cost (USD) | Official/Reference Link                                                                                                                                                              |
-| ---- | --------------------------------------- | ----------------------- | --------------------------------------------------------- | ----------- | ----------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1    | Holybro S500 frame                      | Frame                   | With landing gear, 385x385mm                              | 42          | 1           | 42               | [https://holybro.com/collections/s500/products/s500-v2-kit?variant=42724497391805](https://holybro.com/collections/s500/products/s500-v2-kit?variant=42724497391805)                 |
-| 2    | Holybro Pixhawk 6C + GPS + Power module | FC + GPS + Power module | PM02 power module, M9N GPS                                | 290         | 1           | 290              | [https://holybro.com/products/pixhawk-6c?variant=43005243785405](https://holybro.com/products/pixhawk-6c?variant=43005243785405)                                                     |
-| 3    | Holybro 2216 920KV CW                   | Motor                   | 19x19 mounting clockwise rotation                         | 20          | 2           | 40               | [https://holybro.com/products/spare-parts-s500-v2-kit?variant=41591094608061](https://holybro.com/products/spare-parts-s500-v2-kit?variant=41591094608061)                           |
-| 4    | Holybro 2216 920KV CCW                  | Motor                   | 19x19 mounting counter-clockwise rotation                 | 20          | 2           | 40               | [https://holybro.com/products/spare-parts-s500-v2-kit?variant=41591094640829](https://holybro.com/products/spare-parts-s500-v2-kit?variant=41591094640829)                           |
-| 5    | BLHeli S 20A ESC                        | ESC                     | Electronic Speed Controller to drive motors               | 14          | 4           | 56               | [https://holybro.com/products/spare-parts-s500-v2-kit?variant=41591094706365](https://holybro.com/products/spare-parts-s500-v2-kit?variant=41591094706365)                           |
-| 6    | 1045 propellers                         | Props                   | 10x4.5" kit of 2 pairs                                    | 12          | 1           | 12               | [https://holybro.com/products/spare-parts-s500-v2-kit?variant=41591094313149](https://holybro.com/products/spare-parts-s500-v2-kit?variant=41591094313149)                           |
-| 7    | Radiomaster R81 receiver                | Radio receiver          | Used for manually flying drone Line of Sight/testing\*    | 18          | 1           | 18               | [https://holybro.com/products/radiomaster-r81-receiver](https://holybro.com/products/radiomaster-r81-receiver)                                                                       |
-| 8    | Holybro SiK telemetry radio v3          | Telemetry link radio    | 500mW, 433MHz variant, pair of transmitter + receiver\*\* | 63          | 1           | 63               | [https://holybro.com/products/sik-telemetry-radio-v3?variant=42801817485501](https://holybro.com/products/sik-telemetry-radio-v3?variant=42801817485501)                             |
-| 9    | Tattu 5200mAh 4S                        | Battery                 | 4S1P XT60 plug 35C                                        | 63          | 1           | 63               | [https://genstattu.com/tattu-5200mah-14-8v-35c-4s1p-lipo-battery-pack-with-xt60-plug.html](https://genstattu.com/tattu-5200mah-14-8v-35c-4s1p-lipo-battery-pack-with-xt60-plug.html) |
-|      |                                         |                         |                                                           |             | Grand Total | 624              |                                                   |             |             |                  |
-
-**Notes**:
-
-\*It can be used with Radiomaster Multiprotocol (4 in 1) or CC2500 based Radio Controller like FrSky Taranis X9D or similar<br>
-\*\*Used for connecting to ground control station, 915MHz variant also available
-
-**Useful tool for this page**:
-<https://tabletomarkdown.com/convert-spreadsheet-to-markdown/>
+---
+## References
+1. Ebeid, E., Skriver, M., Terkildsen, K.H., Jensen, K. and Schultz, U.P. (2018) A Survey of Open-Source UAV Flight Controllers and Flight Simulators. Microprocessors and Microsystems, 61, 11-20.
+[https://doi.org/10.1016/j.micpro.2018.05.002.](https://doi.org/10.1016/j.micpro.2018.05.002)
 
 This page was last updated: *{{ git_revision_date_localized }}*
 
 --8<-- "docs/goatcounter.html"
+
