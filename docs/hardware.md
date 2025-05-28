@@ -6,12 +6,13 @@ The main hardware components of drones can be seperated into processors, sensors
 
 The diagram above shows the wiring of a UAV using the [Holybro Pixhawk 5X Flight Controller](https://docs.px4.io/main/en/flight_controller/pixhawk5x.html) — in the Pixhawk® flight-controller family. This a relativly advanced controller here to show what a fully featured wiring schematic might look like; features may differ depending on your specific controller and requirements.
 
-For those interested in developing custom flight controllers here are a few good recources 
-> - [KiCad 6 STM32 PCB Design Full Tutorial by Phil's Lab](https://www.youtube.com/watch?v=aVUqaB0IMh4&t=65s)
-> - [Flight Control System Design: Hardware and PCB Design with KiCAD by Phil's Lab](https://www.youtube.com/watch?v=rLDqQ2L_mUQ)
 ---
 ## Processors 
 Processors are the main component in which computation takes place within a UAV. All electrical components such as sensors and telemetry are connected to this system. A UAV can consist of 1 or multiple processors depending on complexity, typically this is structed into a primary procssor (flight controller) which handles low level operations such as internal pose estimation and navigation, and secondary processors (companion computers) which are used for high level autonomy such as perception sensing or onboard decisions planning. 
+
+For those interested in developing custom flight processors here are a few good recources 
+> - [KiCad 6 STM32 PCB Design Full Tutorial by Phil's Lab](https://www.youtube.com/watch?v=aVUqaB0IMh4&t=65s)
+> - [Flight Control System Design: Hardware and PCB Design with KiCAD by Phil's Lab](https://www.youtube.com/watch?v=rLDqQ2L_mUQ)
 
 ### Flight Controllers
 Comparison of MCUs, sensors and licenses for Open-Source Hardware (OSH) flight controller platforms.
