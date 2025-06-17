@@ -17,7 +17,7 @@ ROS packages built atop SDKs from drone vendors to interface to their closed-sou
 1. [Parrot ARDrone Autonomy](https://github.com/AutonomyLab/ardrone_autonomy)
 2. [Parrot Bebop Autonomy](https://github.com/AutonomyLab/bebop_autonomy)
 3. [Parrot ANAFI Autonomy](https://github.com/andriyukr/anafi_autonomy)
-4. [DJI Tello driver](https://github.com/anqixu/tello_driver)
+4. DJI Tello driver [ROS1](https://github.com/anqixu/tello_driver), [ROS2 pre-Jazzy](https://github.com/clydemcqueen/tello_ros), [ROS2 Jazzy and Beyond](https://github.com/arjo129/tello_ros)
 5. [Parrot Mambo driver](https://github.com/TOTON95/ros_pyparrot)
 
 This page was last updated: *{{ git_revision_date_localized }}*
