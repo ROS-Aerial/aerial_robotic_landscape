@@ -27,7 +27,7 @@ the following autonomy stack table was extracted and adapted.
 | [Crazyswarm2](https://github.com/IMRCLab/crazyswarm2)         | ROS 2        | 06/2025 |
 | [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)    | ROS        | 12/2022      | 
 
-_Table last updated on **June 16th, 2025 at 02:53:23 AM UTC**_
+_Table last updated on **June 23th, 2025 at 02:58:14 AM UTC**_
 
 Other Autonomy stacks:
 
@@ -79,7 +79,7 @@ Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_ro
 | [pidrone_pkg](https://github.com/h2r/pidrone_pkg/tree/dd21)   | ✓    | Mono camera/IR | ROS 1 | N/A | Duckiedrone | 05/2024 |
 
 
-_Table last updated on **June 16th, 2025 at 02:53:23 AM UTC**_
+_Table last updated on **June 23th, 2025 at 02:58:14 AM UTC**_
 
 
 --8<-- "docs/goatcounter.html"
