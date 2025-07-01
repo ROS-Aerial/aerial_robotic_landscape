@@ -2,3 +2,4 @@
 # pixi environments
 .pixi
 *.egg-info
+word_counts.txt
