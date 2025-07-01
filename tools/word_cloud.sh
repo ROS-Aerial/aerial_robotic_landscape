@@ -1,23 +1,25 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# locate repo root (one level up from this script)
+# repo root (one level up from this script)
 BASE_DIR="$(cd "$(dirname "$0")"/.. && pwd)"
-DOCS_DIR="$BASE_DIR/docs"
 STOPWORDS="$BASE_DIR/tools/stopwords.txt"
-OUT_FILE="$BASE_DIR/word_counts.txt"
+OUT="$BASE_DIR/word_counts.txt"
 
-# grab all markdown files under docs, concatenate, normalize, filter, count,
-# then tee to both stdout and the output file
-find "$DOCS_DIR" -type f -name "*.md" \
-  -exec cat {} + \
+# sanity check
+[[ -f $STOPWORDS ]] || { echo "Error: stopwords file not found at $STOPWORDS" >&2; exit 1; }
+
+# cat every .md under the repo, extract alnum tokens ≥2 chars, lowercase,
+# drop pure-numbers, strip exact stopwords, then count & sort
+find "$BASE_DIR" -type f -name '*.md' -print0 \
+  | xargs -0 cat \
+  | grep -Eo '[[:alnum:]]{2,}' \
   | tr '[:upper:]' '[:lower:]' \
-  | tr -c '[:alpha:]' '[\n*]' \
-  | grep -vE '^[[:space:]]*$' \
-  | grep -vF -f "$STOPWORDS" \
+  | grep -vE '^[0-9]+$' \
+  | grep -v -xF -f "$STOPWORDS" \
   | sort \
   | uniq -c \
   | sort -rn \
-  | tee "$OUT_FILE"
+  | tee "$OUT"
 
-echo "Word counts also saved to $OUT_FILE"
+echo "Word counts streamed to stdout and saved to $OUT"
