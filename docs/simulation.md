@@ -83,6 +83,8 @@ List migh not be complete. If you see any error or missing components, feel free
 - [ ✱ ] : Yes. But not specifically designed for it
 - [ ✗ ] : No
 
+## Simulation tools
+* UAV Inertia Tool (<https://uavtools.bartslinger.com/>): A visual tool to calculate the inertia of aerial vehicles. Goes along with this [blogpost](https://www.bartslinger.com/flight-dynamics/measuring-the-moment-of-inertia-of-a-uav).
 
 ## Sensor support
 
