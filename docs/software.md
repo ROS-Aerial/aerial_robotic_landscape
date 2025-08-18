@@ -1,4 +1,4 @@
-# Software
+# Autopilot suites
 
 In aerial robotics, a UAV’s software stack is typically divided into two subsystems: 
 
@@ -7,7 +7,7 @@ In aerial robotics, a UAV’s software stack is typically divided into two subsy
 
 ## Flight Control Firmware
 
-Comparison of Open-Source Software (OSS) Flight Control Firmware. [[1]](#references)
+Comparison of Flight Control Firmware. [[1]](#references)
 
 | Platform    | Latest Release | OS                       | Language        | License / FC / Doc / Config Tool       |
 |-------------|----------------|--------------------------|-----------------|----------------------------------------|
