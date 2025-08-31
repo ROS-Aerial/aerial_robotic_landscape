@@ -6,47 +6,13 @@ If you know of any events that should be listed here, please submit a PR to the 
 
 ## 2025
 
-### Xponential Europe
-* **Date:** Feb 17-20
-* **Location:** Dusseldorf, Germany
-* **Website:** [https://www.xponential-europe.com/](https://www.xponential-europe.com/)
-* **Description:** Expo and trade fair
-* **Side-events:** European Drone Forum on 17-18 Feb
+### IMAV
+* **Date:** Nov 10-14
+* **Location:** San Andres Cholula, Mexico
+* **Website:** [https://femexrobotica.org/imav2025/](https://femexrobotica.org/imav2025/)
+* **Description:** Micro Air Vehicle Conference and Competition
+* **Call for participation:** Not out yet
 
-### ICUAS
-* **Date:** May 14-17
-* **Location:** Charlotte, USA
-* **Website:** [https://uasconferences.com/2025_icuas/](https://uasconferences.com/2025_icuas/)
-* **Description:** International Conference on Unmanned Aircraft Systems
-* **Paper submission deadline:** Feb 4 2025
-
-### Xponential
-* **Date:** May 19-20
-* **Location:** Houston, USA
-* **Website:** [https://xponential.org/](https://xponential.org/)
-* **Description:** Technology Expo with a focus on drones
-
-### ICRA
-* **Date:** May 19-23
-* **Location:** Atlanta, USA
-* **Website:** [https://2025.ieee-icra.org/](https://2025.ieee-icra.org/)
-* **Description:** Academic robotics conference with many sessions on UAVs
-* **Note:** Workshop on [25 years of Aerial Robotics: Challenges and Opportunities](https://aerial-robotics-workshop-icra.com/)
-* **Paper submission deadline:** Sept 15 2024 (already passed)
-
-### International Drone Show
-* **Date:** June 18-19
-* **Location:** Odense, Denmark
-* **Website:** [[https://2025.ieee-icra.org/](https://internationaldroneshow.com/)]([https://2025.ieee-icra.org/](https://internationaldroneshow.com/))
-* **Description:** Drone business expo with many demos
-
-### Embedded Linux Conference Europe
-* **Date:** Aug 25-27
-* **Location:** Amsterdam, Netherlands
-* **Website:** https://events.linuxfoundation.org/open-source-summit-europe/
-* **Description:** Hosted within the Open Source Summit, ELC is the premiere event for anything open source and embedded
-* **Call for participation:** Closed
- 
 ### ROSCon
 * **Date:** Oct 27-29
 * **Location:** Singapore, Singapore
@@ -61,12 +27,46 @@ If you know of any events that should be listed here, please submit a PR to the 
 * **Description:** Academic robotics conference with many sessions on UAVs
 * **Paper submission deadline:** March 1 2025
 
-### IMAV
-* **Date:** Nov 10-14
-* **Location:** San Andres Cholula, Mexico
-* **Website:** [https://femexrobotica.org/imav2025/](https://femexrobotica.org/imav2025/)
-* **Description:** Micro Air Vehicle Conference and Competition
-* **Call for participation:** Not out yet
+### Embedded Linux Conference Europe
+* **Date:** Aug 25-27
+* **Location:** Amsterdam, Netherlands
+* **Website:** https://events.linuxfoundation.org/open-source-summit-europe/
+* **Description:** Hosted within the Open Source Summit, ELC is the premiere event for anything open source and embedded
+* **Call for participation:** Closed
+
+### International Drone Show
+* **Date:** June 18-19
+* **Location:** Odense, Denmark
+* **Website:** [[https://2025.ieee-icra.org/](https://internationaldroneshow.com/)]([https://2025.ieee-icra.org/](https://internationaldroneshow.com/))
+* **Description:** Drone business expo with many demos
+
+### ICRA
+* **Date:** May 19-23
+* **Location:** Atlanta, USA
+* **Website:** [https://2025.ieee-icra.org/](https://2025.ieee-icra.org/)
+* **Description:** Academic robotics conference with many sessions on UAVs
+* **Note:** Workshop on [25 years of Aerial Robotics: Challenges and Opportunities](https://aerial-robotics-workshop-icra.com/)
+* **Paper submission deadline:** Sept 15 2024 (already passed)
+
+### Xponential
+* **Date:** May 19-20
+* **Location:** Houston, USA
+* **Website:** [https://xponential.org/](https://xponential.org/)
+* **Description:** Technology Expo with a focus on drones
+
+### Xponential Europe
+* **Date:** Feb 17-20
+* **Location:** Dusseldorf, Germany
+* **Website:** [https://www.xponential-europe.com/](https://www.xponential-europe.com/)
+* **Description:** Expo and trade fair
+* **Side-events:** European Drone Forum on 17-18 Feb
+
+### ICUAS
+* **Date:** May 14-17
+* **Location:** Charlotte, USA
+* **Website:** [https://uasconferences.com/2025_icuas/](https://uasconferences.com/2025_icuas/)
+* **Description:** International Conference on Unmanned Aircraft Systems
+* **Paper submission deadline:** Feb 4 2025
 
 ## 2026
 
