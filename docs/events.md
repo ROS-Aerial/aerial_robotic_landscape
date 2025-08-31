@@ -1,8 +1,6 @@
 # Events in Aerial Robotics
 
-Here are events like expos or academic conferences listed that are important for Aerial Robotists.
-
-If you know of any events that should be listed here, please submit a PR to the repository.
+Here are upcoming and past events listed that are important for Aerial Robotists.
 
 ## 2025
 
@@ -11,29 +9,24 @@ If you know of any events that should be listed here, please submit a PR to the 
 * **Location:** Atlanta, Georgia, USA
 * **Website:** [https://events.linuxfoundation.org/px4-developer-summit//](https://events.linuxfoundation.org/px4-developer-summit/)
 * **Description:** Developer conferences for the PX4 ecosystem
-* **Call for participation:** Deadline 1th of September
 
 ### IMAV
 * **Date:** Nov 10-14
 * **Location:** San Andres Cholula, Mexico
 * **Website:** [https://femexrobotica.org/imav2025/](https://femexrobotica.org/imav2025/)
 * **Description:** Micro Air Vehicle Conference and Competition
-* **Call for participation:** Deadline June 29th (closed)
 
 ### ROSCon
 * **Date:** Oct 27-29
 * **Location:** Singapore, Singapore
 * **Website:**  [https://roscon.ros.org/2025/](https://roscon.ros.org/2025/)
-* **Description:** Developer Conference on the Robot Operating System (ROS)
-* **Call for participation:** Deadline 2nd of June (closed)
-* **Special notes:** Full day aerial robotic workshop available for ROS 2 and PX4
+* **Description:** Developer Conference on the Robot Operating System (ROS) with full day aerial robotic workshop available for ROS 2 and PX4
 
 ### IROS
 * **Date:** Oct 19-25
 * **Location:** Hanzhou, China
 * **Website:** [http://www.iros25.org/](http://www.iros25.org/)
 * **Description:** Academic robotics conference with many sessions on UAVs
-* **Paper submission deadline:** March 1 2025
 
 ### Ardupilot Developer Conference
 * **Date:** Sept 5-7
@@ -52,7 +45,6 @@ If you know of any events that should be listed here, please submit a PR to the 
 * **Location:** Amsterdam, Netherlands
 * **Website:** https://events.linuxfoundation.org/open-source-summit-europe/
 * **Description:** Hosted within the Open Source Summit, ELC is the premiere event for anything open source and embedded
-* **Call for participation:** Closed
 
 ### International Drone Show
 * **Date:** June 18-19
@@ -66,7 +58,6 @@ If you know of any events that should be listed here, please submit a PR to the 
 * **Website:** [https://2025.ieee-icra.org/](https://2025.ieee-icra.org/)
 * **Description:** Academic robotics conference with many sessions on UAVs
 * **Note:** Workshop on [25 years of Aerial Robotics: Challenges and Opportunities](https://aerial-robotics-workshop-icra.com/)
-* **Paper submission deadline:** Sept 15 2024 (already passed)
 
 ### Xponential
 * **Date:** May 19-20
@@ -78,15 +69,13 @@ If you know of any events that should be listed here, please submit a PR to the 
 * **Date:** Feb 17-20
 * **Location:** Dusseldorf, Germany
 * **Website:** [https://www.xponential-europe.com/](https://www.xponential-europe.com/)
-* **Description:** Expo and trade fair
-* **Side-events:** European Drone Forum on 17-18 Feb
+* **Description:** Expo and trade fair with the European Drone Forum on 17-18 Feb
 
 ### ICUAS
 * **Date:** May 14-17
 * **Location:** Charlotte, USA
 * **Website:** [https://uasconferences.com/2025_icuas/](https://uasconferences.com/2025_icuas/)
 * **Description:** International Conference on Unmanned Aircraft Systems
-* **Paper submission deadline:** Feb 4 2025
 
 ## 2026
 
@@ -95,7 +84,6 @@ If you know of any events that should be listed here, please submit a PR to the 
 * **Location:** Amsterdam, The Netherlands
 * **Website:** [https://www.forumuav.com/](https://www.forumuav.com/)
 * **Description:** Commercial drone event
-* **Call for participation:** Accepting submissions now
 
 This page was last updated: *{{ git_revision_date_localized }}*
 
