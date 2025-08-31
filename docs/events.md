@@ -2,6 +2,12 @@
 
 Here are upcoming and past events listed that are important for Aerial Robotists.
 
+## 2026
+
+### [Commercial UAV Forum 2026](https://www.forumuav.com/)
+* **Date/Location:** April 22-23 in Amsterdam, The Netherlands
+* **Description:** Commercial drone event
+
 ## 2025
 
 ### [PX4 Developer Summit 2025](https://events.linuxfoundation.org/px4-developer-summit/)
@@ -53,11 +59,7 @@ Here are upcoming and past events listed that are important for Aerial Robotists
 * **Date/Location:** May 14-17 in Charlotte, USA
 * **Description:** International Conference on Unmanned Aircraft Systems
 
-## 2026
 
-### [Commercial UAV Forum](https://www.forumuav.com/)
-* **Date/Location:** April 22-23 in Amsterdam, The Netherlands
-* **Description:** Commercial drone event
 
 This page was last updated: *{{ git_revision_date_localized }}*
 
