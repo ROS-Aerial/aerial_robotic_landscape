@@ -6,19 +6,27 @@ If you know of any events that should be listed here, please submit a PR to the 
 
 ## 2025
 
+### PX4 Developer Summit
+* **Date:** Nov 10-11
+* **Location:** Atlanta, Georgia, USA
+* **Website:** [https://events.linuxfoundation.org/px4-developer-summit//](https://events.linuxfoundation.org/px4-developer-summit/)
+* **Description:** Developer conferences for the PX4 ecosystem
+* **Call for participation:** Deadline 1th of September
+
 ### IMAV
 * **Date:** Nov 10-14
 * **Location:** San Andres Cholula, Mexico
 * **Website:** [https://femexrobotica.org/imav2025/](https://femexrobotica.org/imav2025/)
 * **Description:** Micro Air Vehicle Conference and Competition
-* **Call for participation:** Not out yet
+* **Call for participation:** Deadline June 29th (closed)
 
 ### ROSCon
 * **Date:** Oct 27-29
 * **Location:** Singapore, Singapore
 * **Website:**  [https://roscon.ros.org/2025/](https://roscon.ros.org/2025/)
 * **Description:** Developer Conference on the Robot Operating System (ROS)
-* **Call for participation:** Deadline 2nd of june
+* **Call for participation:** Deadline 2nd of June (closed)
+* **Special notes:** Full day aerial robotic workshop available for ROS 2 and PX4
 
 ### IROS
 * **Date:** Oct 19-25
@@ -26,6 +34,18 @@ If you know of any events that should be listed here, please submit a PR to the 
 * **Website:** [http://www.iros25.org/](http://www.iros25.org/)
 * **Description:** Academic robotics conference with many sessions on UAVs
 * **Paper submission deadline:** March 1 2025
+
+### Ardupilot Developer Conference
+* **Date:** Sept 5-7
+* **Location:**: Yorkshire, UK 
+* **Website:** [https://discuss.ardupilot.org/t/ardupilot-developer-conference-2025-september-5th-7th-in-yorkshire-uk/128501](https://discuss.ardupilot.org/t/ardupilot-developer-conference-2025-september-5th-7th-in-yorkshire-uk/128501)
+* **Description:** Developer Conference for the Ardupilot Ecosystem (limited to core-developers/partners)
+
+### International CogniPilot Conference
+* **Date:** Sept 5
+* **Location:**:  West Lafayette, Indiana, USA
+* **Website:** [Eventbrite invite](https://www.eventbrite.com/e/cognipilot-conference-and-ros-midwest-meetup-tickets-1376420925039?aff=oddtdtcreator)
+* **Description:** Developer Conference for the Cognipilot Ecosystem
 
 ### Embedded Linux Conference Europe
 * **Date:** Aug 25-27
