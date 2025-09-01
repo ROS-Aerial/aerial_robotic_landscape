@@ -16,7 +16,7 @@ the following autonomy stack table was extracted and adapted.
 | -------------- | ----- | ------- |
 | [Aerostack(1)](https://github.com/cvar-upm/aerostack/wiki)       | ROS        | 11/2021 |
 | [Aerostack2](https://github.com/aerostack2/aerostack2)       | ROS 2      | 07/2025 | 
-| [`aerial-autonomy-stack`](https://github.com/JacopoPan/aerial-autonomy-stack)       | ROS 2        | 08/2025      | 
+| [Aerial autonomy stack (AAS)](https://github.com/JacopoPan/aerial-autonomy-stack)       | ROS 2        | 08/2025      | 
 | [Agilicious](https://agilicious.readthedocs.io/en/latest/index.html)       | ROS        | 03/2023      | 
 | [KumarRobotics Autonomy Stack](https://github.com/KumarRobotics/kr_autonomous_flight)  | ROS        | 08/2023 |
 | [CrazyChoir](https://github.com/OPT4SMART/crazychoir)     | ROS 2      | 06/2025 |
