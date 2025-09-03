@@ -26,8 +26,12 @@ Here are upcoming and past events listed that are important for Aerial Robotists
 * **Date/Location:** Oct 19-25 in Hanzhou, China
 * **Description:** Academic robotics conference with an [Advancements in Aerial Physical Interaction Workshop](https://sites.google.com/view/iros2025-aerialrobot-workshop/home)
 
+### [Commercial UAV expo](https://www.expouav.com/)
+* **Date/Location:** Sept 2-4 in Las Vegas, NV, USA
+* **Description**: The Commercial UAV Expo is a premier trade show and conference for the commercial drone industry.
+
 ### [Ardupilot Developer Conference 2025](https://discuss.ardupilot.org/t/ardupilot-developer-conference-2025-september-5th-7th-in-yorkshire-uk/128501)
-* **Date/Location:** Sept 5-7 in Yorkshire, UK 
+* **Date/Location:** Sept 5-7 in Yorkshire, UK
 * **Description:** Developer Conference for the Ardupilot Ecosystem (limited to core-developers/partners)
 
 ### [International CogniPilot Conference 2025](https://www.eventbrite.com/e/cognipilot-conference-and-ros-midwest-meetup-tickets-1376420925039?aff=oddtdtcreator)
@@ -40,7 +44,6 @@ Here are upcoming and past events listed that are important for Aerial Robotists
 
 ### [International Drone Show 2025](https://internationaldroneshow.com/)
 * **Date/Location:** June 18-19 in Odense, Denmark
-* **Website:** [[https://2025.ieee-icra.org/](https://internationaldroneshow.com/)]([https://2025.ieee-icra.org/](https://internationaldroneshow.com/))
 * **Description:** Drone business expo with many demos
 
 ### [ICRA 2025](https://2025.ieee-icra.org/)
