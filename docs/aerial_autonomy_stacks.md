@@ -16,7 +16,7 @@ the following autonomy stack table was extracted and adapted.
 | -------------- | ----- | ------- |
 | [Aerostack(1)](https://github.com/cvar-upm/aerostack/wiki)       | ROS        | 11/2021 |
 | [Aerostack2](https://github.com/aerostack2/aerostack2)       | ROS 2      | 07/2025 | 
-| [Aerial autonomy stack (AAS)](https://github.com/JacopoPan/aerial-autonomy-stack)       | ROS 2        | 08/2025      | 
+| [Aerial autonomy stack (AAS)](https://github.com/JacopoPan/aerial-autonomy-stack)       | ROS 2        | 09/2025 | 
 | [Agilicious](https://agilicious.readthedocs.io/en/latest/index.html)       | ROS        | 03/2023      | 
 | [KumarRobotics Autonomy Stack](https://github.com/KumarRobotics/kr_autonomous_flight)  | ROS        | 08/2023 |
 | [CrazyChoir](https://github.com/OPT4SMART/crazychoir)     | ROS 2      | 06/2025 |
@@ -28,7 +28,7 @@ the following autonomy stack table was extracted and adapted.
 | [Crazyswarm2](https://github.com/IMRCLab/crazyswarm2)         | ROS 2        | 07/2025 |
 | [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)    | ROS        | 12/2022      | 
 
-_Table last updated on **September 01th, 2025 at 02:54:04 AM UTC**_
+_Table last updated on **September 08th, 2025 at 02:40:07 AM UTC**_
 
 Other Autonomy stacks:
 
@@ -80,7 +80,7 @@ Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_ro
 | [pidrone_pkg](https://github.com/h2r/pidrone_pkg/tree/dd21)   | ✓    | Mono camera/IR | ROS 1 | N/A | Duckiedrone | 05/2024 |
 
 
-_Table last updated on **September 01th, 2025 at 02:54:04 AM UTC**_
+_Table last updated on **September 08th, 2025 at 02:40:07 AM UTC**_
 
 
 --8<-- "docs/goatcounter.html"
