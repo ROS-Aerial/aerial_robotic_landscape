@@ -14,7 +14,7 @@ This repository/website is a collection of resources for aerial robotics. It is 
 * [Hardware, Components, and Dev Kits](docs/hardware.md)
 * [Aerial Vehicle Types](docs/aerial_vehicles.md)
 * [Middleware and Drivers](docs/middleware_and_drivers.md)
-* [Events in Aerial RoboticsWW](docs/Events.md)
+* [Events in Aerial Robotics](docs/events.md)
 
 ## Website
 
