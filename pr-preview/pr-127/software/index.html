@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Autopilot suites - Aerial Robotics Landscape</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Autopilot suites";
+        var mkdocs_page_input_path = "software.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Aerial Robotics Landscape
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../aerial_vehicles/">Aerial Vehicle Types and Categories</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../education_and_tutorial/">Education and tutorials</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../events/">Events in Aerial Robotics</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../simulation/">Simulation of Aerial Robotics</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../hardware/">Hardware, Components, and Dev Kits</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Autopilot suites</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#flight-control-firmware">Flight Control Firmware</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ground-control-stations-gcs">Ground Control Stations (GCS)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#references">References</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../aerial_autonomy_stacks/">Aerial Autonomy Stacks</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../middleware_and_drivers/">Middleware and Drivers</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../message_standards/">Message standards</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../safety_management/">Safety and Management Systems</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Aerial Robotics Landscape</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Autopilot suites</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/ROS-Aerial/aerial_robotic_landscape/blob/main/docs/software.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="autopilot-suites">Autopilot suites</h1>
+<p>In aerial robotics, a UAV’s software stack is typically divided into two subsystems: </p>
+<ul>
+<li><strong>The Flight Control Firmware</strong>: embedded onboard the vehicle—manages real-time sensor fusion, attitude stabilization and closed-loop flight control.</li>
+<li><strong>The Ground Control Station (GCS)</strong>: running on the operator’s workstation—provides the human–machine interface for mission planning, live telemetry monitoring, parameter tuning and post-flight analysis. Below, we list popular open-source flight control firmware and GCS packages along with their supported platforms.</li>
+</ul>
+<h2 id="flight-control-firmware">Flight Control Firmware</h2>
+<p>Comparison of Flight Control Firmware. <a href="#references">[1]</a></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Latest Release</th>
+<th>OS</th>
+<th>Language</th>
+<th>License / FC / Doc / Config Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hack flight</td>
+<td>—</td>
+<td>None</td>
+<td>C++</td>
+<td>GPL-3.0  / – / Lesser GPL-3.0</td>
+</tr>
+<tr>
+<td>Cleanflight</td>
+<td><a href="https://github.com/cleanflight/cleanflight/releases">v2.5.0</a></td>
+<td>Scheduler</td>
+<td>C</td>
+<td>GPL-3.0  / – / GPL-3.0</td>
+</tr>
+<tr>
+<td>Betaflight</td>
+<td><a href="https://github.com/betaflight/betaflight/releases">v4.5.2</a></td>
+<td>Scheduler</td>
+<td>C</td>
+<td>GPL-3.0  / – / GPL-3.0</td>
+</tr>
+<tr>
+<td>INAV</td>
+<td><a href="https://github.com/iNavFlight/inav/releases">v8.0.1</a></td>
+<td>Scheduler</td>
+<td>C</td>
+<td>GPL-3.0  / – / GPL-3.0</td>
+</tr>
+<tr>
+<td>LibrePilot</td>
+<td><a href="https://github.com/librepilot/LibrePilot/tags">v16.09</a></td>
+<td>FreeRTOS</td>
+<td>C</td>
+<td>GPL-3.0  / CC-BY-SA-3.0 / GPL-3.0</td>
+</tr>
+<tr>
+<td>dRonin</td>
+<td><a href="https://github.com/d-ronin/dRonin/releases">dRonin 2018-07-29</a></td>
+<td>PiOS</td>
+<td>C</td>
+<td>GPL-3.0  / To be determined / –</td>
+</tr>
+<tr>
+<td>ArduPilot</td>
+<td><a href="https://github.com/ArduPilot/ardupilot/releases">v4.5.7</a></td>
+<td>ChibiOS / NuttX / Linux</td>
+<td>C/C++</td>
+<td>GPL-3.0  / CC-BY-SA-3.0 / GPL-3.0</td>
+</tr>
+<tr>
+<td>PX4</td>
+<td><a href="https://github.com/PX4/PX4-Autopilot/releases">v1.15.4</a></td>
+<td>NuttX</td>
+<td>C/C++</td>
+<td>BSD 2-Clause / CC-BY-SA-3.0 / GPL-3.0</td>
+</tr>
+<tr>
+<td>Paparazzi</td>
+<td><a href="https://github.com/paparazzi/paparazzi/releases">v6.4.0</a></td>
+<td>ChibiOS / Scheduler</td>
+<td>C/Python</td>
+<td>GPL-3.0  / GFDL / GPL-3.0</td>
+</tr>
+<tr>
+<td>DJI Onboard SDK (OSDK) <strong>(EOL)</strong></td>
+<td><a href="https://github.com/dji-sdk/Onboard-SDK-ROS">v4.1.0</a></td>
+<td>Linux / RTOS</td>
+<td>C/C++</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>DJI Payload SDK (PSDK)</td>
+<td><a href="https://github.com/dji-sdk/Payload-SDK">v3.11.1</a></td>
+<td>Linux / RTOS</td>
+<td>C</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>ROSflight</td>
+<td><a href="https://github.com/rosflight/rosflight_firmware/releases">v1.3.0</a></td>
+<td>Linux</td>
+<td>C</td>
+<td>BSD 3-Clause</td>
+</tr>
+<tr>
+<td>Crazyflie Firmware</td>
+<td><a href="https://github.com/bitcraze/crazyflie-firmware/releases">v2025.02</a></td>
+<td>Linux</td>
+<td>C</td>
+<td>GPL-3.0</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Notes:</strong>
+- EOL = End of Life Service.  </p>
+</blockquote>
+<hr />
+<h2 id="ground-control-stations-gcs">Ground Control Stations (GCS)</h2>
+<p>Comparison of GCS software and their supported platforms.<a href="#references">[2]</a></p>
+<table>
+<thead>
+<tr>
+<th>GCS</th>
+<th>Lastest Release</th>
+<th>Supported Platforms</th>
+<th>OS (L/W/M)</th>
+<th>Protocol(s)</th>
+<th>Language / Framework</th>
+<th>License</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Planner</td>
+<td><a href="https://github.com/ArduPilot/MissionPlanner/releases">v1.3.82</a></td>
+<td>ArduPilot</td>
+<td>✕/✓/✓</td>
+<td>MAVLink</td>
+<td>.NET / C#</td>
+<td>GPL-3.0-only</td>
+</tr>
+<tr>
+<td>APM Planner 2</td>
+<td><a href="https://github.com/ArduPilot/apm_planner/releases">v2.0.30-rc3</a></td>
+<td>ArduPilot, PX4</td>
+<td>✓/✓/✓</td>
+<td>MAVLink</td>
+<td>Qt / C++</td>
+<td>GPL-3.0-or-later</td>
+</tr>
+<tr>
+<td>MAVProxy</td>
+<td><a href="https://github.com/ArduPilot/MAVProxy/releases">v1.8.71</a></td>
+<td>ArduPilot</td>
+<td>✓/✕/✕</td>
+<td>MAVLink</td>
+<td>Python</td>
+<td>GPL-3.0-or-later</td>
+</tr>
+<tr>
+<td>AndroPilot</td>
+<td><a href="https://github.com/tstellanova/andropilot/blob/master/RELEASE-NOTES.md">v1.9.14</a></td>
+<td>ArduPilot</td>
+<td>✕/✕/✕</td>
+<td>MAVLink</td>
+<td>Java</td>
+<td>GPL-3.0-only</td>
+</tr>
+<tr>
+<td>QGroundControl</td>
+<td><a href="https://github.com/mavlink/qgroundcontrol/releases">v4.4.4</a></td>
+<td>ArduPilot, PX4</td>
+<td>✓/✓/✓</td>
+<td>MAVLink</td>
+<td>Qt / C++</td>
+<td>Apache-2.0 / GPL-3.0-only</td>
+</tr>
+<tr>
+<td>Paparazzi Center</td>
+<td><a href="https://github.com/paparazzi/paparazzi/releases">v6.4.0</a></td>
+<td>Paparazzi</td>
+<td>✓/✓/✓</td>
+<td>PprzLink</td>
+<td>Python</td>
+<td>GPL-2.0-only</td>
+</tr>
+<tr>
+<td>LibrePilot GCS</td>
+<td><a href="https://github.com/librepilot/LibrePilot/tags">v16.09</a></td>
+<td>LibrePilot</td>
+<td>✓/✓/✓</td>
+<td>UAVTalk</td>
+<td>C++ / Qt</td>
+<td>GPL-3.0-only</td>
+</tr>
+<tr>
+<td>Betaflight-Configurator</td>
+<td><a href="https://github.com/betaflight/betaflight-configurator/releases">v10.10.0</a></td>
+<td>Betaflight</td>
+<td>✓/✓/✓</td>
+<td>MSP, MAVLink</td>
+<td>Electron / JavaScript</td>
+<td>GPL-3.0-only</td>
+</tr>
+<tr>
+<td>iNAV-Configurator</td>
+<td><a href="https://github.com/iNavFlight/inav-configurator/releases">v8.0.1</a></td>
+<td>iNAV</td>
+<td>✓/✓/✓</td>
+<td>MSP, MAVLink</td>
+<td>Electron / JavaScript</td>
+<td>GPL-3.0-only</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Notes:</strong><br />
+- Order for OS is Linux/Windows/macOS, with ✓ = supported, ◐ = partial, ✕ = not supported.
+- AndroPilot is Android-only, hence ✕/✕/✕ here.<br />
+- All other entries match their official supported OS lists.</p>
+</blockquote>
+<hr />
+<h2 id="references">References</h2>
+<ol>
+<li>Ebeid, E., Skriver, M., Terkildsen, K.H., Jensen, K. and Schultz, U.P. (2018) A Survey of Open-Source UAV Flight Controllers and Flight Simulators. Microprocessors and Microsystems, 61, 11-20.
+<a href="https://doi.org/10.1016/j.micpro.2018.05.002">https://doi.org/10.1016/j.micpro.2018.05.002.</a></li>
+<li>Aliane, N. (2024). A Survey of Open-Source UAV Autopilots. Electronics, 13(23), 4785. <a href="https://doi.org/10.3390/electronics13234785">https://doi.org/10.3390/electronics13234785.</a></li>
+</ol>
+<p>This page was last updated: <em><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 8, 2025</span></em></p>
+<script data-goatcounter="https://aerial-robotics-landscape.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../hardware/" class="btn btn-neutral float-left" title="Hardware, Components, and Dev Kits"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../aerial_autonomy_stacks/" class="btn btn-neutral float-right" title="Aerial Autonomy Stacks">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>This website is information assembled with help of the ROS Aerial Robotics Community group. Analytics with no-cookie tracking with goatviewer.com</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/ROS-Aerial/aerial_robotic_landscape" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../hardware/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../aerial_autonomy_stacks/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
