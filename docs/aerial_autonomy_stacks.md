@@ -15,7 +15,7 @@ the following autonomy stack table was extracted and adapted.
 | Flight stack   |  Middleware | last  update |
 | -------------- | ----- | ------- |
 | [Aerostack(1)](https://github.com/cvar-upm/aerostack/wiki)       | ROS        | 11/2021 |
-| [Aerostack2](https://github.com/aerostack2/aerostack2)       | ROS 2      | 07/2025 | 
+| [Aerostack2](https://github.com/aerostack2/aerostack2)       | ROS 2      | 09/2025 | 
 | [Aerial autonomy stack (AAS)](https://github.com/JacopoPan/aerial-autonomy-stack)       | ROS 2        | 09/2025 | 
 | [Agilicious](https://agilicious.readthedocs.io/en/latest/index.html)       | ROS        | 03/2023      | 
 | [KumarRobotics Autonomy Stack](https://github.com/KumarRobotics/kr_autonomous_flight)  | ROS        | 08/2023 |
@@ -28,7 +28,7 @@ the following autonomy stack table was extracted and adapted.
 | [Crazyswarm2](https://github.com/IMRCLab/crazyswarm2)         | ROS 2        | 07/2025 |
 | [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)    | ROS        | 12/2022      | 
 
-_Table last updated on **September 08th, 2025 at 02:40:07 AM UTC**_
+_Table last updated on **September 15th, 2025 at 02:41:06 AM UTC**_
 
 Other Autonomy stacks:
 
@@ -68,7 +68,7 @@ Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_ro
 | Package name        | OS/OC | Sensors required         | Middleware | Simulator | Platform/controller | Last updated  |
 | ------------------- | ----- | ------------------------ | ----------- | ----------| ------------------- | ------------- |
 | [Ardupilot ROS](https://github.com/ArduPilot/ardupilot_ros/tree/humble)   | ✓     | LiDAR        | ROS 2 | Gazebo | Iris coptor,Ardupilot | 03/2025 |
-| [as2_behaviour_tree](https://github.com/aerostack2/aerostack2/tree/main/as2_behavior_tree)   | ✓     | Unknown | ROS 2 | Gazebo | Crazyflie,DJI,Tello | 07/2025 |
+| [as2_behaviour_tree](https://github.com/aerostack2/aerostack2/tree/main/as2_behavior_tree)   | ✓     | Unknown | ROS 2 | Gazebo | Crazyflie,DJI,Tello | 09/2025 |
 | [Teach-Repeat-Replan](https://github.com/HKUST-Aerial-Robotics/Teach-Repeat-Replan) | ✓     | Stereo camera  | ROS 1 | MockaFly | DJI N3 | 10/2021 |
 | [rtabmap](https://github.com/matlabbe/rtabmap_drone_example)    | ✓     | Stereo camera  | ROS 1 | Gazebo | PX4 | 12/2024 |
 | [ORB_SLAM_3](https://github.com/arthurfenderbucker/indoor_drone)   | ✓     | Mono/stereo camera | ROS 1 | N/A | Bebop 2 | 06/2025 |
@@ -80,7 +80,7 @@ Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_ro
 | [pidrone_pkg](https://github.com/h2r/pidrone_pkg/tree/dd21)   | ✓    | Mono camera/IR | ROS 1 | N/A | Duckiedrone | 05/2024 |
 
 
-_Table last updated on **September 08th, 2025 at 02:40:07 AM UTC**_
+_Table last updated on **September 15th, 2025 at 02:41:06 AM UTC**_
 
 
 --8<-- "docs/goatcounter.html"
