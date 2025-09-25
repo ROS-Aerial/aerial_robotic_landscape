@@ -15,7 +15,7 @@ Here are upcoming and past events listed that are important for Aerial Robotists
 * **Description:** Developer conferences for the PX4 ecosystem
 
 ### [IMAV 2025](https://femexrobotica.org/imav2025/)
-* **Date/Location:** Nov 10-14 in San Andres Cholula, Mexico
+* **Date/Location:** Nov 3-7 in San Andres Cholula, Mexico
 * **Description:** Micro Air Vehicle Conference and Competition
 
 ### [ROSCon 2025](https://roscon.ros.org/2025/)
