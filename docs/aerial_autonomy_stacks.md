@@ -24,7 +24,7 @@ the following autonomy stack table was extracted and adapted.
 | [XTDrone](https://github.com/robin-shaun/XTDrone)       | ROS        | 08/2025 | 
 | [RotorS](https://github.com/ethz-asl/rotors_simulator)         | ROS        | 07/2021 |
 | [GAAS](https://github.com/generalized-intelligence/GAAS)           | ROS        | 10/2021 | 
-| [MRS AUV System](https://github.com/ctu-mrs/mrs_uav_system)   | ROS        | 09/2025 |
+| [MRS AUV System](https://github.com/ctu-mrs/mrs_uav_system)   | ROS / ROS 2       | 09/2025 |
 | [Crazyswarm2](https://github.com/IMRCLab/crazyswarm2)         | ROS 2        | 07/2025 |
 | [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)    | ROS        | 12/2022      | 
 
