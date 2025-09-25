@@ -4,6 +4,19 @@ Simulation is crucial when working with Unmanned Aerial Vehicles (UAVs). Testing
 
 This page presents several simulator options for aerial robotics enthusiasts.
 
+## Aerial Robotics simulator list
+
+This list is rendered from the readme of the [best-of-robot-simulators list](https://github.com/knmcguire/best-of-robot-simulators) that happens to have an Aerial Robotics Simulator list.
+
+
+{%
+  include-markdown "https://raw.githubusercontent.com/knmcguire/best-of-robot-simulators/refs/heads/main/README.md"
+  start="_Simulator frameworks made especially for aerial robotics_"
+  end="## Maritime Robotics Simulators"
+%}
+
+> The rendering is not great of this list, so for better experience go to the [best-of-robot-simulators Aerial Robotics simulator list](https://github.com/knmcguire/best-of-robot-simulators#aerial-robotics-simulators) itself
+
 ## Comparison
 
 The following simulators have their own integrated physics simulation and basic rendering capabilities. They are capable of simulating the aerodynamic forces necessary to keep UAVs airborne:

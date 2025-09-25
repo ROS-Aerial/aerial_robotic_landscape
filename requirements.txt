@@ -3,3 +3,5 @@ pymdown-extensions~=10.12
 mkdocs-git-revision-date-localized-plugin~=1.3.0
 mkdocs-linkcheck~=1.0.6
 requests~=2.32.3
+mkdocs-include-markdown-plugin~=7.1.7
+
