@@ -6,21 +6,18 @@ This is an list of development platforms for aerial robotics. Please start a pul
 
 These are platforms that are currently commercially available for anybody to buy for their research.
 
-### Copters
-
 Holybro:
 
-   - [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5)
+- [PX4 Vision Dev Kit V1.5](https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5)
 
 ModalAI:
 
-   - [PX4 Autonomy Dev Kit](https://www.modalai.com/products/px4-autonomy-developer-kit?variant=46969885950256)
-   - [Starling 2](https://www.modalai.com/products/starling-2?variant=48173890175280) and [Starling 2 Max](https://www.modalai.com/products/starling-2-max?variant=48172375310640)
+- [PX4 Autonomy Dev Kit](https://www.modalai.com/products/px4-autonomy-developer-kit?variant=46969885950256)
+- [Starling 2](https://www.modalai.com/products/starling-2?variant=48173890175280) and [Starling 2 Max](https://www.modalai.com/products/starling-2-max?variant=48172375310640)
 - [PX4 Autonomy Developer Kit](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
 
 Duckietown:
 
-- [Duckiedrone DD21](https://get.duckietown.com/products/duckiedrone-dd21)
 - [Duckiedrone DD24](https://get.duckietown.com/products/autonomous-raspberrypi-quadcopter-duckiedrone-dd24)
 
 Fly4Future:
@@ -28,17 +25,30 @@ Fly4Future:
 - [Fly4Future Robofly](https://fly4future.com/robofly/)
 - [FLy4Future custom drone designs](https://fly4future.com/custom-drones/)
 
-Other:
+Bitcraze AB:
 
-- [NXP HoverGames Kit](https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66) official hardware for the yearly [HoverGames Challenge](https://www.hovergames.com)
-- [Clover by Coex](https://clover.coex.tech/en/)
+- [Crazyflie 2.1+](https://www.bitcraze.io/products/crazyflie-2-1-plus/)
+- [Crazyflie 2.1 Brushless](https://www.bitcraze.io/products/crazyflie-2-1-brushless/)
+
+NXP Semiconductors:
+
+- [NXP HoverGames Kit](https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66)
+
+Droneblocks:
+
 - [Droneblocks DEXI 5](https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/)
+
+Coex:
+
+- [Clover](https://clover.coex.tech/en/)
+
+3DR:
+
 - [3DR Quad Zero Kit](https://store.3dr.com/3dr-quad-zero-kit/)
-- [Crazyflie 2.1+ - Bitcraze](https://www.bitcraze.io/products/crazyflie-2-1-plus/)
 
-### Flapping wing
+Flapper Drones:
 
-- [Flapper Nimble+](https://flapper-drones.com/wp/nimbleplus/) insect-inspired UAV by Flapper Drones
+- [Flapper Nimble+](https://flapper-drones.com/wp/nimbleplus/) 
 
 ## Industrial Platforms
 
