@@ -22,6 +22,7 @@ Comparison of Flight Control Firmware. [[1]](#references)
 
 
 Here is a list of autopilot suites that are either EOL (End of Life) or haven't received an update in the last 5 years:
+
 * [LibrePilot](https://github.com/librepilot/LibrePilot/)
 * [dRonin](https://github.com/d-ronin/dRonin/)
 * [DJI onboard sdk](https://github.com/dji-sdk/)
