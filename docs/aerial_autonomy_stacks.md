@@ -26,7 +26,8 @@ the following autonomy stack table was extracted and adapted.
 | [GAAS](https://github.com/generalized-intelligence/GAAS)           | ROS        | 10/2021 | 
 | [MRS AUV System](https://github.com/ctu-mrs/mrs_uav_system)   | ROS / ROS 2       | 09/2025 |
 | [Crazyswarm2](https://github.com/IMRCLab/crazyswarm2)         | ROS 2        | 07/2025 |
-| [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)    | ROS        | 12/2022      | [Dynamic Swarms Crazyflie](https://github.com/DynamicSwarms/ds-crazyflies) | ROS 2 | 08/2025 |
+| [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)    | ROS        | 12/2022      |
+|[Dynamic Swarms Crazyflie](https://github.com/DynamicSwarms/ds-crazyflies) | ROS 2 | 08/2025 |
 
 _Table last updated on **September 29th, 2025 at 02:37:46 AM UTC**_
 
