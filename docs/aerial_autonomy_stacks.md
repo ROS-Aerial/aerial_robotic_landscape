@@ -55,6 +55,7 @@ Here is a list of VIO packages that people can use if they have a [depth camera]
 - [Kaggle Underwater forward-looking VI dataset](https://www.kaggle.com/datasets/viseaonlab/flsea-vi)
 - [The Air Lab Datasets](https://theairlab.org/datasets/)
 - [The UZH FPV Dataset](https://fpv.ifi.uzh.ch/datasets/)
+- [Race Against the Machine](https://github.com/tii-racing/drone-racing-dataset)
 
 
 ## Partial autonomy packages
