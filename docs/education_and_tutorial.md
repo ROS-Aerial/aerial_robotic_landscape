@@ -21,8 +21,8 @@ There is this important resource which is the book titled **‘Small Unmanned Ai
 ### IEEE RAS summer school on Multi-robot Systems
 There is an in-person **IEEE RAS summer school on Multi-robot Systems** organized by the Czech Technical University of Prague. It has been organized for over 5 summers and they use real aerial robotic platforms for their practicals with students, along with gettting lessons of both UAV and multi-robot experts. A summer school to not miss if you'd like to get started in the world of aerial robotics!
 
-* Date: **Summer 2025**
-* Link: <https://mrs.fel.cvut.cz/summer-school-2025/>
+* Date: **Summer 2026**
+* Link: <https://mrs.fel.cvut.cz/summer-school-2026/>
 
 ### Drone Summer School at the SDU UAS Center
 The University of Soutern Denmark has their yearly **Drone Summer School at the SDU UAS Center**. Here you will learn to construct and fly drones focused around computer-vision. There will be team formation where the drone is build and where it can be flown outside in their huge UAS Denmark test center.
