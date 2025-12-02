@@ -120,9 +120,9 @@ Several autopilot suites provide instructions for using simulators, often with S
 * **PX4**: <https://docs.px4.io/main/en/simulation/#simulation>
 * **ROSflight**: <https://docs.rosflight.org/v1.3/user-guide/gazebo_simulation/>
 
-## Aerial Robotics simulator list
+## Aerial Robotics Simulator lists
 
-There is an category of Aerial Robotics in the Best-Of-Robot-Simulator lists of Kimberly McGuire. Go here directly to the [best-of-robot-simulators Aerial Robotics simulator list](https://github.com/knmcguire/best-of-robot-simulators#aerial-robotics-simulators) itself
+* Aerial Robotics category in the Best-Of-Robot-Simulators list: <https://github.com/knmcguire/best-of-robot-simulators#aerial-robotics-simulators/>
 
 This page was last updated: *{{ git_revision_date_localized }}*
 
