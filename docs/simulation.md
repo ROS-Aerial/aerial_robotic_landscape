@@ -4,19 +4,6 @@ Simulation is crucial when working with Unmanned Aerial Vehicles (UAVs). Testing
 
 This page presents several simulator options for aerial robotics enthusiasts.
 
-## Aerial Robotics simulator list
-
-This list is rendered from the readme of the [best-of-robot-simulators list](https://github.com/knmcguire/best-of-robot-simulators) that happens to have an Aerial Robotics Simulator list.
-
-
-{%
-  include-markdown "https://raw.githubusercontent.com/knmcguire/best-of-robot-simulators/refs/heads/main/README.md"
-  start="_Simulator frameworks made especially for aerial robotics_"
-  end="## Maritime Robotics Simulators"
-%}
-
-> The rendering is not great of this list, so for better experience go to the [best-of-robot-simulators Aerial Robotics simulator list](https://github.com/knmcguire/best-of-robot-simulators#aerial-robotics-simulators) itself
-
 ## Comparison
 
 The following simulators have their own integrated physics simulation and basic rendering capabilities. They are capable of simulating the aerodynamic forces necessary to keep UAVs airborne:
@@ -132,6 +119,10 @@ Several autopilot suites provide instructions for using simulators, often with S
 * **Paparazzi UAV**: <https://wiki.paparazziuav.org/wiki/Simulation>
 * **PX4**: <https://docs.px4.io/main/en/simulation/#simulation>
 * **ROSflight**: <https://docs.rosflight.org/v1.3/user-guide/gazebo_simulation/>
+
+## Aerial Robotics simulator list
+
+There is an category of Aerial Robotics in the Best-Of-Robot-Simulator lists of Kimberly McGuire. Go here directly to the [best-of-robot-simulators Aerial Robotics simulator list](https://github.com/knmcguire/best-of-robot-simulators#aerial-robotics-simulators) itself
 
 This page was last updated: *{{ git_revision_date_localized }}*
 
