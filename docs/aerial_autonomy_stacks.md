@@ -29,7 +29,7 @@ the following autonomy stack table was extracted and adapted.
 | [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)    | ROS        | 12/2022      |
 | [Dynamic Swarms Crazyflies](https://github.com/DynamicSwarms/ds-crazyflies) | ROS 2 | 12/2025 |
 
-_Table last updated on **January 05th, 2026 at 03:14:02 AM UTC**_
+_Table last updated on **January 12th, 2026 at 03:08:12 AM UTC**_
 
 Other Autonomy stacks:
 
@@ -82,7 +82,7 @@ Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_ro
 | [pidrone_pkg](https://github.com/h2r/pidrone_pkg/tree/dd21)   | ✓    | Mono camera/IR | ROS 1 | N/A | Duckiedrone | 05/2024 |
 
 
-_Table last updated on **January 05th, 2026 at 03:14:02 AM UTC**_
+_Table last updated on **January 12th, 2026 at 03:08:12 AM UTC**_
 
 
 --8<-- "docs/goatcounter.html"
