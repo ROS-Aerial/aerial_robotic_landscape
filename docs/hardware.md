@@ -14,7 +14,7 @@ ModalAI:
 
 - [PX4 Autonomy Dev Kit](https://www.modalai.com/products/px4-autonomy-developer-kit?variant=46969885950256)
 - [Starling 2](https://www.modalai.com/products/starling-2?variant=48173890175280) and [Starling 2 Max](https://www.modalai.com/products/starling-2-max?variant=48172375310640)
-- [PX4 Autonomy Developer Kit](https://www.modalai.com/collections/drones/products/px4-autonomy-developer-kit)
+- [PX4 Autonomy Developer Kit](https://px4.io/project/px4-autonomy-developer-kit/)
 
 Duckietown:
 
@@ -59,7 +59,6 @@ Flapper Drones:
 
 These are platforms that are standard within a lab or department, with information of what it contains provided with perhaps build instructions:
 
--  [OmniQuad - University of Naples Federico II](https://tilties2.github.io/omniquad-website/)
 -  [Agilicous - University of Zurich](https://agilicious.readthedocs.io/en/latest/index.html)
 -  [ModQuad - Lehigh University](http://swarmslab.com/projects/)
 -  [RMF-Owl - Norwegian University of Science and Technology](https://ieeexplore.ieee.org/document/9836115)
@@ -76,7 +75,6 @@ Many drone frames are usually built from carbon fiber and custom-made for applic
 There are some frames that are provided that will provide some base:
 
 - [DJI Flame wheel ARF kit F550, F450, F330](https://www-v1.dji.com/flame-wheel-arf/feature.html)
-- [Momentum Drones DEV-7](https://momentumdrones.com/products/dev7-frame-kit)
 
 ### Flight controllers
 
@@ -132,13 +130,13 @@ Several vendors have developed carrier boards that can expose input/output ports
 - [ARK Electronics Pi6X Flow](https://arkelectron.com/product/ark-pi6x-flow)
 - [Holybro Jetson Baseboard](https://holybro.com/products/pixhawk-jetson-baseboard?variant=43818665148605)
 - [Dronee Lychee Drone autopilot hardware](https://dronee.aero/pages/lychee)
-- [Airvolute DroneCore2 Jetson + Cube](https://airvolute.com/dronecore-2/)
+- [Airvolute DroneCore2 Jetson + Cube](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-default/)
 
 ### Depth Cameras
-  - [RealSense D455](https://www.intelrealsense.com/depth-camera-d455/)
-  - [RealSense D435i](https://www.intelrealsense.com/depth-camera-d435i/)
+  - [RealSense D455](https://www.realsenseai.com/products/real-sense-depth-camera-d455f/)
+  - [RealSense D435i](https://www.intel.com/content/www/us/en/products/sku/190004/intel-realsense-depth-camera-d435i/specifications.html)
 - Oak-d Series like [OAK-D Pro](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9098pro/) or [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095/)
-- [VOXL CAM by ModelAI](https://www.modalai.com/collections/blue-uas-framework-components/products/voxl-cam?variant=39543794565171)
+- [VOXL CAM by ModelAI](https://docs.modalai.com/voxl-cam/)
 
 ### Monocular Cameras
 - [Raspberry PI Cameras](https://www.raspberrypi.com/documentation/accessories/camera.html) Compatible with RPI. IMX219 and IMX477 based cameras compatible with Jetson Xavier, NX, Nano, Orin series (other models may require device tree overlays or source changes).
@@ -147,7 +145,7 @@ Several vendors have developed carrier boards that can expose input/output ports
 ### TOF Cameras
 - [Liteon A65 Camera Starter Kit](https://www.emcraft.com/products/1111) Check with vendor for NXP NAVQPLUS compatibility.
 - [PMD Flexx2 3D Camera](https://www.emcraft.com/products/1178) USB version should be compatible with most companion computers.
-- [VOXL2 TOF Depth Sensor ](https://docs.modalai.com/M0171/) Compatible with VOXL2. Check with vendor for early access product.
+- [VOXL2 TOF Depth Sensor ](https://www.modalai.com/products/m0178?variant=48528287793456) Compatible with VOXL2. Check with vendor for early access product.
 
 ### Event Cameras
 - [OpenMV N6](https://openmv.io/collections/cameras/products/openmv-n6?variant=41573456576606)
