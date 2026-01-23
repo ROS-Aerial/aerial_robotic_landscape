@@ -24,7 +24,7 @@ Here are upcoming and past events listed that are important for Aerial Robotists
 * **Date/Location:** May 18-20 in Minneapolis, USA
 * **Description:** A conference for open-source development, collaboration, and community innovation. Hosts the first PX4 Summit of 2026
 
-### [ICRA 2026]([https://forms.gle/1PWThrYoNZwtAtAU9](https://2026.ieee-icra.org/))
+### [ICRA 2026](https://2026.ieee-icra.org/)
 
 * **Date/Location:** June 1-5, 2026 in Vienna, Austria
 * **Description:** Academic research conference for robotics and automation with many sessions on Aerial Robotics
