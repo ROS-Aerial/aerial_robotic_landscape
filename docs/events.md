@@ -44,6 +44,11 @@ Here are upcoming and past events listed that are important for Aerial Robotists
 * **Date/Location:** September 1–3, 2026 in Las Vegas, Nevada
 * **Description:** Trade show and conference focused on the integration and operation of commercial UAS across industries like construction, energy, and mapping.
 
+### [ArduPilot Developer Conference](https://discuss.ardupilot.org/t/ardupilot-developer-conference-2026-in-ottawa-canada-october/140736)
+
+* **Date/Location:** October 2026 in Ottawa, Canada
+* **Description:** Technical gathering for developers and contributors to collaborate on the ArduPilot open-source autopilot software suite.
+
 ## Past events
 
 * [PX4 Developer Summit 2025](https://events.linuxfoundation.org/px4-developer-summit/)
