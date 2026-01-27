@@ -1,0 +1,17 @@
+name: "Link Check CI"
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check Markdown links
+        uses: byrnereese/github-action-mkdocs-link-check@v1
+        with:
+          folder-path: "docs/"
