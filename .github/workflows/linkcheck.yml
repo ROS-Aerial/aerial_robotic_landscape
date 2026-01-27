@@ -10,8 +10,13 @@ jobs:
   linkcheck:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Check Markdown links
         uses: byrnereese/github-action-mkdocs-link-check@v1
         with:
-          folder-path: "docs/"
+          folder-path: "."
+          method: "get"
+          fail-on-error: true
+          verbose: true
