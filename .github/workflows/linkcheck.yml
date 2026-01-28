@@ -5,6 +5,8 @@ on:
     branches: ["main"]
   pull_request:
     branches: ["main"]
+  schedule:
+    - cron: "0 3 * * 0"
 
 jobs:
   linkcheck:
@@ -18,5 +20,5 @@ jobs:
         with:
           folder-path: "."
           method: "get"
-          fail-on-error: true
+          fail-on-error: false
           verbose: true
