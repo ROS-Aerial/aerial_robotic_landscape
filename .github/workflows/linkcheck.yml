@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check Markdown links
-        uses: byrnereese/github-action-mkdocs-link-check@v1
+        uses: lycheeverse/lychee-action@v1
         with:
           folder-path: "."
           method: "get"
