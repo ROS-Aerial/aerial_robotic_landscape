@@ -1,0 +1,17 @@
+.wy-nav-content {
+  max-width: 1400px;
+}
+
+.wy-table-responsive {
+  overflow-x: visible;
+}
+
+.wy-table-responsive table {
+  width: 100%;
+  table-layout: auto;
+}
+
+.wy-table-responsive th,
+.wy-table-responsive td {
+  white-space: normal;
+}
