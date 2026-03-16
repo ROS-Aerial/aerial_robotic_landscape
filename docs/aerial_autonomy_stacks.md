@@ -18,7 +18,7 @@ the following autonomy stack table was extracted and adapted.
 | [Aerostack2](https://github.com/aerostack2/aerostack2)       | ROS 2      | 03/2026 | 
 | [Aerial autonomy stack (AAS)](https://github.com/JacopoPan/aerial-autonomy-stack)       | ROS 2        | 03/2026 | 
 | [Agilicious](https://agilicious.readthedocs.io/en/latest/index.html)       | ROS        | 03/2023      | 
-| [KumarRobotics Autonomy Stack](https://github.com/KumarRobotics/kr_autonomous_flight)  | ROS        | 08/2023 |
+| [KumarRobotics Autonomy Stack](https://github.com/KumarRobotics/kr_autonomous_flight)  | ROS        | 03/2026 |
 | [CrazyChoir](https://github.com/OPT4SMART/crazychoir)     | ROS 2      | 06/2025 |
 | [UAL](https://github.com/grvcTeam/grvc-ual)            | ROS        | 12/2022 |
 | [XTDrone](https://github.com/robin-shaun/XTDrone)       | ROS        | 08/2025 | 
@@ -29,7 +29,7 @@ the following autonomy stack table was extracted and adapted.
 | [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)    | ROS        | 12/2022      |
 | [Dynamic Swarms Crazyflies](https://github.com/DynamicSwarms/ds-crazyflies) | ROS 2 | 12/2025 |
 
-_Table last updated on **March 09th, 2026 at 03:36:45 AM UTC**_
+_Table last updated on **March 16th, 2026 at 03:57:13 AM UTC**_
 
 Other Autonomy stacks:
 
@@ -77,12 +77,12 @@ Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_ro
 | [relative_nav](https://github.com/rleish/relative_nav) | ✗     | Stereo camera  | ROS 1 | N/A | Rotorcraft | 04/2017 |
 | [zephyr](https://github.com/vatanaksoytezer/zephyr)    | ✓     | LiDAR        | ROS 1 | RotorS/Gazebo | AscTec Firefly | 11/2018 |
 | [tum_ardrone](https://github.com/tum-vision/tum_ardrone)  | ✓     | Mono camera     | ROS 1 | N/A | AR.Drone | 05/2014 |
-| [kr_autonomous_flight](https://github.com/KumarRobotics/kr_autonomous_flight)   | ✓    | Stereo camera/LiDAR/IMU | ROS 1 | Gazebo | Pixhawk | 08/2023 |
+| [kr_autonomous_flight](https://github.com/KumarRobotics/kr_autonomous_flight)   | ✓    | Stereo camera/LiDAR/IMU | ROS 1 | Gazebo | Pixhawk | 03/2026 |
 | [px4_sim_ros2](https://github.com/ParsaKhaledi/px4_sim_ros2)   | ✓    | Stereo camera | ROS 2 | Gazebo | PX4 | 06/2025 |
 | [pidrone_pkg](https://github.com/h2r/pidrone_pkg/tree/dd21)   | ✓    | Mono camera/IR | ROS 1 | N/A | Duckiedrone | 05/2024 |
 
 
-_Table last updated on **March 09th, 2026 at 03:36:45 AM UTC**_
+_Table last updated on **March 16th, 2026 at 03:57:13 AM UTC**_
 
 
 --8<-- "docs/goatcounter.html"
