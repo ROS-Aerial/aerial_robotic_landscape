@@ -130,6 +130,13 @@ _Youtube also has quite some tutorials available so this section highlights a fe
 
 * Link: <https://youtu.be/LmEcyQnfpDA>
 
+### Brian Douglas and MATLAB YouTube Channels
+
+**Brian Douglas and MATLAB YouTube Channels**: These channels provide educational content for control systems, focusing on topics such as PID control, system dynamics, and feedback. They are useful for understanding the fundamentals behind UAV stability and control.
+
+* Link: <https://www.youtube.com/@BrianBDouglas>
+* Link: <https://engineeringmedia.com/videos>
+
 ## Code Examples
 
 Here are some code examples that can be used as reference for experiments.
