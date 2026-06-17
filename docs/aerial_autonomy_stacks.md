@@ -36,6 +36,7 @@ Other Autonomy stacks:
 * [Hector quadrotor](http://wiki.ros.org/hector_quadrotor)
 * [Clover](https://github.com/CopterExpress/clover)
 * [HKUST-Aerial-Robotics](https://github.com/HKUST-Aerial-Robotics)
+* [Unified Autonomy Stack](https://ntnu-arl.github.io/unified_autonomy_stack)
 
 
 ## VIO packages
