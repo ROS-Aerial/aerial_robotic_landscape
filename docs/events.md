@@ -44,10 +44,20 @@ Here are upcoming and past events listed that are important for Aerial Robotists
 * **Date/Location:** September 1–3, 2026 in Las Vegas, Nevada
 * **Description:** Trade show and conference focused on the integration and operation of commercial UAS across industries like construction, energy, and mapping.
 
+### [ROSCon Global 2026](https://roscon.ros.org/2026/)
+
+* **Date/Location:** September 22-24, 2026 in Toronto, Canada
+* **Description:** Main global conference for Robot Operating System (ROS) developer community
+
 ### [ArduPilot Developer Conference 2026](https://discuss.ardupilot.org/t/ardupilot-developer-conference-2026-in-ottawa-canada-october/140736)
 
 * **Date/Location:** October 2026 in Ottawa, Canada
 * **Description:** Technical gathering for developers and contributors to collaborate on the ArduPilot open-source autopilot software suite.
+
+### [Open Source Summit Europe - PX4 Summit](https://events.linuxfoundation.org/open-source-summit-europe/)
+* **Date/Location:** 7-9 October 2026 Prague, Czechia
+* **Description:** Technical gathering for developers and contributors to collaborate on Linux foundation projects including the PX4 open-source autopilot software suite. 
+
 
 ## Past events
 
