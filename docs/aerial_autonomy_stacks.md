@@ -24,12 +24,12 @@ the following autonomy stack table was extracted and adapted.
 | [XTDrone](https://github.com/robin-shaun/XTDrone)       | ROS        | 10/2026 | 
 | [RotorS](https://github.com/ethz-asl/rotors_simulator)         | ROS        | 07/2021 |
 | [GAAS](https://github.com/generalized-intelligence/GAAS)           | ROS        | 10/2021 | 
-| [MRS AUV System](https://github.com/ctu-mrs/mrs_uav_system)   | ROS / ROS 2       | 08/2026 |
+| [MRS AUV System](https://github.com/ctu-mrs/mrs_uav_system)   | ROS / ROS 2       | 10/2026 |
 | [Crazyswarm2](https://github.com/IMRCLab/crazyswarm2)         | ROS 2        | 09/2026 |
 | [Crazyswarm(1)](https://crazyswarm.readthedocs.io/en/latest/)    | ROS        | 12/2022      |
-| [Dynamic Swarms Crazyflies](https://github.com/DynamicSwarms/ds-crazyflies) | ROS 2 | 12/2025 |
+| [Dynamic Swarms Crazyflies](https://github.com/DynamicSwarms/ds-crazyflies) | ROS 2 | 10/2026 |
 
-_Table last updated on **October 12th, 2026 at 07:10:17 AM UTC**_
+_Table last updated on **October 26th, 2026 at 05:54:17 AM UTC**_
 
 Other Autonomy stacks:
 
@@ -83,7 +83,7 @@ Given the above [Aerial Autonomy Stacks](https://github.com/ROS-Aerial/aerial_ro
 | [pidrone_pkg](https://github.com/h2r/pidrone_pkg/tree/dd21)   | ✓    | Mono camera/IR | ROS 1 | N/A | Duckiedrone | 05/2024 |
 
 
-_Table last updated on **October 12th, 2026 at 07:10:17 AM UTC**_
+_Table last updated on **October 26th, 2026 at 05:54:17 AM UTC**_
 
 
 --8<-- "docs/goatcounter.html"
